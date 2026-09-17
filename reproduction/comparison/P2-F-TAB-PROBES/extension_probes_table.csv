@@ -1,0 +1,7 @@
+quantity,value,display,units,n,source_path,source_pointer,source_sha256
+Difficulty readout: median R2_b,0.3993837574156305,0.3994,R2,48 models (existing bounded probe),render/adapted/probes_h1.json,/task_A_pooled/median_r2,e91257ca0bdb03626e30d810bdcfee093260e0959b713c8403cd6e70fc052832
+Aligned transfer: median rho,0.5195524721516513,0.5196,Spearman rho,"item-split bootstrap transfer, 48 models",render/adapted/probes_h1.json,/task_C_transfer/median_transfer_rho,e91257ca0bdb03626e30d810bdcfee093260e0959b713c8403cd6e70fc052832
+Selected-representation gain-slope rho,0.9582066869300911,0.9582,Spearman rho,"48 models, best-layer representation",render/adapted/probes_h2.json,/rho_H2_best_layer,72734d1b030542a7d4c0b0d38e67becc7542a31a1d4e852e37e97ae4946f67f3
+Pooled gain-slope rho,0.9551671732522796,0.9552,Spearman rho,"48 models, pooled representation",render/adapted/probes_h2.json,/rho_H2_pooled,72734d1b030542a7d4c0b0d38e67becc7542a31a1d4e852e37e97ae4946f67f3
+Residual readout: median R2_eps,0.47204695674527297,0.4720,R2,48 models (fitted residuals),render/adapted/probes_h3.json,/pooled_summary/r2_median,7d3ad79aafb56996cf247963f07d4d42d7f272cf865d9a3c41fd1479cfea66af
+Residual threshold count,47,47/48,count,48 models,render/adapted/probes_h3.json,/fractions/n_both|/fractions/n_models,7d3ad79aafb56996cf247963f07d4d42d7f272cf865d9a3c41fd1479cfea66af

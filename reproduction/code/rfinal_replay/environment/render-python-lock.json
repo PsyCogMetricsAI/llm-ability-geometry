@@ -1,0 +1,14 @@
+{
+  "schema": "c17-render-python-lock-v1",
+  "policy": "explicit configured interpreter; no silent incidental fallback",
+  "runtime": {
+    "python": "3.12.11",
+    "matplotlib": "3.11.0",
+    "numpy": "2.5.0"
+  },
+  "rebuild": [
+    "python3 -m venv <dir>",
+    "<dir>/bin/pip install -r code/rfinal_replay/environment/render-requirements.txt"
+  ],
+  "requirements": "code/rfinal_replay/environment/render-requirements.txt"
+}

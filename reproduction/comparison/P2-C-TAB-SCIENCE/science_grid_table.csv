@@ -1,0 +1,9 @@
+indicator,domain,n,raw rho,partial rho (rarefied),p,BH28,BY28,status
+eff_rank_pr,science,43,-0.6214,-0.6519,1.00e-4,2.55e-4,1.00e-3,VALID_DENOMINATOR
+rankme,science,43,-0.6847,-0.6647,1.00e-4,2.55e-4,1.00e-3,VALID_DENOMINATOR
+stable_rank,science,43,-0.5664,-0.6398,1.00e-4,2.55e-4,1.00e-3,VALID_DENOMINATOR
+spectral_alpha,science,43,0.5941,0.6032,2.00e-4,4.67e-4,0.0018,VALID_DENOMINATOR
+vn_entropy,science,43,-0.6435,-0.6297,1.00e-4,2.55e-4,1.00e-3,VALID_DENOMINATOR
+isoscore,science,43,-0.6483,-0.6265,1.00e-4,2.55e-4,1.00e-3,VALID_DENOMINATOR
+twoNN_id,math,50,0.4123,0.5875,1.00e-4,2.55e-4,1.00e-3,VALID_DENOMINATOR
+twoNN_id,code,48,0.4081,0.4006,0.0076,0.0164,0.0643,VALID_DENOMINATOR

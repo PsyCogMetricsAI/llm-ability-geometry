@@ -1,0 +1,668 @@
+{
+  "schema": "c17-replay-supplements-b-expected-inputs-v1",
+  "note": "Every declared input is hash-pinned. Historical hashes come from frozen artifacts; pin_source='pinned_at_C10v_build' marks files with no historical hash column (still tamper-evident for the replay run).",
+  "files": [
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_afm_4_5b_base_code.jsonl",
+      "sha256": "481432ad41d8b1686a0eb975eb3a7e106ad1ba235bdac958a0a3414368a67d9e",
+      "role": "pooling_and_g0_jsonl:afm_4_5b_base",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_afm_4_5b_code.jsonl",
+      "sha256": "dfcace9cc67c1719f2d16613f22fe0f4cf45a76a43b190755d7b15ad5ca055b6",
+      "role": "pooling_and_g0_jsonl:afm_4_5b",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_gemma_2_9b_it_code.jsonl",
+      "sha256": "de0931bb6a72c49bd5ae4e04fedf4d247ee61b0390a13720de8b5cd397f93dd6",
+      "role": "pooling_and_g0_jsonl:gemma_2_9b_it",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_gemma_4_e2b_it_code.jsonl",
+      "sha256": "f3f56ca9d1cf7be9051fe7ef53e4b3523358117052190f071246b7ce4ac00925",
+      "role": "pooling_and_g0_jsonl:gemma_4_e2b_it",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_gemma_4_e4b_it_code.jsonl",
+      "sha256": "ec6ad20cd0f9af30d895609cd143fe62a42f1b261cc429fcd2fd24d4edf32355",
+      "role": "pooling_and_g0_jsonl:gemma_4_e4b_it",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_glm_4_9b_0414_code.jsonl",
+      "sha256": "3b655e594a9a38417be407630fa0cb6ef85e5987f98a157cfbf0de8a99047b3c",
+      "role": "pooling_and_g0_jsonl:glm_4_9b_0414",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_glm_4_9b_chat_code.jsonl",
+      "sha256": "d72dcbbf6aeb8911e4106a2c568cf675937058579a5f0aa77a944b427010d222",
+      "role": "pooling_and_g0_jsonl:glm_4_9b_chat",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_granite_3_3_8b_base_code.jsonl",
+      "sha256": "f83f28c3b6407c5836cb342ff5925bb11454efa5b4d20337d05a790255509917",
+      "role": "pooling_and_g0_jsonl:granite_3_3_8b_base",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_granite_3_3_8b_instruct_code.jsonl",
+      "sha256": "06b51544e519358d623b3d6288193b84d087a3ba2c7fdf9f8247d2c10307b519",
+      "role": "pooling_and_g0_jsonl:granite_3_3_8b_instruct",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_llama_2_13b_chat_hf_code.jsonl",
+      "sha256": "a58b0c01d01bd4549ce64777f75f97d38b2b76ee3b98bd53b68f73855c8d72ca",
+      "role": "pooling_and_g0_jsonl:llama_2_13b_chat_hf",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_llama_3_2_1b_instruct_code.jsonl",
+      "sha256": "0307ffb261fc0bfe3d608bf35274fb2e8a7335167775d5592e33d427ea9f03a0",
+      "role": "pooling_and_g0_jsonl:llama_3_2_1b_instruct",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_llama_3_2_3b_instruct_code.jsonl",
+      "sha256": "07d46f9156983a59152ff5c4b375db1c0451f7c50fa3d9ba23adbd1a5544308c",
+      "role": "pooling_and_g0_jsonl:llama_3_2_3b_instruct",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_ministral_3_3b_base_2512_code.jsonl",
+      "sha256": "0445a025f72928faa5b88fd6000c160c2a69fded2fecfc0b11a276c025683935",
+      "role": "pooling_and_g0_jsonl:ministral_3_3b_base_2512",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_mistral_7b_v0_3_code.jsonl",
+      "sha256": "7c2e5cc1460e97891733430e4e8afa42b86068e62bb254a1433cdc0da8b8f31b",
+      "role": "pooling_and_g0_jsonl:mistral_7b_v0_3",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_mistral_small_24b_instruct_2501_code.jsonl",
+      "sha256": "cea4ea7c17d936762c231dc7a4354c1c14a543ca72fee71e847e37c85fd72a72",
+      "role": "pooling_and_g0_jsonl:mistral_small_24b_instruct_2501",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_olmo_2_1124_7b_code.jsonl",
+      "sha256": "043701aefcdab51e1256d149b25fc5b98489430950cfdc0c7eb481fd6a8a71d4",
+      "role": "pooling_and_g0_jsonl:olmo_2_1124_7b",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_olmo_2_1124_7b_instruct_code.jsonl",
+      "sha256": "91d3525070b1544c2936d8bc6532de762ebd1b7ef26bfbc1bc5fa22387dfa99e",
+      "role": "pooling_and_g0_jsonl:olmo_2_1124_7b_instruct",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_olmo_3_1125_32b_code.jsonl",
+      "sha256": "797bd993154ea51dd053328d3bf6c826989d732c850cc97a3005f905d89798d9",
+      "role": "pooling_and_g0_jsonl:olmo_3_1125_32b",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_olmo_3_7b_instruct_code.jsonl",
+      "sha256": "c9cd2facaefec57403ae4aace44f49d4d014f6bf9237cc4c732456262315b717",
+      "role": "pooling_and_g0_jsonl:olmo_3_7b_instruct",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_phi_4_mini_instruct_code.jsonl",
+      "sha256": "0fe3b17868073750ad6f2e84d1154abfee3005641ac2be892167cae1a94dfc55",
+      "role": "pooling_and_g0_jsonl:phi_4_mini_instruct",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_pythia_12b_deduped_code.jsonl",
+      "sha256": "214832b475be5b22d71ff4251d9916badcc8180c89897be1ae55e50332c0b0d2",
+      "role": "pooling_and_g0_jsonl:pythia_12b_deduped",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_qwen2_5_14b_instruct_code.jsonl",
+      "sha256": "8220e52880f7c787f8a88c8c8bd4c93c962d25929fac1e9a83cf4bc29304c3ae",
+      "role": "pooling_and_g0_jsonl:qwen2_5_14b_instruct",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_qwen2_5_32b_code.jsonl",
+      "sha256": "165bf70bb9dcf928e034da3fa61c03628eab1f1266eb2f8ee2355ee3884cefad",
+      "role": "pooling_and_g0_jsonl:qwen2_5_32b",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_qwen2_5_32b_instruct_code.jsonl",
+      "sha256": "7e779955efe1bf3c162851371aacc3dba720b3f0f1d9cb180d384b4836bd7ecc",
+      "role": "pooling_and_g0_jsonl:qwen2_5_32b_instruct",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_qwen3_0_6b_code.jsonl",
+      "sha256": "05d8fbd97c173325ce10e987e89a21f9cbaab512d3c7befee27716f3c16e2250",
+      "role": "pooling_and_g0_jsonl:qwen3_0_6b",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_qwen3_8b_code.jsonl",
+      "sha256": "0d6eb98678992765182c9738598f2c922d5dae2216b03c0cbfe1989e78e1bc19",
+      "role": "pooling_and_g0_jsonl:qwen3_8b",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_smollm3_3b_base_code.jsonl",
+      "sha256": "253d40cdf27a906a481eaf1fcff67beaa61ad3e2a3d046af750b3e17a414e69e",
+      "role": "pooling_and_g0_jsonl:smollm3_3b_base",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_smollm3_3b_code.jsonl",
+      "sha256": "7e00c33105d48e0c7199ebe29a9a9bc6a74cbc443146330760107ca8c2826cc1",
+      "role": "pooling_and_g0_jsonl:smollm3_3b",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_local_20260607/geom_yi_1_5_9b_chat_code.jsonl",
+      "sha256": "b37c54253e94b38926f4ace035c8a5be7a196e3eb09ec8c36cf77ad72665350c",
+      "role": "pooling_and_g0_jsonl:yi_1_5_9b_chat",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_gemma_2_27b_it_code.jsonl",
+      "sha256": "63c5ad029ac233272932a245a68fd68a5fbe6b87d34eb246038f80ae3b01a630",
+      "role": "pooling_and_g0_jsonl:gemma_2_27b_it",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_gemma_2_9b_code.jsonl",
+      "sha256": "5463872ef9a05a542534b9bb2f5b1cccff3195bb552872105154bbc0481b7ef9",
+      "role": "pooling_and_g0_jsonl:gemma_2_9b",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_granite_4_1_8b_base_code.jsonl",
+      "sha256": "3e846f5fd07bb67f5eecf48f9109d77266b50384c028342bc8e8f8bf5bc15bcb",
+      "role": "pooling_and_g0_jsonl:granite_4_1_8b_base",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_granite_4_1_8b_code.jsonl",
+      "sha256": "d1808ae990dbc2331185bbf3d2ca41177d46084f5f9fe755657307daa8a52260",
+      "role": "pooling_and_g0_jsonl:granite_4_1_8b",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_llama_2_13b_hf_code.jsonl",
+      "sha256": "feccd73780b555f566f95b33276d5cead81814bbbdcc18808adc04a3cea2c7e3",
+      "role": "pooling_and_g0_jsonl:llama_2_13b_hf",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_llama_3_1_8b_code.jsonl",
+      "sha256": "98b919da8f6ec6ab6925d18080102a2c45975f1da262db7114236c46164f0ec2",
+      "role": "pooling_and_g0_jsonl:llama_3_1_8b",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_llama_3_1_8b_instruct_code.jsonl",
+      "sha256": "b46aa44465a12597d0d649b5b79ed68abed3f3f9e3b5983d714d64b2f59d849d",
+      "role": "pooling_and_g0_jsonl:llama_3_1_8b_instruct",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_ministral_3_8b_base_2512_code.jsonl",
+      "sha256": "60686938d43ea56d043c6c6ec60e778fd12de0c77186645f955d51457a25eeb1",
+      "role": "pooling_and_g0_jsonl:ministral_3_8b_base_2512",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_mistral_7b_instruct_v0_3_code.jsonl",
+      "sha256": "e8f591f73a8909c81721f115401056a492a8447df4b77f03da53882d2d4c5b23",
+      "role": "pooling_and_g0_jsonl:mistral_7b_instruct_v0_3",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_mistral_small_24b_base_2501_code.jsonl",
+      "sha256": "66dae89780c957bd50a2b7d3d8aa2c1b797a96e2da56e9ceb3f5962688a7effe",
+      "role": "pooling_and_g0_jsonl:mistral_small_24b_base_2501",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_olmo_3_1025_7b_code.jsonl",
+      "sha256": "325b6656a2860ac30875ed68c91fa131bfc076a9e3614d7ee098b073fbe79b21",
+      "role": "pooling_and_g0_jsonl:olmo_3_1025_7b",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_olmo_3_1_32b_instruct_code.jsonl",
+      "sha256": "9bdf39e2d785d902a12b288d3258cfa974eaeb088805aaf75c1612f2133a2a64",
+      "role": "pooling_and_g0_jsonl:olmo_3_1_32b_instruct",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_qwen2_5_3b_instruct_code.jsonl",
+      "sha256": "2b63e47481239838eb6b5c3a8ff8082be5f02e2b38e3ce5c643a6edbf28c44f3",
+      "role": "pooling_and_g0_jsonl:qwen2_5_3b_instruct",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_qwen3_14b_code.jsonl",
+      "sha256": "56fc15166660eae83230283d5c158b1e694ddf393e656602e8f291b72e7b1a4f",
+      "role": "pooling_and_g0_jsonl:qwen3_14b",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_qwen3_1_7b_code.jsonl",
+      "sha256": "fd48a9722797bf2f037d6af9d84f3a8e2a22554f1b7e1ed23ace9af5a717d372",
+      "role": "pooling_and_g0_jsonl:qwen3_1_7b",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_qwen3_4b_code.jsonl",
+      "sha256": "8fa0aeb3ef6164a8f97b20eb40ac0161ae56a740fca64a7dd176e6f36b474273",
+      "role": "pooling_and_g0_jsonl:qwen3_4b",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_seed_oss_36b_base_code.jsonl",
+      "sha256": "b26b31e0c8e7083e965baeb3451aade865d9f1c3cf9369760668d5cbc5b3f4bc",
+      "role": "pooling_and_g0_jsonl:seed_oss_36b_base",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_seed_oss_36b_base_wosyn_code.jsonl",
+      "sha256": "d06750802f46606f4d1217c49b77da79a0b9048a305651a66c3de3fff021668d",
+      "role": "pooling_and_g0_jsonl:seed_oss_36b_base_wosyn",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/geometry/panel_geom_expansion_20260607/geom_seed_oss_36b_instruct_code.jsonl",
+      "sha256": "ec9dd0ed45a79a32c43cf4737144918b4c3ec3b5dc38ba0ba947c0f10300900c",
+      "role": "pooling_and_g0_jsonl:seed_oss_36b_instruct",
+      "level": "computation_input"
+    },
+    {
+      "root": "R",
+      "relativepath": "config/REUSE_BINDINGS_EXTENSION.json",
+      "sha256": "517835cc8aa0923a02419d527a10526453c0785095bc13228f0627a0fb90451d",
+      "role": "pooling_binding_config",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_1_itemmodel_20260913/inventory.csv",
+      "sha256": "7ab3dbfc32d2021d5a53ab889b2d7a139913a5045870c61c03782a31ca52bfdb",
+      "role": "g0_inventory",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/fit_panel/fit_meta.json",
+      "sha256": "cd429feb0167a18f970728e904f9ab51575a7ca86fbac4fd5a1af2c98885b203",
+      "role": "g0_fit_meta_terminal",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/fit_panel/theta_s_sigma_panel.csv",
+      "sha256": "69a059b14c18628bc19700d02fad11280bc1766e88d613368cd82cd79e4160a7",
+      "role": "g0_saved_params_csv",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/fit_panel/b_panel.csv",
+      "sha256": "52c351c659a93fbfb68fabfa05fbfba8940d909bf0c59a2b360ba9045c745148",
+      "role": "g0_saved_b_csv",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/fit_panel/eps_panel.npz",
+      "sha256": "36e9b7a88bbcdca85979a4456837a06ac8e6d87a66ac8d266f101f1c0a6f8b94",
+      "role": "g0_saved_eps_observations",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/fit_panel/b_loo.npz",
+      "sha256": "a6072ab7e6a640f11508b53187844d17b230c6454045a51752b997ba728c4fc2",
+      "role": "g0_saved_loo_observations",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/fit_panel/G0_REPORT.md",
+      "sha256": "fa1cffd3cb57eb94afcd40067d0545b44f9c94afa50449e6ef03dc5552b63acb",
+      "role": "g0_report_reference",
+      "level": "reference"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/h1/r2_by_model_layer.csv",
+      "sha256": "beca6ca628b289150a9339c0853aa05194569a47bff547e451323e04c8270185",
+      "role": "g1_r2_by_model_layer",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/h1/transfer_rho.csv",
+      "sha256": "12c62289267edcadae74215f3717503b2b2236adc03cff159c26f64568c01827",
+      "role": "g1_transfer_rho",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/h1/results_h1.json",
+      "sha256": "2b39d912673086c2d8b575a4989ed9274e3eb003546f03685dc9ce405f6beee7",
+      "role": "g1_terminal_result",
+      "level": "comparison_only"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/h2/beta_by_model.csv",
+      "sha256": "b4e08fb914a75333cc9273053518922f989f9dffc43f23d60717e9383d26449f",
+      "role": "g2_beta_by_model",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/h2/results_h2.json",
+      "sha256": "4f332f010340b14ff1567ea8c7f57641abd91d4ebd735d80ae64fd3be3d50f7e",
+      "role": "g2_terminal_result",
+      "level": "comparison_only"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/h3/r2_eps.csv",
+      "sha256": "a9a711a45e46f5146b63226a58d0b718b6dbeb3a3f1462508875fb610435cc07",
+      "role": "g3_r2_eps",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/h3/results_h3.json",
+      "sha256": "4ce5112bf22d1614ddc14173fbae59a6d857593b83bf9b71b39205e59c67b276",
+      "role": "g3_terminal_result",
+      "level": "comparison_only"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/h3/perm_null.npz",
+      "sha256": "81fdb10e668f2c9d63f4ad58180d5deda231cae148689a05d410fe8afc64c37f",
+      "role": "g3_perm_null",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/h3/eps_loo.npz",
+      "sha256": "d40236644b018cd87b8b021d8b059c63ca1a4ad728ced35d89d2c0598f540f58",
+      "role": "g3_eps_loo",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "_gpu2_run/Import_results/activation_retrieval/v2_activation_indicators_20260602/indicators_aggregate.csv",
+      "sha256": "b2bca2b5e5fabbd81daf3c73a3c1c692b381ad0f309bf0ec19186021e8b5fc3b",
+      "role": "prior16_indicator_aggregate",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "_gpu2_run/results/response_matrix_code_execution.csv",
+      "sha256": "319ecf86084d440e11eb9fc20f55ba5e650eec98ea1d102adb5ba9d044e55210",
+      "role": "prior16_response_matrix",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "b200_full_pipeline/results/logprob_matrix_16models_code.csv",
+      "sha256": "311c97f1c421c89376f414f53238f221b1beb3f3f6111d178cf98d4709a9fee8",
+      "role": "prior16_logprob_matrix",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "b200_full_pipeline/activation_indicators/indicators_tier2_peritem.npz",
+      "sha256": "bf7e1b0e63948d1760cd3a80d90f22c3ef68bbe3e33fc42bf07e696ec6b7afe3",
+      "role": "prior16_peritem_npz",
+      "level": "computation_input"
+    },
+    {
+      "root": "P",
+      "relativepath": "Imports/theory_rescue_20260913/checks/results.json",
+      "sha256": "5ab9e6f0e5dc813dfec92388cc9763e9d6b4077b92ae0345b5838f39b0e40271",
+      "role": "pooling_ledger_claim_pointer",
+      "level": "comparison_only",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "R",
+      "relativepath": "runs/extension_reuse_v1/pooling_result.json",
+      "sha256": "7aa98f27fe4d4034ba4573057eabe0aeb124c33c0f35e49c0d55407e0f19f1f0",
+      "role": "pooling_producer_terminal",
+      "level": "comparison_only",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "R",
+      "relativepath": "runs/extension_reuse_v1/pooling_per_group.csv",
+      "sha256": "64119d4c4ae1b6e0a96aaf6d1a855233a9c91d736faca67255d6318e13753a00",
+      "role": "pooling_per_group_terminal",
+      "level": "comparison_only",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "R",
+      "relativepath": "runs/extension_reuse_v1/pooling_run_manifest.json",
+      "sha256": "136aaef59311c9df38ff1edc3f774737b1a84cfba1e9cc2366021294073ed696",
+      "role": "pooling_run_manifest",
+      "level": "reference",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "R",
+      "relativepath": "verifier/V_NUM_POOLING_REUSE.json",
+      "sha256": "24977b2ed8acbc04466b6ac5dc5783fd9871ff4ab3c03b51229a8fb138da6869",
+      "role": "pooling_independent_verifier",
+      "level": "comparison_only",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "R",
+      "relativepath": "verifier/V_NUM_G_SOURCES_SCOPE.json",
+      "sha256": "d052f187bd9e856b836ebdb83be8d82daa8bca695e8ed63e9a50fa2cdb3e474c",
+      "role": "g_scope_independent_review",
+      "level": "reference"
+    },
+    {
+      "root": "R",
+      "relativepath": "verifier/V_RECOVERED16_CONTROLLER.json",
+      "sha256": "10b60751e60e739060a0812b1d73bb01eb5c185bbeca1519b29c759404bd3ce1",
+      "role": "prior16_controller_comparator",
+      "level": "comparison_only"
+    },
+    {
+      "root": "R",
+      "relativepath": "verifier/verify_pooling_reuse.py",
+      "sha256": "c2ed19283b41879370471dfbf69078647afaa9f604efc40183ae5fac098dfa88",
+      "role": "formula_reference_pooling",
+      "level": "reference",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "R",
+      "relativepath": "verifier/verify_g_sources_scope.py",
+      "sha256": "b69dc6f3047e9175168cff94c4fe40b18f639da51468d5f31ed895644b9d1085",
+      "role": "formula_reference_g_sources_scope",
+      "level": "reference",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "R",
+      "relativepath": "verifier/verify_recovered16_controller.py",
+      "sha256": "74f73eaa40c903c9fd95843af856ea465a12af0ae42ba30f7eddf50afc9c3bc1",
+      "role": "formula_reference_prior16",
+      "level": "reference",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "R",
+      "relativepath": "reports/C17_FINAL_EVIDENCE_LEDGER_v1.json",
+      "sha256": "8726d8802628a4ecd106f45e5e4105643f2d00679d16a8d5a8056da4a69f417e",
+      "role": "c17_final_evidence_ledger",
+      "level": "pointer_discovery",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/fit_panel/code/fit_panel_als.py",
+      "sha256": "7ed239fde727a2c5f9c97c8ea466d2f2692d31e0f1ff3500fe3675852ebb2e2e",
+      "role": "formula_reference_fit_panel",
+      "level": "reference"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/h1/code/run_h1.py",
+      "sha256": "06b7ece9f875240ba293e012d88fab9a373d3b14d1e2a89647745a9a195075fa",
+      "role": "formula_reference_h1_run",
+      "level": "reference"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/h1/code/h1_lib.py",
+      "sha256": "9021aa1dfd0e24b88c63e05d4b4411280d4b6199d2d4b466852b58098248a2b0",
+      "role": "formula_reference_h1_lib",
+      "level": "reference"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/h2/code/run_h2.py",
+      "sha256": "0ce4038cf870785046dc8278d060859d890ed00e838cafec8c85c733145d4e34",
+      "role": "formula_reference_h2_run",
+      "level": "reference",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/h2/code/h2_lib.py",
+      "sha256": "41339e292197e90ec98c08b7194f8b0d044dd198bf9a45e1fbb402dcb847d060",
+      "role": "formula_reference_h2_lib",
+      "level": "reference",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/h3/code/run_h3.py",
+      "sha256": "e7dbce6fcc3bb10948e5b383b96a8c0ff81c8b6a4ecbe464d41751ebdc2bb86f",
+      "role": "formula_reference_h3_run",
+      "level": "reference",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "P",
+      "relativepath": "ext_P2_geo_20260914/h3/code/h3_lib.py",
+      "sha256": "15c37b7eb3b6fb05492cf31902ff1802b03a6cb5986d2e449ed11f71a6aed348",
+      "role": "formula_reference_h3_lib",
+      "level": "reference",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "R",
+      "relativepath": "runs/c17_supplements_b_check_v1/g1_taskc_pair_cache_v1/pair_cache_v1.npz",
+      "sha256": "d8c09c4a7cb539c0343cdac34b46892db7905bf8e94a335923e5baeb4ca0e5c0",
+      "role": "g1_taskc_pair_cache",
+      "level": "computation_input",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "R",
+      "relativepath": "runs/c17_supplements_b_check_v1/g1_taskc_pair_cache_v1/g1_taskc_cache_manifest.json",
+      "sha256": "5e95f87b6e3025048c1473a586808cd3a1a88b35ec39cd4826d4933db30ab4ae",
+      "role": "g1_taskc_cache_manifest",
+      "level": "computation_input",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "R",
+      "relativepath": "code/c17_replay_supplements_b/replay.py",
+      "sha256": "cd29cebcffd2911d19c03e4cf4234a99b0fff3254adb9809c5281427bbbb7177",
+      "role": "driver_code:replay.py",
+      "level": "code_pin",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "R",
+      "relativepath": "code/c17_replay_supplements_b/g1_taskc_regen.py",
+      "sha256": "eb83f0de76d097024d03d42c307477d12ca47255c6ccf2a16d626c4a5563b732",
+      "role": "driver_code:g1_taskc_regen.py",
+      "level": "code_pin",
+      "pin_source": "pinned_at_C10v_build"
+    },
+    {
+      "root": "R",
+      "relativepath": "code/c17_replay_supplements_b/build_expected_manifest.py",
+      "sha256": "61e0f0d5136aeb5dcdd9702ab91435c29cfe81af2b532aea79a93562d1397ef8",
+      "role": "driver_code:build_expected_manifest.py",
+      "level": "code_pin",
+      "pin_source": "pinned_at_C10v_build"
+    }
+  ]
+}

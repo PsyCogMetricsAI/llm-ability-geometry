@@ -1,0 +1,289 @@
+{
+  "schema": "c17-render-comparison-v1",
+  "release": "Scientific numeric and semantic comparison baseline",
+  "bundle_dir": "recovered/c17_render_comparison_v1",
+  "policy": {
+    "exact_int": "counts/IDs compared exactly",
+    "exact_text": "conceptual/ID/text columns compared exactly",
+    "numeric": "abs(fresh-ref) <= 1e-9 + 1e-6*abs(ref); finite/null masks exact",
+    "provenance_traceability": "not compared literally against the previous run's paths: every recorded source_path must resolve from the fresh render outdir and its sha256 must equal the recorded source_sha256 (current-file hash proof); evidence_source must be non-empty and any repo-relative path tokens must resolve"
+  },
+  "files": [
+    {
+      "result_id": "P2-B-TAB-CONVERGENCE",
+      "path": "P2-B-TAB-CONVERGENCE/convergence_table.csv",
+      "sha256": "8708290e6d63bd569da350c79d82aee31a87b8d9da645641cf1c2ff0f1139e05",
+      "n_rows": 11,
+      "columns": [
+        "row",
+        "code",
+        "math",
+        "unit"
+      ],
+      "column_policies": {
+        "row": "exact_text",
+        "code": "exact_text",
+        "math": "exact_text",
+        "unit": "exact_text"
+      }
+    },
+    {
+      "result_id": "P2-B-TAB-CONVERGENCE",
+      "path": "P2-B-TAB-CONVERGENCE/convergence_values_long.csv",
+      "sha256": "420e3ddb4109d9d282c2bd73f81eb5943965b757b1ff18999754c5b96facb2b5",
+      "n_rows": 22,
+      "columns": [
+        "result_id",
+        "row",
+        "column",
+        "value",
+        "display",
+        "unit",
+        "n",
+        "source_path",
+        "source_pointer",
+        "source_sha256"
+      ],
+      "column_policies": {
+        "result_id": "exact_text",
+        "row": "exact_text",
+        "column": "exact_text",
+        "value": "exact_text",
+        "display": "exact_text",
+        "unit": "exact_text",
+        "n": "exact_int",
+        "source_path": "provenance_traceability",
+        "source_pointer": "provenance_traceability",
+        "source_sha256": "provenance_traceability"
+      }
+    },
+    {
+      "result_id": "P2-C-TAB-LOFO",
+      "path": "P2-C-TAB-LOFO/lofo_table.csv",
+      "sha256": "2f70f1fd241a221597a67b4479737cca78285bdbd1652076c490934f64e64e2d",
+      "n_rows": 13,
+      "columns": [
+        "family_dropped",
+        "n_dropped",
+        "n_remaining",
+        "rho_raw",
+        "rho_partial_logparams"
+      ],
+      "column_policies": {
+        "family_dropped": "exact_text",
+        "n_dropped": "exact_int",
+        "n_remaining": "exact_int",
+        "rho_raw": "numeric",
+        "rho_partial_logparams": "numeric"
+      }
+    },
+    {
+      "result_id": "P2-C-TAB-LOFO",
+      "path": "P2-C-TAB-LOFO/lofo_values_long.csv",
+      "sha256": "2778b048c789a20614d325e41bf78d2fac91060119afa78fde3069726e0a58d0",
+      "n_rows": 26,
+      "columns": [
+        "family_dropped",
+        "quantity",
+        "value",
+        "display",
+        "unit",
+        "n_remaining",
+        "source_path",
+        "source_pointer",
+        "source_sha256"
+      ],
+      "column_policies": {
+        "family_dropped": "exact_text",
+        "quantity": "exact_text",
+        "value": "numeric",
+        "display": "numeric",
+        "unit": "exact_text",
+        "n_remaining": "exact_int",
+        "source_path": "provenance_traceability",
+        "source_pointer": "provenance_traceability",
+        "source_sha256": "provenance_traceability"
+      }
+    },
+    {
+      "result_id": "P2-C-TAB-SCIENCE",
+      "path": "P2-C-TAB-SCIENCE/science_grid_table.csv",
+      "sha256": "f057cfb9e34409569cb74d0819377ba0abf6d6e45786bf2f3998d98b92c57a41",
+      "n_rows": 8,
+      "columns": [
+        "indicator",
+        "domain",
+        "n",
+        "raw rho",
+        "partial rho (rarefied)",
+        "p",
+        "BH28",
+        "BY28",
+        "status"
+      ],
+      "column_policies": {
+        "indicator": "exact_text",
+        "domain": "exact_text",
+        "n": "exact_int",
+        "raw rho": "numeric",
+        "partial rho (rarefied)": "numeric",
+        "p": "numeric",
+        "BH28": "numeric",
+        "BY28": "numeric",
+        "status": "exact_text"
+      }
+    },
+    {
+      "result_id": "P2-C-TAB-SCIENCE",
+      "path": "P2-C-TAB-SCIENCE/science_grid_values_long.csv",
+      "sha256": "6efcfe26cea4f99d74b6c56c7de4b2ac069311d2346b6cc831e84937c2424e89",
+      "n_rows": 8,
+      "columns": [
+        "indicator",
+        "domain",
+        "n_models",
+        "raw_rho",
+        "partial_rho",
+        "p_cond",
+        "bh28_cond",
+        "by28_cond",
+        "status",
+        "source_path",
+        "source_cell_pointer"
+      ],
+      "column_policies": {
+        "indicator": "exact_text",
+        "domain": "exact_text",
+        "n_models": "exact_int",
+        "raw_rho": "numeric",
+        "partial_rho": "numeric",
+        "p_cond": "numeric",
+        "bh28_cond": "numeric",
+        "by28_cond": "numeric",
+        "status": "exact_text",
+        "source_path": "provenance_traceability",
+        "source_cell_pointer": "exact_text"
+      }
+    },
+    {
+      "result_id": "P2-F-FIG-PROFILES",
+      "path": "P2-F-FIG-PROFILES/depth_peaks_fresh.csv",
+      "sha256": "446733d5cd1b25eda73318594cea1dff12bcd56cbae6876301d92c0968b4773a",
+      "n_rows": 3,
+      "columns": [
+        "metric",
+        "relative_depth",
+        "value",
+        "n_models"
+      ],
+      "column_policies": {
+        "metric": "exact_text",
+        "relative_depth": "numeric",
+        "value": "numeric",
+        "n_models": "exact_int"
+      }
+    },
+    {
+      "result_id": "P2-F-FIG-PROFILES",
+      "path": "P2-F-FIG-PROFILES/depth_profiles_series.csv",
+      "sha256": "a8e4b9351e845726ccb48e158cd50534f9f2f66cf048e8c8806d8874e72fe3bc",
+      "n_rows": 60,
+      "columns": [
+        "metric",
+        "relative_depth",
+        "value",
+        "n_models"
+      ],
+      "column_policies": {
+        "metric": "exact_text",
+        "relative_depth": "numeric",
+        "value": "numeric",
+        "n_models": "exact_int"
+      }
+    },
+    {
+      "result_id": "P2-F-FIG-PROFILES",
+      "path": "P2-F-FIG-PROFILES/depth_summary_fresh.csv",
+      "sha256": "fc598bb5fb3fd2a95fb9ba3795db7f51686cba2e76dec0c16aa796c636ca51cf",
+      "n_rows": 20,
+      "columns": [
+        "relative_depth",
+        "n_models",
+        "median_r2_b",
+        "rho_H2",
+        "median_r2_eps"
+      ],
+      "column_policies": {
+        "relative_depth": "numeric",
+        "n_models": "exact_int",
+        "median_r2_b": "numeric",
+        "rho_H2": "numeric",
+        "median_r2_eps": "numeric"
+      }
+    },
+    {
+      "result_id": "P2-F-TAB-PROBES",
+      "path": "P2-F-TAB-PROBES/extension_probes_table.csv",
+      "sha256": "8464237ff5a80cd758f4a42b34671290eb2b4afcc0faefd77b057d6c78fe41a1",
+      "n_rows": 6,
+      "columns": [
+        "quantity",
+        "value",
+        "display",
+        "units",
+        "n",
+        "source_path",
+        "source_pointer",
+        "source_sha256"
+      ],
+      "column_policies": {
+        "quantity": "exact_text",
+        "value": "numeric",
+        "display": "exact_text",
+        "units": "exact_text",
+        "n": "exact_text",
+        "source_path": "provenance_traceability",
+        "source_pointer": "provenance_traceability",
+        "source_sha256": "provenance_traceability"
+      }
+    },
+    {
+      "result_id": "P2-G-FIG-MTMM",
+      "path": "P2-G-FIG-MTMM/mtmm_cells.csv",
+      "sha256": "8d17651040e6652974d0de16995c09c974215abdbbb2b4f378e82c5ba3b5a936",
+      "n_rows": 4,
+      "columns": [
+        "row",
+        "col",
+        "role",
+        "applicable",
+        "value",
+        "display"
+      ],
+      "column_policies": {
+        "row": "exact_int",
+        "col": "exact_int",
+        "role": "exact_text",
+        "applicable": "exact_text",
+        "value": "exact_text",
+        "display": "exact_text"
+      }
+    },
+    {
+      "result_id": "P2-G-TAB-SUPPLEMENTS",
+      "path": "P2-G-TAB-SUPPLEMENTS/supplement_topology.csv",
+      "sha256": "1cb57a2d100721bc0090066992e741752fdf5a039e913053ff9806245d86a218",
+      "n_rows": 10,
+      "columns": [
+        "item",
+        "evidence_source",
+        "binding_status"
+      ],
+      "column_policies": {
+        "item": "exact_text",
+        "evidence_source": "provenance_traceability",
+        "binding_status": "exact_text"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+row,code,math,unit
+n (models),50,50,models
+k (items),157,1103,items
+raw Spearman rho,-0.4532,0.3290,rho
+partial rho controlling Z,-0.2318,0.5230,rho
+bare 95% cluster CI,"[-0.6398, -0.2009]","[-0.0122, 0.7283]",rho interval
+bare CI excludes 0,yes,no,bool
+controlled 95% cluster CI,"[-0.4943, 0.0768]","[0.2547, 0.7991]",rho interval
+controlled CI excludes 0,no,yes,bool
+permutation p,0.1237,3.00e-4,p-value
+disattenuation ceiling sqrt(rel_geo*rel_th),0.9801,0.9964,rho bound
+frozen verdict,SHADOW-ONLY,REFUTE,tier

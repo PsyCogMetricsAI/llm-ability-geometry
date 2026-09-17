@@ -1,0 +1,146 @@
+{
+  "status": "PENDING_INDEPENDENT_REVIEW",
+  "contract_sha256": "777b18ec16eb0f147053dc3836bbf4c01c0a71abaef326323867102a8b614a70",
+  "execution_class": "CORRECTED_ESTIMAND_NOT_HISTORICAL_REPLAY",
+  "domains": {
+    "code": {
+      "q4_rho_g_t__a": {
+        "rho": -0.09190906897435874,
+        "ci": [
+          -0.32680698178065365,
+          0.25870887670282766
+        ],
+        "n_valid": 9995,
+        "n_invalid": 5,
+        "invalid_draw_indices": [
+          1195,
+          6402,
+          7816,
+          8955,
+          9003
+        ],
+        "reason_counts": {
+          "valid": 9995,
+          "zero_residual_y": 5
+        },
+        "previous_ci": [
+          -0.32679434847841166,
+          0.2586576083517396
+        ],
+        "ci_excludes_zero": false
+      },
+      "q5_rho_g_t__a_C": {
+        "rho": -0.023744264080456472,
+        "ci": [
+          -0.27585769224027773,
+          0.2601463855186139
+        ],
+        "n_valid": 9995,
+        "n_invalid": 5,
+        "invalid_draw_indices": [
+          1195,
+          6402,
+          7816,
+          8955,
+          9003
+        ],
+        "reason_counts": {
+          "valid": 9995,
+          "zero_residual_y": 5
+        },
+        "previous_ci": [
+          -0.27578394019743213,
+          0.26008948785241665
+        ],
+        "ci_excludes_zero": false
+      },
+      "q6_rho_g_a__C": {
+        "rho": -0.23066489258392234,
+        "ci": [
+          -0.5069605336082202,
+          0.08125853339462577
+        ],
+        "n_valid": 10000,
+        "n_invalid": 0,
+        "invalid_draw_indices": [],
+        "reason_counts": {
+          "valid": 10000
+        },
+        "previous_ci": [
+          -0.5069605336082202,
+          0.08125853339462577
+        ],
+        "ci_excludes_zero": false
+      }
+    },
+    "math": {
+      "q4_rho_g_t__a": {
+        "rho": -0.0042405629313278246,
+        "ci": [
+          -0.31309703541014156,
+          0.2697195032364455
+        ],
+        "n_valid": 9998,
+        "n_invalid": 2,
+        "invalid_draw_indices": [
+          6402,
+          6544
+        ],
+        "reason_counts": {
+          "valid": 9998,
+          "zero_residual_y": 2
+        },
+        "previous_ci": [
+          -0.3134366414174132,
+          0.26971326242702803
+        ],
+        "ci_excludes_zero": false
+      },
+      "q5_rho_g_t__a_C": {
+        "rho": 0.03768546251712021,
+        "ci": [
+          -0.2666403098059545,
+          0.38809473008939205
+        ],
+        "n_valid": 9998,
+        "n_invalid": 2,
+        "invalid_draw_indices": [
+          6402,
+          6544
+        ],
+        "reason_counts": {
+          "valid": 9998,
+          "zero_residual_y": 2
+        },
+        "previous_ci": [
+          -0.2666190029500475,
+          0.388069889055596
+        ],
+        "ci_excludes_zero": false
+      },
+      "q6_rho_g_a__C": {
+        "rho": 0.5245404779580185,
+        "ci": [
+          0.2749675499992066,
+          0.7861172679730273
+        ],
+        "n_valid": 10000,
+        "n_invalid": 0,
+        "invalid_draw_indices": [],
+        "reason_counts": {
+          "valid": 10000
+        },
+        "previous_ci": [
+          0.2749675499992066,
+          0.7861172679730273
+        ],
+        "ci_excludes_zero": true
+      }
+    }
+  },
+  "environment": {
+    "python": "3.12.11",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1"
+  }
+}

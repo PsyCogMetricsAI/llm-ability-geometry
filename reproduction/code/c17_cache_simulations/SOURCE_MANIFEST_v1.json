@@ -1,0 +1,2792 @@
+{
+  "schema": "c17-cache-simulation-source-manifest-v1",
+  "generated_utc": "2026-09-17T05:21:02Z",
+  "path_convention": "paths are relative to the analysis root (R); '../' entries are P-level frozen design inputs shared by the accepted C4/C6 runs",
+  "n_sources": 464,
+  "sources": [
+    {
+      "path": "code/c17_cache_simulations/__init__.py",
+      "sha256": "08bae20db44928bb6d0c275eba200e05f77cad2ba5270195af2c4e358ea35b58",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_cache_simulations/common.py",
+      "sha256": "bd29b5f2f13516fc8fb426c169ff91f68fde22dcaf4f55778dd0806e60a8569a",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_cache_simulations/legacy_anb.py",
+      "sha256": "2016623ad3b4a7ad43476894a8d2633c272239a7b0dbe90386344f2e9fb225e9",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_cache_simulations/panel_c4.py",
+      "sha256": "f81126d79fdabeb0f709982b22237434cba244c545ad49383ecf40aa1127a88b",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_cache_simulations/geometry_c6.py",
+      "sha256": "ac6a72a9e6ac30a378ccee0fef07f0cfffffab67fb8eedda8ceff31a47a58b95",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_cache_simulations/replay.py",
+      "sha256": "8e044cf55a1480c1d2db53994c7e5a06b7fb16af5caeab8a6e4a557cdeeaedd5",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_cache_simulations/negative_tests.py",
+      "sha256": "2f6ae4fa6ea5ba7e79eb4e103fb4a67e9c7be2fee1f86cb5aed41efb2ac3a2ae",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "config/CT_SIMULATIONS.json",
+      "sha256": "e319e3a86d28d93203d588fdf608240f020e14f84298b266a58d355a523430f6",
+      "role": "config",
+      "level": "config"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_000.npz",
+      "sha256": "daf160dcb0de2effc6dfa354723f8be6cbea974d4af5464e5b4a71451bf27ee2",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_001.npz",
+      "sha256": "ea333093064278cfcb3f268bee9ad6264679c37c71d811c2a029046bae67ca1e",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_002.npz",
+      "sha256": "47bda80a0e321cee2277765ab668c87161757634eae4ed708e69b84fe668a33f",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_003.npz",
+      "sha256": "0cccf377232613d4f608dca98e12b66c6c89d6576d5786e20fe09ff629cdf144",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_004.npz",
+      "sha256": "2ef569dfe0e95e8972f577e460a2a22f92246fb63ed95cefeef1c1a7ab86cd5c",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_005.npz",
+      "sha256": "61678fd96216a99c5e86998733d0f80b948f9cb9ee63b59415f5f9963fd5910e",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_006.npz",
+      "sha256": "bc5b48719917bbddcc3685eb4f3e8ac4941219731aca27df9f9bc342ee708747",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_007.npz",
+      "sha256": "572ee732fb2356ec9ac8151f142d7a0fc9da29d1beca04f0c507e17aa0460e36",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_008.npz",
+      "sha256": "87caa0fbf6517e07d9081dde555e2c748731ffd3640a195e6c90f8db1989600a",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_009.npz",
+      "sha256": "5c1929d455fa9f6e28375dab31fd2fa7c92fdb698efcfd87611cecb8961c5e50",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_010.npz",
+      "sha256": "8eaf816b4481bb39f8789f93436c2e0866bf331f221c05361134c125dda72255",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_011.npz",
+      "sha256": "7dc107b140ae8e229b98ec94bb86eeb68628df1b8cdf274860425d47d0040cec",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_012.npz",
+      "sha256": "f70e58679ca0cd9c5d4bde18268346531b0039b107795bc2137bf71cc2b02b71",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_013.npz",
+      "sha256": "370092543ccdf943a452ac624bec9b1465980aab044f69d73753cff0f71212ee",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_014.npz",
+      "sha256": "07ff88641f7883e54db80bae25bba7fe6bae4a7378dcc54170e9ee36a27b800e",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_015.npz",
+      "sha256": "abbf45139b935e7e3aacd615abd95794e729af0abcfeb6494dfb9b9621cb1ef6",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_016.npz",
+      "sha256": "e3bd8240c53294551140e2a27d601c7050fdaa723fa007aab7fd00f9c6794c3f",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_017.npz",
+      "sha256": "7e6e98a90807de902e473a8b3266e26c8f9478079d7159cf6d934fa50c7adc97",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_018.npz",
+      "sha256": "47cfc5066c1b67e8d16d65fc1c31edfc06b150fc1c891eec201013a54ec1125d",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_019.npz",
+      "sha256": "909d0c293a4eaf318042d710654202e0b72b9493e788ed358676f1081eb7ed59",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_020.npz",
+      "sha256": "5605e525e9b9466bc552e9a4cb073f9ded3014b83116c6a5968daac87804c11b",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_021.npz",
+      "sha256": "5bba44624c3d2b57e7f6694a8a735a3f30e3e6640ee641f5f788852ef16cdbfd",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_022.npz",
+      "sha256": "d65e3f2526365e401b3138e3715a9a5aa9465cd04f99ec2bd29e30a5c1a1e91b",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_023.npz",
+      "sha256": "13078e3d5f642bdfa2b7a5f33221a128066861fe24339e98f3d41f46e4f06f20",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_024.npz",
+      "sha256": "23a52584588eabced02dbb513c3a946eb4e963f00b2c94334586dbc86f12e21e",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_025.npz",
+      "sha256": "c3a2adec226d289c6db9713f5d8edb1a44f740b8ba91c66471a419a17f4ac19d",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_026.npz",
+      "sha256": "eb2922ada545b63d926601043cc47a463d26cd1fed75a9d8cc4cb08a5c356dc7",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_027.npz",
+      "sha256": "a6eef1cc4e758819a3e385cd6db89a4cfceebd2ca615a7f77b9024b89104986d",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_028.npz",
+      "sha256": "f0fad10c73aa3c6b75bc21e5d75f934dcf023cc7ba9b60bf25a46a510e0d1745",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_029.npz",
+      "sha256": "49b16f23865b1d3fe316fa60818a09a2718bc4c0dfb1d62e41835a43019825ef",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_030.npz",
+      "sha256": "630f46254fba6749cc88e2975fa54d8dd3edc001c170218a3ce37e3447575913",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_031.npz",
+      "sha256": "97950fefcabb7428112a88d694feffa104ac859688abd3de82fed9bb5a6ace00",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_032.npz",
+      "sha256": "b1ddbba66721591be197d468632d6b2bb5de82920dfd18cb374053c9befcf926",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_033.npz",
+      "sha256": "e9b15c03eb70577ad0cf5cb3d7b663fbbf51a52635be1c3c65466181c38b20a1",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_034.npz",
+      "sha256": "9d04d0c7ef0931a2f0268d83bb927921f15279c4dd93d404504e9ac4c5a58972",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_035.npz",
+      "sha256": "d9ca3cc5aafb83c7c8f31707fb66ac7e2722c5159d985504c8821ff62e08680e",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_036.npz",
+      "sha256": "0a7cb34988d9e648de3ed81c0db8e6a826ee851dceef926f2d1da41cca6c029a",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_037.npz",
+      "sha256": "5c957650b66e5b4f33c042d8c56ab354ddba78585fff86c58a1672b2f0c19423",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_038.npz",
+      "sha256": "1ae608d12c57a5d04fedd9b667898e39522f7fd6baaea19c9b8d8ddccef2818f",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_039.npz",
+      "sha256": "6672c1184c89e0c707e58199562ff6b0d1ed818c2ed27f811fe1bb0e3eda8955",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_040.npz",
+      "sha256": "a18411dd0f42b94add83303577708d85206300b534e529493c5215d148615a62",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_041.npz",
+      "sha256": "191692ed98032d660123c6b3ee46c33911de57c2210568ac74b7a74a274707e5",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_042.npz",
+      "sha256": "29316b5c0fd8ede31969dd2f4853133b86877385c1f252319b9827cd99217657",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_043.npz",
+      "sha256": "b33acae6b4cb04e9eb756af65812c382bf75e3014ac07690eda3a6fa4868ae52",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_044.npz",
+      "sha256": "eda47e6a9bc17bae36d4c6ddf9af7e558212e1d75d91455c130e64b11dab6c36",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_045.npz",
+      "sha256": "60fc7c9242be2163497158c377c7d0cedf43623a70e083e49cd8224c37444bfa",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_046.npz",
+      "sha256": "3d65e2ecb6daf80b7207da0fc69811c0c756a46992d44b614e04489864a42e60",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_047.npz",
+      "sha256": "14fb6312debc356ebf005e87f918525810cee9bc6581015e128edbb0255d7e62",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_048.npz",
+      "sha256": "2c5642a5f9a076b46382f14ca2a8cd72aeceace743b0cd0b17ca9c90d8c12c72",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_049.npz",
+      "sha256": "552b7157b8f051d1e73c68728df58dda9bf575b28483cb4b5ab23e0d313252d5",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_050.npz",
+      "sha256": "15a76b5c70be495049c75edf5f077e5e4e049d797219ec17d6797ff4ae1ecceb",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_051.npz",
+      "sha256": "d9006b48870066f1bbf31389e72a131284725684b99f88d1d192a1af29978250",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_052.npz",
+      "sha256": "47b63e8bc59a9b188d3ebf2c56d53a1bcaedf87919c868dffd6b882c72c799d0",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_053.npz",
+      "sha256": "c07579e19983aa70ef02937cca3d201ab22aef07cc4deafeda6492df60fc9135",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_054.npz",
+      "sha256": "73d2d91f544e817f26d557dc0735f6dfef2843c663f780e417dc19ec0a081bb5",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_055.npz",
+      "sha256": "78b789b1f9adfa7097ae63d2cef1fa42e858812187f9bc32dbc145f3e3619a64",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_056.npz",
+      "sha256": "5c68128b8424ccc0301e58e1caf129ff1c2be44e9cbec9052999644691b3d800",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_057.npz",
+      "sha256": "f45a2ffdb985fd39cf5cffa6e026cc84cd54d76de57471553a1cf0792549a1ce",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_058.npz",
+      "sha256": "b857b9516df416eebeaa8c265f15fc54674ed100881581d36fb229b9ba0dc0ec",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_059.npz",
+      "sha256": "dfdc7c826d6852f80f751244a740dad34c8a1d4ab966271b1be706d108f22e0d",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_060.npz",
+      "sha256": "75976d9bbd8327a9ac3543f7ce6c869b975c736b59c4d2a49011560b981cd1fa",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_061.npz",
+      "sha256": "50e06b815d3efe99ef0e4f5a1ed43f4d499b079b1718311b3fbc5bd059cde7fd",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_062.npz",
+      "sha256": "f3c077b17e71bb4b9f8408aaf2d6c8904f5fe9ed7575bfa02a457467bb246f36",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_063.npz",
+      "sha256": "d01edb9128be65e5c7d1a2a919fc33cc4a17476aa839f5894d6a1fa0ed01c36a",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_064.npz",
+      "sha256": "28f881dfd5994e371a35b0241e02eb7c1866e64f7d4c061791429a0f6842720e",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_065.npz",
+      "sha256": "739f0ed04fa0a5b15e2a590de72ab3a7ae1d33922f0ef1edd880554572c26d24",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_066.npz",
+      "sha256": "5cb758648bb37c14bf8598b1f94dc20b0b423ea2b063ee0adb9c51c90dad360b",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_067.npz",
+      "sha256": "02e7c2bdad9215be0007021e0c29466b110a72c95647d3105341fb8cee554e6c",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_068.npz",
+      "sha256": "f171cb8160ed6e6d7aaa75175176edf87f9f23e413228fac297cbee4725ec4e2",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_069.npz",
+      "sha256": "bc3a44b4af2a6e9d28e54488f5b5b2855f633ce835670e0a3835695d807a2470",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_070.npz",
+      "sha256": "546b77e44d1c0eab53960eff163a6ff28584bdd6810d72f01505c4b40e355592",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_071.npz",
+      "sha256": "9a3819417c3f83b04fec6470f220f6e1ccf6c638f7a0687c56f15adb048962a2",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_072.npz",
+      "sha256": "b460f3fee8248eb37293e88b30ce11e13cd03ffb4dbf2de2a88be6b9e12910f8",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_073.npz",
+      "sha256": "ae7d6d49cbf639b149aae84e6c95459abb2810bbc855dbefb3f8869b0a821eec",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_074.npz",
+      "sha256": "be172312062d2b56a455746f9e28b7364fae240605a7999b29a10c6e93e75944",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_075.npz",
+      "sha256": "06384686d3068a9f0ff3f72c2edd0975cbd6af32154f2bd8f0f063fa40fa337c",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_076.npz",
+      "sha256": "0eb65651fa5c8ec188d883667c0fadeda6c1d3cb9088de4db7290e4b7611346c",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_077.npz",
+      "sha256": "880f354eef2812394fa0c02de0542fbbe808f7a229f83ff991552bc9d90be485",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_078.npz",
+      "sha256": "46f44b4265ef8cd2f9db9f1c53d0ecd570f945fe3ae6d075b9583dffaf94d4c5",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_079.npz",
+      "sha256": "f2b13a10cc08d2cd7af2dc474f5deb0af0970fd82b89d5cc09f8526224be8b51",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_080.npz",
+      "sha256": "fecf5930a7c556723ee7e4299b1317b49fc4f700cc5044520122d54beb0e08a4",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_081.npz",
+      "sha256": "15689809440148c041130c5de15531cc6081f642c37d1f3696b7bf16ed6aab4e",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_082.npz",
+      "sha256": "cb0dd10dc3ecadad50e2eca0f3558b71265d2bb9107ee553c09021e5112fc114",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_083.npz",
+      "sha256": "c36d2bfdb0cdaf049c2880d7798eb47faea38ac78d84788c69a253d5923d613c",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_084.npz",
+      "sha256": "dbf29511997e379aeb0a54137cd0cbe99172369aef12876ed05e44ec11ded591",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_085.npz",
+      "sha256": "eb485649cdb1d853020fb9a553cceaca4c07c1e7daa4c6c6c22cf925d55019eb",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_086.npz",
+      "sha256": "c59c812fe5724c1475270b31ae24a6eef0a2461283ba4af35a8a99770eee13d9",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_087.npz",
+      "sha256": "5de28551e44a6d6fb54d2a3d516656f83c96ee1cf4b1066d41f351b5d7e9adf1",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_088.npz",
+      "sha256": "5fba6e8470d6e079ad511c3244ad63149e2a3b74f90f3bd2d86ebbc8d18ab928",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_089.npz",
+      "sha256": "b2352f42f5c137d75a30ed833f8454816caea309709fc143a07f7aa95bf47e9d",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_090.npz",
+      "sha256": "b82a8b5b335f8e3848901843b412bcd086b06ba4de1a8ac7305522d67299b052",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_091.npz",
+      "sha256": "30d0b50c1ef1bd935f2376c31666a7cecb225f11b1e9102e648587547f796e6d",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_092.npz",
+      "sha256": "93a92982c6d461bd60f7862bbc43522f4ec4c7073d5fd77fc5a1d2d21dd35c70",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_093.npz",
+      "sha256": "8552efdc33b039539c09793a2f635fcca2bd6df6ed6489f0a9bd746b5d533558",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_094.npz",
+      "sha256": "f6bdbdaa34d428be1cbec6ad0e868a4645af966fb3dde7cc02dabfc221477a19",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_095.npz",
+      "sha256": "33fe352ab3da9163c0d336d88b63cd28e0ee9a1236c299729348453c9f863039",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_096.npz",
+      "sha256": "f0e0a659e27f418d9c7b03b7eb72649d5a40cb4845217ab85261d3908a132339",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_097.npz",
+      "sha256": "d037e71b1f7ffc5c6991f37f24bfe1e9c042b1df1bc0340abd27f6b9ba3d19cd",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_098.npz",
+      "sha256": "906a0dd9dc243640e647c5c0c49b3fb2422a206fde5e2c97d715c00020ed2b24",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_0_099.npz",
+      "sha256": "d1df101136de23eaefa78eb08cefa87cd73f3d4199964b957a21d3cc531ce6ac",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_000.npz",
+      "sha256": "6a0973941cb9f3e710a252efb9dd6bdc40e71d79730c7a1edd89251c0db4b8aa",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_001.npz",
+      "sha256": "1c8e2913141487f53d139e67042eb2ea50d6b87b67c923cad06f0f45b2ffbe5b",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_002.npz",
+      "sha256": "34343584cc7989da7d69177f792d2c3659e52bdaf897a6159ed5f79bd8af683e",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_003.npz",
+      "sha256": "91231cd901ae3394bcc570e013f5496aee762456f7c6bf88c849495538f16f1c",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_004.npz",
+      "sha256": "ec10d85797b4d4be5efa844f9e48b798df369c136caa1040402fcafdbcc0aeb8",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_005.npz",
+      "sha256": "30c5713eac53708e2fd6bc8487b123ab7b6c087463c98803b79e0c03e09d67c5",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_006.npz",
+      "sha256": "53b3db15430e3d81515df2774f8c3c769bba801717ccb207e76d596e4e45987b",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_007.npz",
+      "sha256": "20cde22a2d7a543e69404e1c9a9aef91f011cc85a7fb1e64f7e7de9b1a86c2d3",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_008.npz",
+      "sha256": "471cd0fa170209872186d0ff0bbeeb10a2fd63921ba3e1c9fb4158c4eeeca4ab",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_009.npz",
+      "sha256": "54e5653f4f5c698d34e7cb6cfd2d5b28036aa8534610c880639596665e58dca3",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_010.npz",
+      "sha256": "6ad2ea0b92c9a74acc9eda0930df2257b9497ad90086d6f9661e9e4cb6fd6e0e",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_011.npz",
+      "sha256": "fdec647073592d3ac675b94bdeb9d0dfc40a04d9e4b370d0af27ccdcf85096e7",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_012.npz",
+      "sha256": "323e0b45a963ad67510421aa52cd782cf53fe15694dbe83626b6fd6021d67cef",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_013.npz",
+      "sha256": "36122c22f5817345f78f6378332573b91348cc2c30c536e284238e502fd696b6",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_014.npz",
+      "sha256": "065f299289e4981722c007a5b9ce6d98caf38368d865a0f9ea8f3a71b91202b5",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_015.npz",
+      "sha256": "0a391b838e66e2d5485b08fa284f57a2df40a04deabbfcd5cf042810d0aa15ab",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_016.npz",
+      "sha256": "2c30b818d3abbd44ed5b12422cc855d0f1aeaef842da2bee1e878af5d099855a",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_017.npz",
+      "sha256": "1348a667be35d8d3c0a081f3b55f331836072dc8cd5b1d48b397cd3d49fa58be",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_018.npz",
+      "sha256": "5ef9ce51b4978f15dced8736798c635de94d7980716cb89494d1bb49ac5e31c1",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_019.npz",
+      "sha256": "96d9a01a7d59a21bd36e807624eb9d9f88513ff7ed9b3af5b5f346b07ea6be3a",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_020.npz",
+      "sha256": "b82839d718dc5bab4428ae5d82b7a6eb63085cbb8351a816e6bbf71c3659aaa7",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_021.npz",
+      "sha256": "807fd5d6a0ec4a243fa00d6fe31225b562d829d835aac8f92b3e86f850dbd61c",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_022.npz",
+      "sha256": "e1977eb8bcd5aa6b99504f185c67f1ec61904d01ec3f43b1deefe6201221b021",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_023.npz",
+      "sha256": "e0a8a3c9caece3fc613ee7e988b4c2c2590de67eaa534ab5a81e1d01194edcdc",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_024.npz",
+      "sha256": "853245c7602d479025180f329d1ed0ef53d022f26664f6d42beb8ab451adf511",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_025.npz",
+      "sha256": "b9d5a3ad81af9407ee6c7d9865d28d49708a920c25c713158571899a028f2edd",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_026.npz",
+      "sha256": "484f59b07004f0ff6b5f35b54c79d3b3f2b247930daa9d9efe8a44046859b047",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_027.npz",
+      "sha256": "201472474ced2535d95be346f0f96e6cf266922675a96b195f0c9660bee75573",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_028.npz",
+      "sha256": "626db07238029c570ae9f471ce519ff4cafe36bbea1e118ebc774b4d5a780e28",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_029.npz",
+      "sha256": "2f4559cdfdb54cdaaa77bfc147d9eee1406b9997c0abef81833afd7e3b1fceb7",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_030.npz",
+      "sha256": "f632155efc0ecefe2d750f8a4843073f1437d1c25b16d50aff40c4461a3d1565",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_031.npz",
+      "sha256": "961a7dc70dd103ee16008a14eeada4e22d452ac8eecd5fa43a32ca00f1f8eddf",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_032.npz",
+      "sha256": "c702aa4c6b256239b9a51d7007a57c16fb5de57a36de653ed3c10ef30289059e",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_033.npz",
+      "sha256": "7e805d55991444edfc4eadfc9f589cf091cb96bf12ffbc01872c611a590a8ebe",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_034.npz",
+      "sha256": "7a14aba8f0bb7a626d55832aaee086473967a77b4f86a7ebaffeae49aec7321d",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_035.npz",
+      "sha256": "8577454a70c6d8b7016321b540c6877adc0363f373a74278727c52f7ce4b60a3",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_036.npz",
+      "sha256": "9dd15d5556d223093462e5194baae62df3df85d2a715bce8704ccfb4263834d6",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_037.npz",
+      "sha256": "ca78bb25f9bb6c505de126744f4758e2bb60e0fe6184528245486911f99cf58d",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_038.npz",
+      "sha256": "af3238333bf5608c11827de50059492795cbdd6848602d4e933d040193aa7fee",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_039.npz",
+      "sha256": "8c1f56787b1623556f59f9a9b96c143526e9875f1c461baa41e4c5208d9f775f",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_040.npz",
+      "sha256": "c634263e2005539846114120eb56fa04d982edb7318d01763d23420cb7c908c7",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_041.npz",
+      "sha256": "14bc294770380eb3f2e7bdb14088e48df400aa6d66d9b4b02f312f27defea785",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_042.npz",
+      "sha256": "ac0d490e87086e5fc2ab461b8ded987e7a10984c08699a37e928f91a4481be90",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_043.npz",
+      "sha256": "00e7d3d97a345df4b8642419e4d3be5b384b87ff3241cdb1f6a0f8c7c5e07943",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_044.npz",
+      "sha256": "672e5f628f6b02eef7a63806e6f7883aa58a750c7929283b1d8b7f3fa7674e67",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_045.npz",
+      "sha256": "fa684ba33459618a50f1f92d8307b88c1ad9771c6d012a1d9e4214a644ff4e1f",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_046.npz",
+      "sha256": "0ed86d571c93df0cbbd217a054bbde70ea336e1dae88d23e984a0ed35359da8d",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_047.npz",
+      "sha256": "be09b011fe27c8c287f1ab05a789a814215cd34374e9b016c1b6e35692485e22",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_048.npz",
+      "sha256": "455693133e24cc71269557ef32f53af47e9143a76ebece395da310f6e0760eba",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_049.npz",
+      "sha256": "0e42dc70de19ec89317ccf028cbab56b187439734e19ef4fc1dfbb2502b3e10d",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_050.npz",
+      "sha256": "3414b659b6226d1dbb04b83cf88b1f19889874c1597b52d69454eadccc1a4f05",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_051.npz",
+      "sha256": "6cd89a9128f9673b47546788f51f51ed32195b0489f805851ff0c677e6e63b3e",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_052.npz",
+      "sha256": "cbe08bbc10797bba032a3f794f36fdb086eed3f94f9270190587a78b30aa2a1d",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_053.npz",
+      "sha256": "3e1ba108f3e9d256dea8b17d7c8f42db0dc0d25aa2532abec0ea7dcd8b08498f",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_054.npz",
+      "sha256": "0d18287eea0c21babb4503f934c1766f437f22795f247089e128450a83fc608c",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_055.npz",
+      "sha256": "79685889f1b163a5705864fa60921c96f11be57a17aa8f4378ef50c15cbd154c",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_056.npz",
+      "sha256": "382fcbfd636cd60a2d0dc38b46c92998a07b8df7fd927599b2372f793bc18337",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_057.npz",
+      "sha256": "9cee22284d6502973609e6e5b927a431006863d7ba9467faf7016914e7ff0a80",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_058.npz",
+      "sha256": "37170e0182c3fb4c72b585af504a9c415ae3331a6b70e70bc2bbb466ac97daeb",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_059.npz",
+      "sha256": "7c77a9fa386d55a443d14875f087c487db7dae3dfee9fe55145e00cf407c698c",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_060.npz",
+      "sha256": "a0b838484ee72d916ed5743b4de6d3a6567f0991c042787dcead278a712ea0eb",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_061.npz",
+      "sha256": "381acd1f157a642ce61d94beeb7d0fb310a38b3e126f35a769b7ff654f670d33",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_062.npz",
+      "sha256": "e8e82e776b8254ea4a20c33a779bf24af9cb31b204bda9766497dcaa722c4fe7",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_063.npz",
+      "sha256": "9b29890607186c9a6673492c8dc234a766a7372b51d9e0f19cc7fd5b121a515f",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_064.npz",
+      "sha256": "fc8ca4d806c3bca70a48d4d3827fb3c8430b0c8c136d2f4265782baf1102e456",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_065.npz",
+      "sha256": "21e2dce9b91ba2eff8b05f410a59f8947fe64a22976cd0c432568f0aeddd563e",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_066.npz",
+      "sha256": "1a80632c295aff249c4194b8bdd6851acef6b2c04c3069477424193c7133ded4",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_067.npz",
+      "sha256": "2a5a0e72eff5a3f934ad485189ca7dd270d7e13770338c5aa2589549941cc4da",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_068.npz",
+      "sha256": "e7a5b9fc72ee8ad6d58a521d7aefa972466c854f8cbae20802cc3e7781b77b54",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_069.npz",
+      "sha256": "c72bc258ae1ea523191b724345f8b300aa99b094f3d3cac20786ceae5bad46de",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_070.npz",
+      "sha256": "0258efb4ec54ceab12eb87226188dabbf17227eb31d26bf7e41e9e0c9f679566",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_071.npz",
+      "sha256": "0912da25bf00e479b7b9f83ef479f139ed53556ad803554e416c1597d379680d",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_072.npz",
+      "sha256": "90fd24bb26b4523837e53fb5330004e45484a5c1c738cffb38a5c430e002b1cd",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_073.npz",
+      "sha256": "5341a162e70895a26c10966bf19f4029edd3dd068242070db4a70c86018f4e93",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_074.npz",
+      "sha256": "d700b36192a814a4c973988af8454ef5f4a49076126a96ad22d8e40d17b215f3",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_075.npz",
+      "sha256": "8dfca75dd55a8a3ce87ac0a1c7c572d40d0be4927591368254a5348a21d5a64d",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_076.npz",
+      "sha256": "831ee9791ebeeb25ccdf1bb437d6007a95d310abef9d5c25b07b2ed3e86d9679",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_077.npz",
+      "sha256": "81969bca3c01bc7f82221377a0ea90833182480cff2089ba76ffe69928e20cf5",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_078.npz",
+      "sha256": "bf6dc1eacc9d988a76dce7b8c6922a679c6f8a65e119735f444acf7a941db11d",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_079.npz",
+      "sha256": "2949410b8671b6bace6c0015a0e8fa55546058777c35ed8826c5df6d2075b925",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_080.npz",
+      "sha256": "4bb1ff195efb57c7eb6e306c1c84dd6604cdc53796795fa9f2140436256e24f8",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_081.npz",
+      "sha256": "5fbc403819ae3e5c43f3518068b6f3cf5a5729ce4cfe3f1eca1064b85da69cde",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_082.npz",
+      "sha256": "b233ed2d39433ea4fdc8830924bd141fff72d151551acd260b609d91de6d620c",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_083.npz",
+      "sha256": "7371e6bfe053a3d433e45ed9ee4fb51fc7a4ebefa747c84d439885077726e7a4",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_084.npz",
+      "sha256": "3823ec5d93182bdfccab74ba3fc2468e27da74f3e84a5a96ff42556130543aac",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_085.npz",
+      "sha256": "04de9e417cd19fd95088246030bf9be01aa8361c379dff3f747af9bc08288a9a",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_086.npz",
+      "sha256": "e94102e4531da38c7b4cc2f68895d35998427b061fa17a142ef4a218cca9a8d6",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_087.npz",
+      "sha256": "97afc57c4bc3d670603124672320c9c7fbe5611f967d5398907f1992dbb5515e",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_088.npz",
+      "sha256": "481513f3a9e0b7fa3e55baf1932dee401f0ea87b349432bad20802eaabc9eb08",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_089.npz",
+      "sha256": "c4f5d70e1d5f0d5cfd3a1551e4daf357dcc587c3ff320b872426f196e6e092ee",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_090.npz",
+      "sha256": "e9b2b79d72d76a0905224b62b82b358875134f85a4098f69090f39b556034896",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_091.npz",
+      "sha256": "573cad527104dfc8dfa3b411210f35e52c54006af927711abc9aa3c6fe3b8bb2",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_092.npz",
+      "sha256": "56121be8d670ecabd0ad2cc2250712694e2ff103bc77d1b4fc5539f646329de1",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_093.npz",
+      "sha256": "2c54aaebab538ad12c44d0b57b0526b1b9d36f60aa295e459c4ee4b10ab026c8",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_094.npz",
+      "sha256": "4d705d0bf3871f0c4a3d4182c16257597c67e15009cfae87a5690a0e913e0732",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_095.npz",
+      "sha256": "77660d3150b3885ee3b82bdd69ba9283f34764d517f91eff7696991ce627a5d3",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_096.npz",
+      "sha256": "fe8d8bfbd81118f121a82789fac862670abf731858f7980c46a9711daa22c44f",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_097.npz",
+      "sha256": "4d2a6458181ac722bcdc03669c15f0a799bf3bb5f73d45c0525ae8c60c8892c7",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_098.npz",
+      "sha256": "b78cbf33c34b6d826f26ab1245df2609f324da65e4c3a6981675f97ea857b6c2",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/calibration_1_099.npz",
+      "sha256": "2da30a157254e4ba77b1b739cba3fb4840e6298fb1599d9121752f7f4067186b",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/geometry_r2_n64.npy",
+      "sha256": "6a8a860c11d1174442dadf7739c49cd51a641f7b61853b5b55e1d7695f2fcdc2",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/geometry_r2_n128.npy",
+      "sha256": "968d3a9d7580131759cd11bcf0f9a51179e053bf6cea2f76a711b758565ec2e1",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/geometry_r2_n256.npy",
+      "sha256": "9f5e61fe82794c53691e67d3fea5edcc637a690458ce6c29019e9d11e9382710",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/geometry_r4_n64.npy",
+      "sha256": "78d0feb57164a6080e7f8213b51f986edab6eaa41d7979a806117fef23cdbba6",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/geometry_r4_n128.npy",
+      "sha256": "689873e04d1379c6043197c0da056a83861bdc3bc72b49528d91bdc72f94b860",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/geometry_r4_n256.npy",
+      "sha256": "b05e37b2cfb6ead2fbc682719ac53b00c9602d23cea078e25060f7b3c86c58fe",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/geometry_r8_n64.npy",
+      "sha256": "269a52359688a743c35604f99615a9e211a7e9378480b21720f767e334b6855e",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/geometry_r8_n128.npy",
+      "sha256": "c6fe8a2643748c474c1a5cdc3d4a32f905a56f26cbb78ee49a277fa376740ee3",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/geometry_r8_n256.npy",
+      "sha256": "fa133c37389e81dbda9e27f4c7aecfd1d1cdbcd2856264e7ff4acf7bc1b24651",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_000.npz",
+      "sha256": "15f366b8552fc5f94cfc3402239c34772a232dae9e85ccea315c716cec8837b0",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_001.npz",
+      "sha256": "dd7aa3a173b2b5a159881270f0f0f90fddb8faddc0656b0075e167aabf8e0a19",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_002.npz",
+      "sha256": "5aec46683b95203a136733ace301233fe2b2e503711b2f00367bf9927bda1b53",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_003.npz",
+      "sha256": "c40837c053135f458ca1fbbcde87a06d8be4295e5d82ff2385343ca71fef330f",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_004.npz",
+      "sha256": "612697696e867634d7f2a29427716fe40379185d64957988fb9460276acc4afa",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_005.npz",
+      "sha256": "bbb58a42a1e73b863c61b78714b4e4c673c1fe478d090f9a43c989dd5cf5a955",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_006.npz",
+      "sha256": "d98e4bebd3ee70842292819227d172c382012e2aec24fc4ca301cff2ae6a79fc",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_007.npz",
+      "sha256": "0903c3237abfa1d987502b992ddead9a24b2d4034a7da35d8973599a912e8fee",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_008.npz",
+      "sha256": "2b786411faba4f36d79044a496c844c2183fc498accfabdc8f8378c6d775544f",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_009.npz",
+      "sha256": "c432995163af50e2a1af84e6c9354f60abbbe0188e73dcc4fb3acb580c55edce",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_010.npz",
+      "sha256": "681532698c4120da848cb4642e2b84ad8a509967f92f9f16b99e1c3c0f682164",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_011.npz",
+      "sha256": "ee2aada57f5a8455861445b691d2a9496009525aedffb45c237cc586580a63ed",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_012.npz",
+      "sha256": "f0d052f42b2e520d696a72411ef58e84e0c13d0c1c6e71be03aea0a1e16c9a90",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_013.npz",
+      "sha256": "60ae971fceac66a99202eeae1df722d62c20137bde8e8138ec6411eac56adffc",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_014.npz",
+      "sha256": "e819507604efd39c850a6fd64c19309d55bc8fcfa9f6109c5c349663b1b1660a",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_015.npz",
+      "sha256": "d106cad9c39d000658c278e995469680dc67f239425cc4c4398c26f4222f4a22",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_016.npz",
+      "sha256": "c9dc10aaa55a0f8656f8b4c00444de9f23e26ac0b3908d43770182eb8c157c3d",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_017.npz",
+      "sha256": "cb0207ce6b95f3d8151bf90755459b0b45fb995dd916f2bb5af762170bd33343",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_018.npz",
+      "sha256": "2949690b4e4eb0c9cfe28a7560c6c8b6cb4566257f3ea456a961623985c4ece7",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_019.npz",
+      "sha256": "0e0da57a447cdb03330362691af0d435c2fa4b4ad31a7a41278d2bd0c518e207",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_020.npz",
+      "sha256": "966b2fab64f53d4e370c07ba21d609e95d92fd177abb9b186b664d5ed29ddbfb",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_021.npz",
+      "sha256": "8758b44def3cdb19a25f90fdc20f22864e5968d49bf8b92b0afb2cd6c1da5f1d",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_022.npz",
+      "sha256": "5e8cf0c3508cd6ba4d0950c920b541960b55ac713b6c3ebad00d8a4d4106cb5d",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_023.npz",
+      "sha256": "abc3a227d0ebf6cc1b8a774008aa3e91d1a6866fe7abd911067cf3f303861a48",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_024.npz",
+      "sha256": "fab061ac174705f6dbf9542bccc974d3d83144cf142ee30d2c848325618dfc44",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_025.npz",
+      "sha256": "f2fe6bdeed9dfcd14cfd084eb74f5d22136104f8fad93d5b79fdce74c8404fd2",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_026.npz",
+      "sha256": "27471da0584553ece84a840bc93b761a8e96e25c2a05b3bd1d5df5b142deda9b",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_027.npz",
+      "sha256": "8c37831ad31e60f62f99f93d0be151e5315d41fcd321c158701bf659e84b10ad",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_028.npz",
+      "sha256": "5ca7bc972c85d028f026261fa4bf62cedc65b170e56a2268f9e904b3579ca494",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_029.npz",
+      "sha256": "284b4d95ce0c9bbcd460c183d432d564f2da62951fb099235495083fb7839f15",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_030.npz",
+      "sha256": "6d3e07eef418f45a4b6349c7561a74f8adf313534134db18deaa31fbc2d2c381",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_031.npz",
+      "sha256": "b2836b7bc5bda200fff75a88c618d625623687b6c354a8c79847c013840876a6",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_032.npz",
+      "sha256": "baed709095322f84ff5758014e75748750b52d21a6f854648464a13b7bec0f02",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_033.npz",
+      "sha256": "db260144341c73edeebcf67d35329f00c68b2d2939a31f5c6782771c5ef1aca3",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_034.npz",
+      "sha256": "ceffeedfb566dd60c28a8bbeafe1efe49773e44a1db0d5808afae6bc4a3f7fe2",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_035.npz",
+      "sha256": "944ea783a30ffa402141be6a29baba69806eb33aba2f2a096a3cc71584a9267e",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_036.npz",
+      "sha256": "c2f85a5c404984c2b524d3a9511bdd168eee868623796168638ce8e032ceb8ec",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_037.npz",
+      "sha256": "0c1d6cfdf138743b521011200673f907d8e941778f7d4490357232122d37aeb6",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_038.npz",
+      "sha256": "379664f5d32af61d3a7d5a3dd68b09719dea416bee1d250411e62cdfb3476f38",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_039.npz",
+      "sha256": "832a04c243ae30baee2ddbab17b4aa03f62dc58d9bb55d733d7cc3050e26f358",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_040.npz",
+      "sha256": "32c9f02e59377a45ddaa2c12d40eacbd3da990f0f267d8405b5a9c10fdf32096",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_041.npz",
+      "sha256": "ae24221e75ee33a83afec46810cd0c761176e63b338cb24bcf8809bd72065f9e",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_042.npz",
+      "sha256": "3fcea7a914d38f7b6d8b29cdd2c27d5d40228b58e014198f49e44587a1ed3d01",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_043.npz",
+      "sha256": "704bc44254552851574ccac4d7cfbd5f9267e823fccdefef1e47c2cfd99f1edb",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_044.npz",
+      "sha256": "23df0a4905f661eb2e976ae0891ef0888a08022c77a0d52e2a9b10f667359849",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_045.npz",
+      "sha256": "45440b0115a32f1abb6739a0927e1b9430bec52a89632df1a62d4c0cda0f4e33",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_046.npz",
+      "sha256": "ff7df2192174ee8af19389633c51ce366af3329210c40bae84de0a02b59989a7",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_047.npz",
+      "sha256": "0446ef4f4c98e339f9f97f80bd721c4a4578c560006097127fbab42fe1efce21",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_048.npz",
+      "sha256": "de163eb3ab99dd09c66f88fd9fe4ef961d67bcc1419923cb555c1e95c8ee41c2",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_049.npz",
+      "sha256": "2a3da1ffbe9121f6f345526d7ff2b40fef303ce272cad4655ad4cfa7102c5c59",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_050.npz",
+      "sha256": "cd71d123b604f40a6702a514b944c22ff5edf5a5689fa84afd6beb17aedaf6fe",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_051.npz",
+      "sha256": "65e1f93bd9e7484fbbadccd04b2da31a69a964f2c81c0df4d1832ea439cbe0ad",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_052.npz",
+      "sha256": "40d2fa508a1e608e87c537fbdb95666ff4593eed32465c4d28cbbaa939d6c3b2",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_053.npz",
+      "sha256": "404b6f6566d51438223219e9d227390b38d3cc94c07d2e9624d3a2a72e8f3a20",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_054.npz",
+      "sha256": "d3b6bf86fdc9a912b2a67191476386776063554a06fa14082292a224e3722829",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_055.npz",
+      "sha256": "418e531a02de7de017a70c943bbe90e9e6b2c5ae6f84e1debabdd2644c7c9832",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_056.npz",
+      "sha256": "3db5e9607f0e5627a18076b1ea4c98bbe1b661cbf54f48baa367e1a633afd8f0",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_057.npz",
+      "sha256": "745bcaff78727c6cbf6ebfb42d0fd6ec8a9a698a638d5936419d079bf2246187",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_058.npz",
+      "sha256": "165a6071855310dd535252526b584304bdbe551bdaa4751b9515db2bcef773c7",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/power_059.npz",
+      "sha256": "2cdd857279716649734e170e3f69a202d1dc73eeba82703f0ac436a9ef8c4ed0",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_real.npz",
+      "sha256": "917f173ba5836fef3cb451e665a03e5d6874b113d85360571cc909cc75f0eea9",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_shadow.npz",
+      "sha256": "2f130803e33d1b8722e894174ab45c9bc56ce421029babfbfc3874051f7fa9c6",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_noisy.npz",
+      "sha256": "409cc2afb7844592725bbdd1f630ac6b675bd668fcee2c77e8925f74723c4146",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_matched_R.npz",
+      "sha256": "c016dd951ea47ad367a988e61a402b9ec0be6bbcd7a8e5dd86d70d000f9dc725",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_matched_S.npz",
+      "sha256": "eaf5f2d38a3743e1bb10c31813b6aced9adbf3815b7ed7e1b64cff0ec7efb89b",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_matched_N.npz",
+      "sha256": "495efefa11f32bd35c54d67ac4301ed817f0c44deaf8193000eced21bbda6e22",
+      "role": "input",
+      "level": "per-replicate-array"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_auc_bootstrap_real_vs_shadow.npy",
+      "sha256": "70a7f4bcd76e04203b7cfb4c337fb16b0bb8ad2474a44d788593ce6810cd38d1",
+      "role": "input",
+      "level": "bootstrap-resample-draw"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_auc_bootstrap_noisy_vs_shadow.npy",
+      "sha256": "8e6abf43d3762f78a20b5d68bce910349bed38d32648decac65caec44be2eb5c",
+      "role": "input",
+      "level": "bootstrap-resample-draw"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_auc_bootstrap_commoncause_identical_observables.npy",
+      "sha256": "ba576410d9082026ca712c9d5254be4b18d069cacdd1be555ae0a4c3a964d6c5",
+      "role": "input",
+      "level": "bootstrap-resample-draw"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_auc_bootstrap_response_only.npy",
+      "sha256": "5da43ec9f262e2a62b1ae232b0538e494333fdd9c41f8524f5769fa7147dd7c3",
+      "role": "input",
+      "level": "bootstrap-resample-draw"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_matched_boot_R_vs_S_bare.npy",
+      "sha256": "2400aebe1d1808705e937c9670b9dda232a245317acf64df212bf5df63dc3d10",
+      "role": "input",
+      "level": "bootstrap-resample-draw"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_matched_boot_R_vs_S_measured_control.npy",
+      "sha256": "7b433ee89ace349493cd75aa8bbadba3fdf8a3622d6b4d9e8832aa9749715939",
+      "role": "input",
+      "level": "bootstrap-resample-draw"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_matched_boot_R_vs_S_noisy_control.npy",
+      "sha256": "df083795b5e6736c510031000c666c055defa856120d9fcea059d31db1584880",
+      "role": "input",
+      "level": "bootstrap-resample-draw"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_matched_boot_R_vs_N_bare.npy",
+      "sha256": "b3318db4daf21d43f72b9e90abf2e8ce57b883071c2b6c4dce49e814a9147780",
+      "role": "input",
+      "level": "bootstrap-resample-draw"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_matched_boot_R_vs_N_measured_control.npy",
+      "sha256": "6bb6d60f50d1ac8e533b013ec2c095c82f8e49cc7185501554b17863e206a5c3",
+      "role": "input",
+      "level": "bootstrap-resample-draw"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_matched_boot_R_vs_N_noisy_control.npy",
+      "sha256": "224ac083a806c0861b978ec67ee8b9c5d3cb8ce148ef3519fa925505b0a448c9",
+      "role": "input",
+      "level": "bootstrap-resample-draw"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_matched_boot_S_vs_N_bare.npy",
+      "sha256": "f24a4d3864a0a7a79f3cab0cd15cfdd751924316da764c9d676a27f98aab96d4",
+      "role": "input",
+      "level": "bootstrap-resample-draw"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_matched_boot_S_vs_N_measured_control.npy",
+      "sha256": "fa6a1397df5619f76c4a60177d5c3ddb43e004f16dec44661ac1289f33a39d77",
+      "role": "input",
+      "level": "bootstrap-resample-draw"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/d2_matched_boot_S_vs_N_noisy_control.npy",
+      "sha256": "be390936cd3966c2ea6e7bfe0d8ff3c6344836e3b6d8134f378cf9f79117ad35",
+      "role": "input",
+      "level": "bootstrap-resample-draw"
+    },
+    {
+      "path": "runs/new_simulation_repair/production/summary_all.json",
+      "sha256": "4db55a06428f29b82b705df3aff0eaff83121ce3c2e380635834aa3e0acc62ac",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/summary.json",
+      "sha256": "2bb80625bc42ebf1e14af95e4f8efe2d614a2b01372223bdbce91d229c6e78b0",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_00.npz",
+      "sha256": "d371e73bcd990a1b38b76b470c505b64aa04071c6c7f5ca013b031a1699a0a28",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_00.json",
+      "sha256": "b8440c683711b1b912c7b120685413a4010aee46ca6178de18be8c55a8aae340",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_01.npz",
+      "sha256": "d54bedf05cb79c5f4856efb285295c3f94e390d7530978918816b7af395b6c84",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_01.json",
+      "sha256": "b73d1bd321e4705abcf71a82d55ae9a7dedea0a187032863b103f43af11065de",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_02.npz",
+      "sha256": "ccdd0347bc1ec6fa3a97685d44c00e380018b8ac6c9f07cd2eb633c11ec152aa",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_02.json",
+      "sha256": "be24e1bce5f79dc5ed7e5caef0b240c695b70c45dada557c3c2b63a3aa67553a",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_03.npz",
+      "sha256": "27504c66289fcece659fdfd7b764ef632c5e6bab5ca8654b08c55ae848eb2ad4",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_03.json",
+      "sha256": "f9c518d5eb4f5db70893b6e4318cc1fcc14daa2fc6071440fa8a4ce426ddc526",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_04.npz",
+      "sha256": "d969fccba8ee2045527b10a313b4fe0cc24a85d5a65b0a4edbdc8de987a15fd8",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_04.json",
+      "sha256": "5caeec80a779bca60e71b469d101b51f3d580235d37f5d527063dee8be56b47e",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_05.npz",
+      "sha256": "b59f954b22e3fd48efd866d3a9745d956659a187116023941f7642dacc8ec405",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_05.json",
+      "sha256": "c8651739ae3bbd89d3ac85c38eca6cc0e8a64db898ff183d2179e81f79336039",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_06.npz",
+      "sha256": "6a08be458a8e25741a12f0e4795c0dec97b9119190b3464ca647dcfd58a066ee",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_06.json",
+      "sha256": "36cdb1c02416ba4a23df91ab7461467489db9cf7628353d1a1862211620dea68",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_07.npz",
+      "sha256": "06353ba9bc18675110b1c984c7ea75c96bcc5483fb17f52d6156fc9fdc0805b3",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_07.json",
+      "sha256": "0c17c2f43f17d7ad0f1f26e44b3bb1a4c8738a556a8fe041b3362a7f2b136999",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_08.npz",
+      "sha256": "32a09ee793ff80846b680c35da1b61efe094c440b46a6afc0b5f024f305a56fa",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_08.json",
+      "sha256": "45fb7a20570df7877c9397752c1d2e40d90d69eb333532a6fe359f770d556ccc",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_09.npz",
+      "sha256": "d94d81a3d5a1090af013cca8e7d6bbd5682c4b78905f8f47b80e6c8758c2279b",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_09.json",
+      "sha256": "1c0e5f9ddaadd00d1c22b4b5c6fb0079bdbe1cc0755846cc2efe655ad230ea83",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_10.npz",
+      "sha256": "40f9e95699a6854522e2a56fca16d54a60342ad10c74b1e2ee6d3fe1f58505e7",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_10.json",
+      "sha256": "717236080c59598e6f5441630db7c0af722cc24c77eeff3512f93e51d37a0ca3",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_11.npz",
+      "sha256": "e1a0519000047d49ae933a2e4795bc23d2e485a1aa2f3ee9baba3c3db4678101",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_11.json",
+      "sha256": "abf61e653caa6e516e0599ac6c8ce9735b5a9be0cec300f1b37e5ec330fb4f10",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_12.npz",
+      "sha256": "ee00c6e3b3ede8b1472d2ac03a3d613e5ed2d5ccb65d9e5be1736ecb8bdb440b",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_12.json",
+      "sha256": "7854a57a921c777265ac4e712bd83ebf1e4aa2b4dfd5d40c1072eb9a78de0b96",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_13.npz",
+      "sha256": "7dec27d4f060d5762148cd2ea66c23d4538062d8f4260e37fe421b45f4cc0d12",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_13.json",
+      "sha256": "5abab14db37f191501710e074743381bc9e71e8343d44af6da41b6342ff66576",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_14.npz",
+      "sha256": "671b69fa5b491a2f292f75993894409d8b6e6aea7930ca891830eb02cdad65a8",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_14.json",
+      "sha256": "33fa6bcefd44d1835adf23e04571f448866753adbb62d7317f0c9120d5c194a9",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_15.npz",
+      "sha256": "64eec77f81774ecb31e09f8b13ec16bf961c7fd3c87c84fd49321b8a246a62ae",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_15.json",
+      "sha256": "6311259aa925dbf8adcb3ceb8af2b26cf46b8c46a4f0df164816b264f34a3eaa",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_16.npz",
+      "sha256": "2792e8b5fed34b01ff209e5018f5fbbf0f0e616ce12782771d65482dc0461d34",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_16.json",
+      "sha256": "3f10a9ed7ae69c91a09379e97a75bcc2e48b1a14c565c59dce67e4341341b385",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_17.npz",
+      "sha256": "74d32f7969997d70a4827d8e254069b095db904a81953baed4324dda8b4a9a16",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_17.json",
+      "sha256": "4e87317f705e26c4399aa5065da4f6dade02a068c70418d9123a50fc8fd65475",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_18.npz",
+      "sha256": "1d7025e581c342a84005e7d85a61ee8b1cf35327b9d48f4fb1708e9b3fe7c2f1",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_18.json",
+      "sha256": "097a30b97291c627e02822e077f8c5404aa542718334419d7d3cbd19c7ca42ce",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_19.npz",
+      "sha256": "282311bd58854cf95b59edf17cb38d52f583f31652b0f20b1e1129263f9b5e34",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_19.json",
+      "sha256": "58c806b7993748828cbc5e49da35e203e234c8ab9d03dd654b85479a9b4f6359",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_20.npz",
+      "sha256": "6bf264b6a1a31403c5db0a642943469dce3b48ee11be99f9b8549d9822f012ee",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_20.json",
+      "sha256": "027fd1db4bfeaaef72071e5aab2c4ea89e343bc6845f8e3a1312b14cffd0a9df",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_21.npz",
+      "sha256": "bd4c01d1f3bb7a98e1015eb548dd878c781e0d7a4830cd9abb98d07814422437",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_21.json",
+      "sha256": "d6c80dbc00782b6b8dd4b81ba85529e9a15296fb509dd48b1de6df72246bd98d",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_22.npz",
+      "sha256": "cf58de27245c613bf097193def3255445407ceee1eaf0a72b30ae4d856e0f941",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_22.json",
+      "sha256": "f6bea8c999eb8c44d4fbfe3ce190da1f93425ad76c480855f57db255ca8c217a",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_23.npz",
+      "sha256": "709222dada9afb966f95a89f2dc00de5149c01f060a4fcb971028b0a8ebc9059",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_23.json",
+      "sha256": "b90d27a0e030e9bf3c699c39a48c1f3ab44a68540c3c8aa281286b46c5bd4004",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_24.npz",
+      "sha256": "112871ebdeaa78805964a40f61d19758deff69a48352bbbab4236e0a99ebb698",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_24.json",
+      "sha256": "77fad0cbd9287c7b54fec844e342c3426541736719c0a51a1e776a36c40710f0",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_25.npz",
+      "sha256": "e1168c5f9ec8029d5f8377539130ab9eea34a2f835603c0a2f3f7dc6b54bb462",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_25.json",
+      "sha256": "b9f252ea43da85f8f7e8c23ea74f6650ac040011df4bc3cc961299a22d1ec402",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_26.npz",
+      "sha256": "5d6ce73df3ad2922fb21720ed2c6374e33139fba64f0f2999765782d0e8a64a9",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_26.json",
+      "sha256": "ca8acbe776a66fa77fa3505af338b9059bf81b4efdead25edf3909aaee5bb26f",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_27.npz",
+      "sha256": "60851bef4edae1a66d57ca979c813d61b2c39f79ed7bb69b3232ff07e71c75d8",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_27.json",
+      "sha256": "dda2607700687a1524956e1faa802aabd8c65ea335f6944bde325176fe676a37",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_28.npz",
+      "sha256": "e227fdd463d1bc403bf4440ceee3c06ba842a0936cf3634d42f560224fa3dfe8",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_28.json",
+      "sha256": "b96bb9304dd4d391b3e49e673399db8d25904c43bcfcbd3fe15c2c1739196d82",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_29.npz",
+      "sha256": "5ddc256ec2a36f00e734ec87d49b136b5a3575b64e28aa5320b9813b908e7531",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/bootstrap_power_repair/production/cell_29.json",
+      "sha256": "b19db1976599e52ce95e8ce79903ed60673391ce1d37abb060fe2ad39b85e7bf",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "code/new_simulation_repair.py",
+      "sha256": "6cbc24ce80a350b52c34cef01ce89e29931c370e3790e28340f112ccbe407842",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/finalize_simulation_repair.py",
+      "sha256": "59e3328ee9ba23b0c3ec222dc1cf160201e219a33eeabe81fff42e58db6c27c9",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/bootstrap_power_repair.py",
+      "sha256": "9c0fa5d4d63021680b783ab7649ae9b4d84a2eb7eeb20e37596871b5e833ba48",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "reports/NEW_SIMULATION_REPAIR.json",
+      "sha256": "c61d3ad5aba251c0fd4e626011a8fd6db3c51dc3f323345b727b595374160e19",
+      "role": "comparator",
+      "level": "accepted-report-comparator-only"
+    },
+    {
+      "path": "reports/NEW_BOOTSTRAP_POWER.json",
+      "sha256": "a6d05a21bf3de4e98cb14947389f89f1789489cd0bb90249f6bc4dc8ff9ea9d3",
+      "role": "comparator",
+      "level": "accepted-report-comparator-only"
+    },
+    {
+      "path": "config/CT_C17_PANEL_CALIBRATION_v2.json",
+      "sha256": "0c7e05a8e93d1f220cb96ec00c3734beca1caa8b7ce8140eabf96873f386df97",
+      "role": "config",
+      "level": "config"
+    },
+    {
+      "path": "runs/c17_panel_calibration_v1/production_v1/code_N0.jsonl",
+      "sha256": "14d63086d3d419b5365926987cc932e8a6416f1f71ca918c3a48f8dc61c8caf7",
+      "role": "input",
+      "level": "per-replicate-record"
+    },
+    {
+      "path": "runs/c17_panel_calibration_v1/production_v1/code_N03.jsonl",
+      "sha256": "756a9942be9b68d1816944939452a5d7d1ddaf126e2b7901ebb7ff5052d5cc75",
+      "role": "input",
+      "level": "per-replicate-record"
+    },
+    {
+      "path": "runs/c17_panel_calibration_v1/production_v1/code_N06.jsonl",
+      "sha256": "8aa6614218cebdaef16ab24f53c1768a6297a4214594ab232dcd2acb4821e69c",
+      "role": "input",
+      "level": "per-replicate-record"
+    },
+    {
+      "path": "runs/c17_panel_calibration_v1/production_v1/code_A03.jsonl",
+      "sha256": "9996940c1506e6c5d16ea7f3830de5f4a5d722011eb4f100d99fd7acc2095d76",
+      "role": "input",
+      "level": "per-replicate-record"
+    },
+    {
+      "path": "runs/c17_panel_calibration_v1/production_v1/code_A06.jsonl",
+      "sha256": "39d8e609420fce5610520d0b448b00175c467ee5dbf40e33330ba8fbf447caaf",
+      "role": "input",
+      "level": "per-replicate-record"
+    },
+    {
+      "path": "runs/c17_panel_calibration_v1/production_v1/math_N0.jsonl",
+      "sha256": "91a28673a0dd5babb3ce953781df3abfc5a2c7ae19f4fdbc62f3322462649fca",
+      "role": "input",
+      "level": "per-replicate-record"
+    },
+    {
+      "path": "runs/c17_panel_calibration_v1/production_v1/math_N03.jsonl",
+      "sha256": "e35ea6c017a91604cdbdca85b72b03ea61b3ffd2daca02a81937822ac8e16d39",
+      "role": "input",
+      "level": "per-replicate-record"
+    },
+    {
+      "path": "runs/c17_panel_calibration_v1/production_v1/math_N06.jsonl",
+      "sha256": "890321b800e086cd1244ff468aff35542a5ad3abfad1609c46d620df13e97e2d",
+      "role": "input",
+      "level": "per-replicate-record"
+    },
+    {
+      "path": "runs/c17_panel_calibration_v1/production_v1/math_A03.jsonl",
+      "sha256": "4ddf196700b522df3c0424e7be5ac553c68e361ac26653084464b97d6e889fcc",
+      "role": "input",
+      "level": "per-replicate-record"
+    },
+    {
+      "path": "runs/c17_panel_calibration_v1/production_v1/math_A06.jsonl",
+      "sha256": "f7fa2abf3f04226051fbbd89d6ef0d96b668f0756ea50bad0290d3ada4a635ef",
+      "role": "input",
+      "level": "per-replicate-record"
+    },
+    {
+      "path": "runs/c17_panel_calibration_v1/production_v1/cell_summary.json",
+      "sha256": "ea77fd948e623b0e65ca4b3bd84e703f2568e3dec1126c5031b82bb06dde7809",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/c17_panel_calibration_v1/production_v1/per_replicate_table.csv",
+      "sha256": "33bdc5e57384699eee2eb2291c90eeab30e315507929b0757ce618e41beb5968",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/c17_panel_calibration_v1/production_v1/aggregate_manifest.json",
+      "sha256": "a65426a3025d52920f7664bc7ecad89a5df2223767abf4a9eb68b8fdb5b8768f",
+      "role": "cross-check",
+      "level": "run-manifest"
+    },
+    {
+      "path": "code/c17_panel_calibration/c17_common.py",
+      "sha256": "e42df36fad438666d890497fb2e2b9c8d5469e6536b8ad1e6fdac845c7cb366e",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_panel_calibration/c17_kernel.py",
+      "sha256": "98fd7ecb7e0a2c3221f6272cc7de6ba76325baeadf9c40b7425f524a324d02fe",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_panel_calibration/c17_reference.py",
+      "sha256": "a498a03ebeeb49f6b4bf7def30dc2eaaa7cc1a2fb560a462e56be7337b9f1992",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_panel_calibration/c17_runner.py",
+      "sha256": "48b0b4340bf7e3c8876b87f6159a1f3f8a300397267e6b74902349c9af89861c",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_panel_calibration/c17_equivalence.py",
+      "sha256": "c557afbb1bee7607d430f5a76e005acdf7b9e488b1f2fce783c13709c6aeb554",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_panel_calibration/c17_runner_preflight_tests.py",
+      "sha256": "d1e5969f82d3b8ded13edd0e789ed5ec9501af41d638d84f5c60ee0b2296ead8",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_panel_calibration/c17_selfcheck.py",
+      "sha256": "6755e2f1ae788b255fdab91c90ed2e8ce12a35122b9fa082795f7562f3843585",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_panel_calibration/c17_stage1_report.py",
+      "sha256": "f2a9baca54ccdd2c0c2c63cc3b75259c1552949b92c27b52952f4054be920b0f",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_panel_calibration/c17_timing_pilot.py",
+      "sha256": "b4f2395114bd4bfaa5d87fb372040c73a4a29436d5c5b65e8d43265fcdc5cb6f",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_panel_calibration/postrun/c17_production_selfcheck.py",
+      "sha256": "2ebdfc3ab8721623d8dde9e0ce3f2ce883514b8ac0a5cbcca5a3760f2b17e0ca",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_panel_calibration/postrun/c17_stage2_report.py",
+      "sha256": "78b132781e14fe7b0f8594855ef8d75a498d4e83a2b9d9cd932f0c8147e70e43",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "reports/C17_PANEL_CALIBRATION_v1.json",
+      "sha256": "782f2d6427bc79190bd5edc7ccbc13726d8a009598fdee8298ab3b11cf97bcea",
+      "role": "comparator",
+      "level": "accepted-report-comparator-only"
+    },
+    {
+      "path": "../Imports/geometry/rho_inputs_50.json",
+      "sha256": "02d0a8c1ce4b5b8599e744bb19ceea20b767226e972cd3546fdae674158731a4",
+      "role": "design-input",
+      "level": "frozen-source"
+    },
+    {
+      "path": "../Imports/geometry/covariates_50.json",
+      "sha256": "3c360261f8754149a9e5c791a6aac51f226d0c927bc686953a610ec5e67eb64b",
+      "role": "design-input",
+      "level": "frozen-source"
+    },
+    {
+      "path": "../Imports/geometry/theta_hat_panel51.json",
+      "sha256": "27471f86a2731bcda517028e9834ab8729282a711cd0cb15f31b2b5da9caec4a",
+      "role": "design-input",
+      "level": "frozen-source"
+    },
+    {
+      "path": "../Imports/geometry/g5no_gates_code.json",
+      "sha256": "eddc6a01e81b14fd3f2010fa07a75834c16cd9c06229c4beae97d481436abe38",
+      "role": "design-input",
+      "level": "frozen-source"
+    },
+    {
+      "path": "../Imports/geometry/g5no_gates_math.json",
+      "sha256": "dc97e35b56c18858d0d62a093c08b5af3fbf90a83d645bfb03280e7a9dd4cd08",
+      "role": "design-input",
+      "level": "frozen-source"
+    },
+    {
+      "path": "../Imports/geometry/offline_analyze_docs_20260607/s5_convergence_analyze.py",
+      "sha256": "5f0bb4b32b2d7683c9991c4a9052d5cadbfd02d4f6deaa88b04bf6e4a6792dfd",
+      "role": "design-input",
+      "level": "frozen-source"
+    },
+    {
+      "path": "config/CT_C17_GEOMETRY_v2.json",
+      "sha256": "d7ed8929981199e35477c035d77d00cf9f86601e5ab861a07d324f43a0b0f253",
+      "role": "config",
+      "level": "config"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/draws.jsonl",
+      "sha256": "7577cb5447b652f5132a116f24d7cde801940a1e7a17ad98f480b2db75159ee1",
+      "role": "input",
+      "level": "per-draw-metric-row"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/stage_signature.json",
+      "sha256": "35cb1a273bdffe2c9fa621f32a47c83606e7f84ca0190cd620ef5f5677218c76",
+      "role": "input",
+      "level": "stage-signature"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/summary.json",
+      "sha256": "9e5fe27bf67a8e1c55b4312ae3469ef4fc8c6e8ce4b0b0eee32bc5c8aab14450",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/noise/draws.jsonl",
+      "sha256": "c974b2b8e307c3a0480041767a5b2a9c79d48e883c858e85881b4cb30419da38",
+      "role": "input",
+      "level": "per-draw-metric-row"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/noise/stage_signature.json",
+      "sha256": "b616607e246b596261b9aa705c2806a7974855c756b63f11e3fd99f5f9de66da",
+      "role": "input",
+      "level": "stage-signature"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/noise/summary.json",
+      "sha256": "9c31651f0410dc1694c29ac23bfa2d5968229970b5a33c5cb93055ea0ebf0c42",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/boundary/draws.jsonl",
+      "sha256": "fb691b4115511380b6b549caad3512f4e39f3343c72e218b5fc92cac0d33b0a5",
+      "role": "input",
+      "level": "per-draw-metric-row"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/boundary/stage_signature.json",
+      "sha256": "8de9b1044190dc4dccd9fc34b6921e8552eb6c00dc8e57af480ad4332b6ad1af",
+      "role": "input",
+      "level": "stage-signature"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/boundary/summary.json",
+      "sha256": "236b300d5f32858f417cab740618f498bef45ff6891d1d6e029f9d1feed34e1e",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/stability/clouds.jsonl",
+      "sha256": "d0b97247d50a1a6e15844e0937a645a4602ac4c9267e28355ce979a62063abf8",
+      "role": "input",
+      "level": "per-draw-metric-row"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/stability/stage_signature.json",
+      "sha256": "a1858ac7c4d4999a9b9164cf120b27343fa0df9b8aeff6d495813fed70ba4342",
+      "role": "input",
+      "level": "stage-signature"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/stability/summary.json",
+      "sha256": "e12689fe24f98dc42bfe354e1224a3c5e18e5571e3f63f163a09082087de4796",
+      "role": "comparator",
+      "level": "saved-summary-comparator-only"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_0.npz",
+      "sha256": "458f988010a5ee7b2810f19615436d3ae9cfa9912133e54bab9b316d7d499b3e",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_1.npz",
+      "sha256": "7b05fea5e44986c80f2b9537139e5facd7f76f3fca652bdbaac35dbcbaa797ee",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_10.npz",
+      "sha256": "9721fc97c3d87f0040faeca6fd06c72ab0cbca0fc6d24b3aad7cb89229154ace",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_11.npz",
+      "sha256": "81b9e6fa16897fdf878cb493a9a4eafdd7723e1a9a2a7c80deb854a83b77e119",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_12.npz",
+      "sha256": "fb436e9b907b7e2c5d94689abaf54b0c063d3b555502ef945e6765a1266aa467",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_13.npz",
+      "sha256": "8507d4622de73f4a5cdc677cc43eea7aae5b46f7e7408061e308b68cd8d07a1d",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_14.npz",
+      "sha256": "031cade60f921d3c2d783c493a837549112d8cc1073fb187def0be76c072e642",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_15.npz",
+      "sha256": "5cedb6272466883a8670849e6dd29ebb46923bd17c40046756d266884f9e0209",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_16.npz",
+      "sha256": "3483f302fe76974ef250e1ef9defaa50074f270458915fc453789ef3fb02685e",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_17.npz",
+      "sha256": "84af75722ff9731857fed656d53344fcc372f2d022d51e0473d19821617dab8a",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_2.npz",
+      "sha256": "8e194194077b74616ae66306b09a4bdd9d9b4710355b571e67c4ba85266bbdff",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_3.npz",
+      "sha256": "9b95d7741d7672716228de3bee9ff3fc6a9c5195453a3491d267f00254e64922",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_4.npz",
+      "sha256": "bcc661735bc93afc908b1099c565e703af1086d53a2215ce5fbe6bd663021558",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_5.npz",
+      "sha256": "c428278a6af8f5a8e9f8e8fb84c3617108969c2eba11f988088cb433781446ed",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_6.npz",
+      "sha256": "436bd14df8899cb5ca2e458bf4673cbed7d7b93ed988051591b71d0fe6bd3769",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_7.npz",
+      "sha256": "6789ea853bc57c123d1f81b351b38100cf9d903d2b3bd85801d182842cbc0868",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_8.npz",
+      "sha256": "0eed3429068dc6b59c0e447c7739a56dacdac6dd11a1450f8f799b803a209bec",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/twonn_clean/arrays/twonn_9.npz",
+      "sha256": "7e0c8965004ad43996a6b8e603beb0fc244d1992bd41e740172f17e807fedb24",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/noise/arrays/noise_122.npz",
+      "sha256": "8c24f14d7395e17f813afd45c086b713e9210bbe4fe733fb6bc5a9d1f894be88",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/noise/arrays/noise_123.npz",
+      "sha256": "2978346789fef9b1050aa92f03c910af40ee49e10bac393c0bc04de12e5541ac",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/noise/arrays/noise_126.npz",
+      "sha256": "37f0b04cd20a5b40d8f744b3603fcdec21351103101ac388107c165d0b7714cb",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/noise/arrays/noise_127.npz",
+      "sha256": "2e42c0bffc8f4801b72341892c9a757cc358477da0b950232fe6512214efe78c",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/noise/arrays/noise_140.npz",
+      "sha256": "c11e999095fc7baaa21b9d85a57a1ec189692f4d47e870ac79b84a4a07bc890e",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/noise/arrays/noise_141.npz",
+      "sha256": "6fbbee6b9c5dfd3d8ff1d1c3a3262cc41922013f9824ea1bd47e94d6e903f00f",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/noise/arrays/noise_142.npz",
+      "sha256": "49cea17ce2b9383f32a396b68fd352935f9d0bc6142cd0c7cde7a89e86e28364",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/noise/arrays/noise_143.npz",
+      "sha256": "52951c9842495c7807f47f5ecfb6f05426a9a6865bc8a89ebc15524852c0fa90",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/noise/arrays/noise_146.npz",
+      "sha256": "4eeb359f3b81420d026e69950709ada3b9a49659c107a3403af187433b78b432",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/noise/arrays/noise_147.npz",
+      "sha256": "6eef77a2a19cc227e49d85e6ef964adb37e69f676b9460415a788c3465f48056",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/noise/arrays/noise_160.npz",
+      "sha256": "f393a7c6813dd6ea2256551777bdc92c58a0c6a5bccc4ad949846414443c3327",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/noise/arrays/noise_161.npz",
+      "sha256": "ae12c6066f96f353cfed91dd8d6c3ea772651c348b28a1a0e98b75623d23e72c",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/boundary/arrays/boundary_0.npz",
+      "sha256": "3eb7df439a232dce1b72149966ba63dd5d7b161ee00eddd24d829814821bbb5d",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/boundary/arrays/boundary_1.npz",
+      "sha256": "257c3ce4d8e5b2fe342202c8219050a80c499ba8368405c2c439e6ab6ce6acbe",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/stability/arrays/stability_0.npz",
+      "sha256": "bd8615d16e407a09e101f71638a2b3688030821f6218bf831739367ac6b7c3e9",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/stability/arrays/stability_1.npz",
+      "sha256": "8a08cc29ad848146ae6609ce153b0b8f9ab87ca7da8c42b2086cbeb3947ff0b9",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/stability/arrays/stability_2.npz",
+      "sha256": "fd042fb22212c52b53d4fb0ba65d2fdf58cde7a87fce0ba5187ba07edd5c9d2d",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/stability/arrays/stability_3.npz",
+      "sha256": "ed3508031dcdab935190dcd887f1f0618aab9578d35164ac2152b96abf058829",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/stability/arrays/stability_4.npz",
+      "sha256": "2ac96011f5c813e488be9ef4d0ce7405131a8acdaf032824b9ec9cf7a26037cd",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/stability/arrays/stability_5.npz",
+      "sha256": "b53ca71533133d82157abc8597b54c4c680eb213efa1171498fc752fb38f8923",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/stability/arrays/stability_6.npz",
+      "sha256": "d9c8f6033f30daa798119693dfbe2065580fde77c6ed7ea5879d0432de0e16ea",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/stability/arrays/stability_7.npz",
+      "sha256": "f562c6de127af4bb054ff6fbdadab131595f293dae16504a1152fb97f54fc0ce",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/attempts/C6.attempt-2/work/stability/arrays/stability_8.npz",
+      "sha256": "97b7902f6ed41e06522677ccdbfcd810f753a5a0876d0f4a04dfa95a465852b4",
+      "role": "input",
+      "level": "per-draw-array"
+    },
+    {
+      "path": "code/c17_geometry_validation/__init__.py",
+      "sha256": "d767d72596237d67b71a74427ee38a4bc61c2531fc0ff7936b2cb69e39e7ca8e",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_geometry_validation/common.py",
+      "sha256": "ab79e288477c0e54127d516ee82499ae514e8e9f7f784079dd462627055becd8",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_geometry_validation/contract.py",
+      "sha256": "5a0928c7ea729e5d2a95a0af8dffff6fde75cf9c995673dfd07a3313f42f21a6",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_geometry_validation/library.py",
+      "sha256": "921ca178cbb66cc74200ccf89beb36a7d34cbbc9ab04e868ad68454fdab0b28a",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_geometry_validation/mc.py",
+      "sha256": "e958df780488916f5d8e557fa9f94833c1c2cc89a08592a98e28640491e58166",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_geometry_validation/aggregate.py",
+      "sha256": "e8f0bc78429ae50c0cf2c3e7db253ec889309455521aa5cc6d9c8a12f736c379",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_geometry_validation/report.py",
+      "sha256": "f27fef618e8201387e094f436ae366dac45f8a4cf7dfcd2623e53491dfb3c203",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_geometry_validation/finalize.py",
+      "sha256": "6d814e392be557e15c4f0beccee22e84776b18807e5f4e5990f7302883b28085",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "code/c17_geometry_validation/determinism.py",
+      "sha256": "d67c4349f1c6fa34b8001208417238df696d0cc182e45092be11e146bdf6f9d0",
+      "role": "code",
+      "level": "code-dependency"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/OUTPUT_HASHES.json",
+      "sha256": "fae7fdc1ab133e412d1bc9aa30ac418583543cc6ef81303259a5d099ef9c3444",
+      "role": "cross-check",
+      "level": "run-manifest"
+    },
+    {
+      "path": "runs/c17_geometry_validation_v1/RUN_MANIFEST_v1.json",
+      "sha256": "2d1c19db2015898381aeb665ab4cccdd5d15d6275eaeb227d4e48553b5fdd97e",
+      "role": "cross-check",
+      "level": "run-manifest"
+    },
+    {
+      "path": "reports/C17_GEOMETRY_RESULTS_v1.json",
+      "sha256": "1588ac6599e1713c22602193513b11b64d22d3967dc9fb21ac1472de85e4687f",
+      "role": "comparator",
+      "level": "accepted-report-comparator-only"
+    },
+    {
+      "path": "reports/C5_GEOMETRY_FIXTURES_v1.npz",
+      "sha256": "4f2ebd190b347380b66bf986124447d9f86b690c43b361426bd03b23b88d51bc",
+      "role": "design-input",
+      "level": "frozen-source"
+    },
+    {
+      "path": "reports/C5_GEOMETRY_FIXTURES_v1.json",
+      "sha256": "3552aaa98bf13dfb74398db4747964e5663cb94ba1b58552f3feb15534efb787",
+      "role": "design-input",
+      "level": "frozen-source"
+    },
+    {
+      "path": "../Imports/geometry/route_c_mc_dispatch_20260608/activation_indicators_lib.py",
+      "sha256": "891117b61dd7c5b7b42eea436c05db14b2b55cc5726bf21cfaaca88715cfa238",
+      "role": "design-input",
+      "level": "frozen-source"
+    }
+  ]
+}

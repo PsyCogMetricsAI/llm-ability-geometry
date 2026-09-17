@@ -1,0 +1,56 @@
+{
+  "results/sources/study1_baseline.json": {
+    "sha256": "0e42cd73d669322b65adbdc8b9e3b1077c88aa1f458e775dd100d548e46cda84"
+  },
+  "results/sources/study1_accuracy_v2.json": {
+    "sha256": "a2f25bbd506893b95b01cac9e3fefe10d183a4783f0fef86c21aca74a2ef29ae"
+  },
+  "results/sources/science_accuracy.json": {
+    "sha256": "2c9bd66663c8615e5178dfc5b81864568f0afde1588d5470b089a6dd689c0594"
+  },
+  "results/sources/science_family_omission.json": {
+    "sha256": "fdd9d1a3e76257994de5dd49abb97847fe6bd3af7a9342624718f58ff33f7fed"
+  },
+  "results/sources/medical_associations.json": {
+    "sha256": "4cf90f25b4f7815b93da07e774aa3aa49e83a9f38e04e3ddd217acc0f967f403"
+  },
+  "results/sources/panel_calibration.json": {
+    "sha256": "e0fd5bd3d582581cbe1357779fa52bfd3f7b239b899f9a6b46af8a59a5757571"
+  },
+  "results/sources/split_item_reliability.json": {
+    "sha256": "9e141e39e47c64e600fea21feb2bab86a74fb0e5c55b9ce7d8a60195045876f0"
+  },
+  "results/sources/disjoint_item_protocol.json": {
+    "sha256": "97c71111c8f0b46007c42fee97d99f9c7fa09e21abd74b44c5969927f23a17b5"
+  },
+  "results/sources/window_sensitivity.json": {
+    "sha256": "f18f98662ef5e4237b8988f14086fadab2507928fc055a7659e935dd7ad5576a"
+  },
+  "results/sources/medical_original_fit.json": {
+    "sha256": "3220aa3a2849aef8f3ed3d347d6ab312907d6314a2459c4b719ef26c4a3c8123"
+  },
+  "results/sources/science/F1_MAP__native__science__eff_rank_pr.json": {
+    "sha256": "1e16ed011aabd88caa02308fb649c7b8cc578c4fd9a63afc1ac28366866c1757"
+  },
+  "results/sources/science/F1_MAP__native__science__isoscore.json": {
+    "sha256": "077f0ea7957996eaabc2db3e931b302f8a1bff5fb712e9737ca5a94e14da7880"
+  },
+  "results/sources/science/F1_MAP__native__science__rankme.json": {
+    "sha256": "e492f8a38f22ee72c9bde3f08993bb5ded58c3e93a594267f2d6fd6dc6b500c1"
+  },
+  "results/sources/science/F1_MAP__native__science__spectral_alpha.json": {
+    "sha256": "2273434efefedb0b2baa7b114834d4dfe9580615e2542f20675d111c0f20df93"
+  },
+  "results/sources/science/F1_MAP__native__science__stable_rank.json": {
+    "sha256": "be5d3775705be5e4d694dc1dcd3d6e28b1ef93ec7cc84ff7f82443edcf66ea4a"
+  },
+  "results/sources/science/F1_MAP__native__science__twoNN_id.json": {
+    "sha256": "65dce459c3783784f1cabaf008ef56c19f50b1deb0a1c9d386806f3d2cceca2b"
+  },
+  "results/sources/science/F1_MAP__native__science__vn_entropy.json": {
+    "sha256": "e56f55f9eafb375619cc0c5041ab2cc664f55a3c0bbfdc9beaed483edef1c92e"
+  },
+  "results/sources/science/F1_MAP__rarefied__science__eff_rank_pr.json": {
+    "sha256": "53c524fbfe8aa49541358f96d6eaec33916ce69c20a049aac099ea71e2d7929f"
+  }
+}

@@ -1,0 +1,3750 @@
+{
+  "schema": "C17-CACHE-BASELINE-REPLAY-v1/source-manifest",
+  "entry_count": 527,
+  "entries": [
+    {
+      "path": "P/Imports/geometry/theta_hat_panel51.json",
+      "role": "upstream_panel_theta",
+      "level": "primary_cache_input",
+      "sha256": "27471f86a2731bcda517028e9834ab8729282a711cd0cb15f31b2b5da9caec4a",
+      "bytes": 4562
+    },
+    {
+      "path": "R/code/new_empirical_repair.py",
+      "role": "source_code_reference",
+      "level": "reference_code_only",
+      "sha256": "194a1e51435cf464b443df570a6badba945724f18ad41e05f247aec4c8aad56b",
+      "bytes": 7838
+    },
+    {
+      "path": "R/code/new_medical_repair.py",
+      "role": "source_code_reference",
+      "level": "reference_code_only",
+      "sha256": "7d50c0a685ba878223b6b1be8e2d5eef034b419c9db6b0e91540019b1b25bdba",
+      "bytes": 6185
+    },
+    {
+      "path": "R/code/new_medical_repair_refined.py",
+      "role": "source_code_reference",
+      "level": "reference_code_only",
+      "sha256": "f6ab747a4fa8c02a3af5165c618ae888fea440042c47672128abf7badf3fb8b7",
+      "bytes": 6417
+    },
+    {
+      "path": "R/code/study1_reuse_analyze.py",
+      "role": "source_code_reference",
+      "level": "reference_code_only",
+      "sha256": "8ac43d46c2738bd993850a07cc3ad1c33a4ede41a02d273c40e05ca7947eb614",
+      "bytes": 13898
+    },
+    {
+      "path": "R/code/study1_reuse_bind.py",
+      "role": "source_code_reference",
+      "level": "reference_code_only",
+      "sha256": "af45df6bf58ce0e5971bde40a7018a9043a2fd8e84b014ad28f0aa48b86e47b1",
+      "bytes": 9588
+    },
+    {
+      "path": "R/code/study1_reuse_bos.py",
+      "role": "source_code_reference",
+      "level": "reference_code_only",
+      "sha256": "f12b9ba73316e61361a6db48c8444aeef8c038056b9725554e737a39232c5d04",
+      "bytes": 9660
+    },
+    {
+      "path": "R/code/study1_reuse_retention.py",
+      "role": "source_code_reference",
+      "level": "reference_code_only",
+      "sha256": "251a5aa27977873d193de7bbd4f453e7d9a52b1570e178f3605074e384c8b48e",
+      "bytes": 19135
+    },
+    {
+      "path": "R/code/study2_reuse_lofo.py",
+      "role": "source_code_reference",
+      "level": "reference_code_only",
+      "sha256": "55fab1f59324d6cfa1151e03c33adfee3a05478fdcc2720b270f1e89b6d2958b",
+      "bytes": 7862
+    },
+    {
+      "path": "R/code/theory_execution_v1.py",
+      "role": "theory_binding",
+      "level": "frozen_rule_config",
+      "sha256": "e6bb995b6bcca1edd6525a6353ecaf8ad0defd4169ff58e41db81e26277d7288",
+      "bytes": 2957
+    },
+    {
+      "path": "R/config/CT_MEDICAL_REFINEMENT.json",
+      "role": "medical_fit_contract",
+      "level": "frozen_rule_config",
+      "sha256": "1a29cc2f34261edb1d5f5944d31219438af7bc2713663d6f2c140d35783a7cfe",
+      "bytes": 5601
+    },
+    {
+      "path": "R/config/CT_MEDICAL_REPAIR.json",
+      "role": "medical_fit_contract",
+      "level": "frozen_rule_config",
+      "sha256": "c217b2769a084a01f0ee2486b8096ea5ea191a9c92b8af5dd4e3254662281c9c",
+      "bytes": 4738
+    },
+    {
+      "path": "R/config/CT_THEORY_WINDOW_HISTORY.json",
+      "role": "theory_binding",
+      "level": "frozen_rule_config",
+      "sha256": "6e6e72a9f533dd557509f8155a818081a14313ac80a5e10c705bce45c9abeb22",
+      "bytes": 9077
+    },
+    {
+      "path": "R/config/REUSE_BINDINGS_STUDY1.json",
+      "role": "frozen_rule_binding",
+      "level": "frozen_rule_config",
+      "sha256": "106550f9c91432efd473a34b141068bf91dad2fe6fa27cf8a036cf8338738082",
+      "bytes": 16940
+    },
+    {
+      "path": "R/recovered/Imports/geometry/caches/_metrics_cache_panel_geom_panel53_code.pkl",
+      "role": "saved_metric_cache",
+      "level": "secondary_linkage_input",
+      "sha256": "3f1619b73d8979650b89ab79c4a0de9c96685e228666b59e96aa4f45bae543f2",
+      "bytes": 205006
+    },
+    {
+      "path": "R/recovered/Imports/geometry/caches/_metrics_cache_panel_geom_panel53_math.pkl",
+      "role": "saved_metric_cache",
+      "level": "secondary_linkage_input",
+      "sha256": "4c7addced65b8db634f889ca74fba6bdc446bb0c600d8b5b33a8381fbd485de9",
+      "bytes": 205055
+    },
+    {
+      "path": "R/reports/C17_FINAL_EVIDENCE_LEDGER_v1.json",
+      "role": "ledger_context",
+      "level": "comparator_only",
+      "sha256": "8726d8802628a4ecd106f45e5e4105643f2d00679d16a8d5a8056da4a69f417e",
+      "bytes": 1615700
+    },
+    {
+      "path": "R/reports/THEORY_PROOF_PACKAGE.md",
+      "role": "theory_binding",
+      "level": "frozen_rule_config",
+      "sha256": "912cb66252e47eab1ce5d56a4a459b41907d23f58a283ee688728b87003c84ee",
+      "bytes": 5970
+    },
+    {
+      "path": "R/reports/study1_reuse_additional_contract.json",
+      "role": "frozen_rule_binding",
+      "level": "frozen_rule_config",
+      "sha256": "8663c60bae57cf60b3d5b1f6beb8e83326eb0d26d7518d07a7b363feb6703ed8",
+      "bytes": 91022
+    },
+    {
+      "path": "R/reports/study1_reuse_retention_contract.json",
+      "role": "frozen_rule_binding",
+      "level": "frozen_rule_config",
+      "sha256": "51190692d7cab20920ee8d07fdb989fe8d380e256b9bd797a8ccf82ad2a3848f",
+      "bytes": 750096
+    },
+    {
+      "path": "R/runs/empirical_repair_feasibility/early16_inputs.npz",
+      "role": "early16_inputs",
+      "level": "primary_cache_input",
+      "sha256": "fb74c9a7efeaf592844cc1df328bb77da0a3e57e0c90ca834f3da914815e5012",
+      "bytes": 4272
+    },
+    {
+      "path": "R/runs/extension_reuse_v1/trackb_analysis_v1/fits/medical_B/fit.json",
+      "role": "medical_source_metadata",
+      "level": "primary_cache_input",
+      "sha256": "90c3d051f28c0de029a69ee5a5b717ba24124e9eb94616bfba6b802fab22d2fd",
+      "bytes": 4792
+    },
+    {
+      "path": "R/runs/extension_reuse_v1/trackb_analysis_v1/inputs/medical/response_matrix.npz",
+      "role": "medical_source_matrix",
+      "level": "primary_cache_input",
+      "sha256": "065dfc605c518cbf8db219f7c6ac0d8fb5f380f5eddce76127cbf79afe64bbed",
+      "bytes": 551969
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/inputs.npz",
+      "role": "empirical_inputs",
+      "level": "primary_cache_input",
+      "sha256": "6b610bc3463d3ba2e75376373ce67cf119d1262b06c0d679162404c8796ec6d0",
+      "bytes": 4476
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_diagnostics.json",
+      "role": "empirical_null_diagnostics",
+      "level": "primary_cache_input",
+      "sha256": "1349f656ccad45ef7d18807e6bed32c18416f910ae5a715c87304157772ce942",
+      "bytes": 97794
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_draws.npz",
+      "role": "empirical_null_draws",
+      "level": "primary_cache_input",
+      "sha256": "c16e9a6531e08565bebaf6ef96f5e4d082d9a6aa06035e6f016d64582f62dbab",
+      "bytes": 228241
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_000.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ae1c60c7773dc6eed231f412f9f7793d8ddd49d3935246b4dd0f80cc91233fb2",
+      "bytes": 26627
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_001.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "fc437aa5ad5a1e93cfc136cc494c5686fb3c98448d8fe83857c36e6b7de7a4a9",
+      "bytes": 26148
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_002.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "df0f599f549dc312b17d182b209ed1d4de4b93dac9ea14529d738ec7759e966b",
+      "bytes": 26041
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_003.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "d394f4000db14e4641ca81ff6bd2cdd71ab57f7421ccb29817cda959a2528ad3",
+      "bytes": 27572
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_004.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "37e0664d6f939a0c98dca2ae13253aa29b1f1699832782d42e3e3a0e23390c6b",
+      "bytes": 27059
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_005.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6e0e75b929f7e1d6a8f67376a3b9f4370fd6b7109c2587af30e18d48e3e2d33a",
+      "bytes": 27830
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_006.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ef61178b0f7b97cee9df8f0bfefe6e98aec2fb57679727d6aefc9f62f253cd41",
+      "bytes": 25385
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_007.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e9921df790e3d58abbc9f2cd822c588b40ee7f55d63d209c9996d09d8f28db56",
+      "bytes": 24340
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_008.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "b7dbe406eceeb2f4ca98abdfae8e1b06b49870ad52a481e6b89f49316586c417",
+      "bytes": 24811
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_009.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ac3e3e2f1512203f777c60eb88502f6c4fde4cfcab33113221611ab09d4b0d83",
+      "bytes": 26920
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_010.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6436bf984dcf591b5cd3feca84342b00e81da4cf6d7b15f1305da05e8553551d",
+      "bytes": 27992
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_011.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "02c2829e460bf5fd25968badfe912f3591e180d705b1807d4a8f0441a5179873",
+      "bytes": 27321
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_012.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "82fc093ec2184a4f6bc26e3f2d9496d32475f826073b88ad3ba17a29993b0d38",
+      "bytes": 25674
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_013.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "bac9e1a6a2c311ef4e6beeab6dca428c15f3fdccbfa00e4197f68961d6d5b46a",
+      "bytes": 25675
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_014.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "8eba53958856c6b9e47cce9c40818314d4540c171d40d014ed941a9c163ec7c3",
+      "bytes": 235
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_015.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "0df352436dc717d72b9e26f5b1234e827e111fa8b902cfc30fcc7ca6b8207d5d",
+      "bytes": 27010
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_016.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "9735f4e72b58eed87858ee1c0d0b515b6ce1dcdd7579196fc555b8f48a1f3a32",
+      "bytes": 27108
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_017.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "272162f8e4e80509a2de8176af62b8e08af6c0e22ddd87fcd3c39edcc215aa76",
+      "bytes": 27299
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_018.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "cae76f52a9b7a2e7405e85e2adebe5811a79bac5d243641c29dd7e0b696c7709",
+      "bytes": 25752
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_019.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "efc52534286c7803b037446ebc7521b7c01b150c387b532b36a8964d44ec6a60",
+      "bytes": 28959
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_020.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "cf3b7a6081fe4c4ee820f90a191bf900d3cf3eddc39387f61c1bbe88c813f541",
+      "bytes": 27405
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_021.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "3f484c5c8e9a13b45444727cd4bce4dad57e292b0665980aacfe101baf2adff2",
+      "bytes": 26893
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_022.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "71c43eea1926e56b170efcc764ad8a8ee4fe694912cd0b2d75b8d5f3c03e4a64",
+      "bytes": 27728
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_023.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "c5f29af004dc16aa77988fb5add8fac8da41e8de68d9d3f2a9d5a42bb355371f",
+      "bytes": 25965
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_024.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "0cf87de87cae3ff917dc5834049e96fdc26f48d872cb44fbd10154c856701d5e",
+      "bytes": 27562
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_025.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "fcc7bfc99f236024ef029e6098482edb6792aeb3ef0b4c207fd1722b658f1663",
+      "bytes": 25460
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_026.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6aa4569205671e199c4d02dc9c6026bef888cb6479e2d204ae07763af4e47c04",
+      "bytes": 26300
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_027.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "0d5fe4a8ea41530c3c0b0c770ccae72f4ea061da356349bce56385c85863b3bc",
+      "bytes": 28196
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_028.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "dfd2be732e19556410d43af9e403bcccc9bba37db63ad080bc6d0c32bbf2f138",
+      "bytes": 27235
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_029.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "8986305d2a4ec95bd90f159b7d4ba19a449cdc740df836119d3d54ab38394ac2",
+      "bytes": 27109
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_030.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "978ba6568d0dd2e8e6613ca2c9698e8abd49296a99f19f00c69a55f8d7764da7",
+      "bytes": 27490
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_031.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "190ed37d0624c31825f71f67b14a85872eff5933bce114126cac481ff3260bd6",
+      "bytes": 26417
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_032.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "3ce88df6c995c75c893fddc514000f5357f05ea8a97036508d4be61811f75554",
+      "bytes": 25637
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_033.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "368d3a6c75fcea1e45d88e2ab65cf71806933ead39ba57d3d459e6df1db428c9",
+      "bytes": 25981
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_034.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "59096b2e7e27da53c38c429c0632b307c61191b7fe42111773d04446dc66b2de",
+      "bytes": 24935
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_035.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "22d929bdd97344cf0cc205b046ccfbc037b83f1873f06f97ded93a29606dcb5a",
+      "bytes": 26727
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_036.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ba22f07fc0d252b7807dae66ec582b45ea2c9e00c1f4ed6366c0dc0ecb66d6b8",
+      "bytes": 27678
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_037.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "d421820078f95440e134f502f6010b44ac824518bcb6bdb6bc9655cd7fb12954",
+      "bytes": 25482
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_038.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "01672e3d1eb588c581c7f344f00ee3e285a85f019a15c770630299cc6c403850",
+      "bytes": 28856
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_039.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "a6ab3032e25863837857d060cb13533d3da107bddc207bb80a8b93c278c18611",
+      "bytes": 26593
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_040.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "36e5cec85bad9dee507b3f2fc24a7b20013a41b42ca7eb600ec89e9ac289d577",
+      "bytes": 28839
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_041.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e59f38b6aa70fe3c7d826e15186966e899f84940b1f3a52a4daedb3bf278e939",
+      "bytes": 24327
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_042.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "34ef92fa45d7f09c1fcffdd4c1caae0b50e58a3af30d5697d94699a4cf0a4ead",
+      "bytes": 26682
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_043.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6233429bc74e6b50767572d1e3d0f46b4b6403cfc4274d6701795b353b4728ce",
+      "bytes": 25934
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_044.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ab53fe5385c210fa566480464461dd07f91d8edf3ac789e83af0c78203923044",
+      "bytes": 27525
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_045.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "f7471386384c53b3dc8fc3e2a710850b80a5f1bb810070a1f750b2d7faa9761e",
+      "bytes": 25213
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_046.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "1f6eb9b2627a90258f87eb005269b882a4c8e6b7211b2b92f3d805d396572a10",
+      "bytes": 25665
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_047.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "c9eba3b716f8003e8ca431c5a83b19340cbe003a17eabf6ac5afedab61784db0",
+      "bytes": 27465
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_048.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "b624289b4f7e26002e52656ce271c3cf801b89e1a6ec156a68bb4a7ac4b92b2d",
+      "bytes": 25386
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_049.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "56e6d388710ae449168776d60af4b377de573276c67a876db33d3b154ca42611",
+      "bytes": 26582
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_050.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "b3774d2a12832707a9f556e4c66586bc1379d878375b008213ed445d8c6a92b2",
+      "bytes": 24942
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_051.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "59b561e52669268a47f9603b812fb8345a4debde08e5d94018aa3cb5af8ad032",
+      "bytes": 231
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_052.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "22b5ab9f4b804e6571791029797d24ca266e7c89f42d1eba41131c10d9800a89",
+      "bytes": 26526
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_053.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6f2cfc5111fd00360840c84a9a1ff83cf96dacc67cdef903ac9f05138b4b3ea9",
+      "bytes": 25763
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_054.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "b786bc9c706b5568e95452f1636217f18c768fe7f59a9d42ea89180054399774",
+      "bytes": 25135
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_055.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "439458d0222ef4a036cb18b1dd54cea8461e9906b44ebaa230dc7a8b64a6c9bb",
+      "bytes": 24466
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_056.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "7e8a1f601dd8c87de970f737335b688c9190ca4a5af4ce5e6a6a4d899f7164d8",
+      "bytes": 24891
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_057.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e1de0cf2625eccc96b578e27f602aeb90d8f3f6a8d0b65c410979f5849b42b96",
+      "bytes": 26761
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_058.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ebfc428fb342a4de81d479063b8ecc8ea640289ea9d8579650ca78385e49f80a",
+      "bytes": 26616
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_059.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "056dc7d37a086cd92591994cd73901fa80fa814552419d35a76ba78eb98a65fb",
+      "bytes": 26248
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_060.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "fbfab928c4092112ac4f796e3ad18affc8adb2aae10b57b1cb03a3a71e8508cf",
+      "bytes": 25988
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_061.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "96af220bd1117b3ac35221713a8511526d8190a30e684121440b090799ce4c8b",
+      "bytes": 24101
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_062.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "d8dca433540ec4d13d79c97170976d12c8cbcb24b225a37eb83bf2b280782f71",
+      "bytes": 23968
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_063.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "fdb76a4e9ce1ce71edd3fe638212af3f53fc1fd99d3d25256a1c1431c29854e0",
+      "bytes": 29278
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_064.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "839c90b60012912fb49fb0e4a44ffda1026a209031e75a607cd65607a3a098ee",
+      "bytes": 233
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_065.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "f2635caf1b1db7fb0dab8cf0eca3bc72f3b42f315c4442010b88cc9dba1fce7d",
+      "bytes": 26027
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_066.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6fbf5e02f079c6bfa206b3984e4d34a822a764c0c1af490c76f510cacef71012",
+      "bytes": 25564
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_067.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "8c7b3ad5381b62d33b6df0ba25065c8470fee3e3a6e5c68a0289f9c0cf67ea89",
+      "bytes": 24974
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_068.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "57d49bf8f7e5844d81c57fe11d7647790bfca43f1e3352ae6b48502a76e7217e",
+      "bytes": 25421
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_069.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "dbdf753230da1addbc15cda6648047d736855e29c3951846d4e63567167ecea1",
+      "bytes": 26024
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_070.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "76cb040bfa574f342ecffd667bc15fcc016e2236377cc030d316c0e219bd24fe",
+      "bytes": 27599
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_071.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "9df579802de6ab2d6bf8c03d5a7990729d31dff3574ffa3e2699859b80746753",
+      "bytes": 27186
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_072.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e42809ca9825d0aced935bf5ebdb44949007d0e84874241f4f7e071ed1158fd8",
+      "bytes": 233
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_073.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "24b2157b4d248dead0af166c65e7a355b085906425fbac5603f5dfb30af824e0",
+      "bytes": 25587
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_074.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "adc33bd39b8459dcae98f0bb08b26fa7eb42040ea77e07ee8406a9e7701e8937",
+      "bytes": 25870
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_075.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "63809363e41844e0d7e404a556e9f438785df55c05fe5d89371545bb7e25f5c8",
+      "bytes": 25926
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_076.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "89c42875fa5c0d3ce02685a399135445d9ef6c6edb456d3201e6852da347d1eb",
+      "bytes": 26813
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_077.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "65015e835773bb29db841bb40e05e4116ea3e97ef5ea974bb7478c6850aef13b",
+      "bytes": 26792
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_078.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "822a9237de5c8368a8c26e6a515f2c4495f5932e908b76e93a9e5bca0ad67a0f",
+      "bytes": 23067
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_079.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "c10da7e507efc5795e44287285c22ce7ca18d7a3362b234c4f153b2bfd7fb423",
+      "bytes": 27235
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_080.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "baa3855c92d3028078cac649115bccac69ebbbe90fd0084085f7015758d7fe21",
+      "bytes": 25435
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_081.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6b68f7471319850bedd2da711a04ac19df7752808713d6eee3ec0bbe331621ec",
+      "bytes": 24995
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_082.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "b1a5e9db969f730b5c8e3a09dcab3ca7d826d3502c621b372d9fd3fdb6da0178",
+      "bytes": 25564
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_083.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "a8b1a1bf572b65dd641cd2dea031041a6f19af5501aa148b0de4caef06aa286a",
+      "bytes": 23921
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_084.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "5b9189c94ef0b73ed6ae570ff43559dcad020146bc75db11d782c1ea468c5dcf",
+      "bytes": 25854
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_085.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ac55b009c63c548e2528252ce27d5ac2ce62c0d7a2cd42ede04e0bcec701a31a",
+      "bytes": 26083
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_086.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "5b89bf38d4a5ffd129a9c6449cbc72e272326b424e8de11bedb8e834f8f2bf48",
+      "bytes": 23881
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_087.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "d739f7de7ab9db6d4ca46cfda88e4527193ec862ef5620a2b4c4cbb0568c4c3b",
+      "bytes": 26504
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_088.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "8e0edc5c697d2fe161b91742e3405d4d8cce7636b8798c50811ab8c3faf74db0",
+      "bytes": 26895
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_089.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "62d5a76d22edf1a66d4dd357489e28a2e6aa8af87786e25893a1d8cc12306612",
+      "bytes": 25610
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_090.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "260396b250c8b531d35b8274108eccadae7392651c86b5c4cb9e958376b8d66d",
+      "bytes": 26628
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_091.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "9ec269d4e31fcfd509d5429b2319bc5bb65ab8dbeae86afef2b977410001222a",
+      "bytes": 22286
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_092.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "89c477ac3250bd2417e7c5075d3fc284e5b84d4e3e026c28480899368ea5d4ce",
+      "bytes": 27385
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_093.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "0819e151e78673e4507d86c422a4ea33ad18f1e2f862cbc40f5fd22f9fbcac8e",
+      "bytes": 26007
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_094.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "545607ed0391a1be4df9726411e063b4bd0772397cef75b57371fc192d1bb23e",
+      "bytes": 228
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_095.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "065c2c4afa978cbc8f1ec14513259fcd11949c002ac7eb28861ee51219f89839",
+      "bytes": 25681
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_096.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6a96443afd5e164f5e91c67d0402c9e50079f4246c8c94a2638f86d22ead864b",
+      "bytes": 26225
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_097.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "4d577d8721c62be16c3f074c57fae1889c09066a9107d5f563290ba270c4bee9",
+      "bytes": 233
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_098.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "4b878cc088b69f7012db799c803a7a7a59f63223bf5dca16343092e3f79b88cc",
+      "bytes": 25828
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_099.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "711a063da6e54f85504c3a3fbcedf18ec808b49abad5cc78c29d8ccc0a106efd",
+      "bytes": 24312
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_100.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "d14b8ad3e8f69f419b616bc7f16c163b93cae835e50f38faa59d2507aaaa9f8c",
+      "bytes": 27474
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_101.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "996a769f9c954e62a15c8e6b109c3ee946e557501b85f8ab38bd9493f062ed1c",
+      "bytes": 26434
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_102.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e67d11d96f28a08ef4d1ae6063b282f2698260bf789794fceb8e932240163d98",
+      "bytes": 24379
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_103.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "07a6fc080483ab72179b711ce6b64bae681a0d1177b33600e9a41433aae416c1",
+      "bytes": 26457
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_104.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ca5658bbed852dea68be80afae84f298ff0d57b6b6f8b7177459446cb04f96f6",
+      "bytes": 25574
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_105.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6df8fd91b30eb36f8c116a95e09cb64dddf5bb0f5fcbcd614bf4caaa0ad8ed07",
+      "bytes": 27549
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_106.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "7bb683eda4bbdc21e23075d691720d775bb7a72b64678ace1b69dcde81d45b1f",
+      "bytes": 25197
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_107.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "389f067c3721e3f1c414e2b8760d6836a74a66185c0f6ae72fe6e3da96f528ed",
+      "bytes": 25116
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_108.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "770666e1ad2c14eae9937f075eb796c3f8ec77cc09599b3e48f2014e7b55c04b",
+      "bytes": 25986
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_109.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "dbb15605fcdaa19cac2f82f76d680b336b4ce5e578a797ad8750edd328d49e33",
+      "bytes": 25624
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_110.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ac7398a7a8f49c10f4e27bd4ff940bc1c196f232ad4b4d5186e65cbe0f0ccf79",
+      "bytes": 24759
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_111.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "8fdebbc8d831feb710025e3cc06986b11eb04706e15dfce75144b28ed3f495b5",
+      "bytes": 26072
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_112.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "68f26bbd2c01da997dfa7d3ed1dd9ddc37c86a672eafcf6196b522f3bb8714ae",
+      "bytes": 26346
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_113.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "f5ecc7418121bb33390ccfb8846deddd04521c93cedd81844cd7e488cd5590fc",
+      "bytes": 26214
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_114.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "62388363cc2d7eab8d2ea981427c4ae102cc818c93d395f3177f858478e292a0",
+      "bytes": 25864
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_115.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "9bcaa2f9ba651cf28e4e6d44eb149ff93a169cec06362c16e31cf7313347b79c",
+      "bytes": 24259
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_116.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "7073edb26fd6f00d6915dafab548da995d620eef5174b7bd1b51fc88ad011768",
+      "bytes": 27584
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_117.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e40da1a15330fbd761894a02d1c4f952ed71298221648350645b55b0288ff783",
+      "bytes": 26634
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_118.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "54080ef3a0b250e03a41623b408111f1fb11229e64b0a51d48197b5791e07dbd",
+      "bytes": 25168
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_119.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ab47d1e87b073a14354500492996051dc19744784754b344512a30e1e12e4987",
+      "bytes": 26636
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_120.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "b61bf09ac5df7c0afed001ca5e1a5e8b6c813603153ac930473192778df2dfcd",
+      "bytes": 26856
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_121.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "597cc57ae2a3be643f443b73d04341479467a1f8eae24ee852019a1113ec7a58",
+      "bytes": 26365
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_122.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "2aef5dfd67783ebe8e9908f77d5b01d49c2d87469581c99e744c32c4d2a51d63",
+      "bytes": 26941
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_123.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "be46e6f53eac9224fd7c6f3244b62cf68e1544bffe6771b1efcb7e9d0d95ed4b",
+      "bytes": 25577
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_124.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "0f21d523b095ff251ddfdb0692f6f5663fb573501cc60ac3fbad71c844c696d2",
+      "bytes": 26723
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_125.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "88d01734b3adf4529d0f0f48a2694490b4fa55fcf4686f9a9236a82f96b177df",
+      "bytes": 25031
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_126.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "715c95bb0883242f23d832f0fc9373a2c4fb5cd9598cb6894c7027da1090f827",
+      "bytes": 25945
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_127.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "c942aeef83d797828770f73114ec932d09a3c1edfb1395a54209695d44273592",
+      "bytes": 24989
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_128.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "3944f4b8f6d04ebe717db1643c7fe265aff9ba6400bb2bc916a114bee99c2eae",
+      "bytes": 26864
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_129.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "fc868b0bec12d649fbcac2b333794b8f8c672174f6364070d1d75009b1f73e9b",
+      "bytes": 27045
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_130.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "4e6cd18c0c570e6abf1a691b63ca2336559bd456c32eed4ea1231ed86a97fa65",
+      "bytes": 28112
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_131.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ba20d3ad64c4644bc33cfa22491560c0db6c9dbed7aeed257cac8aba2d15368c",
+      "bytes": 26829
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_132.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "5d97d32c7a7948b836a12e46a16b59a728ec5d56f6800080279d23b0cde6fbfe",
+      "bytes": 25452
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_133.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e88df1f5f058dd13f28090634e4e42eeb879cad9aba8e29e8a9cdc4ff2077c7d",
+      "bytes": 27708
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_134.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "191d723cc1a2d93b20c2429c02c8b259c784696979b13b0752dbf10089472ccd",
+      "bytes": 26059
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_135.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ce1389fa29d858757ff6a79045bc6368ddf8c413eb5d3213e5d05bc362d452ef",
+      "bytes": 24278
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_136.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "813ffbd1f189c784fa691e2c087549127c0a17af174cab42467a1d751c4df727",
+      "bytes": 26952
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_137.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "a42e327aa87b28b096141607e8519f8331dec0bd8c3880d6259d2e124f472c99",
+      "bytes": 25409
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_138.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "06bf9fc2b6a52ffa6d680c1cdb072e9ea5332fca7681013c28a4725b8a15ea1f",
+      "bytes": 25617
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_139.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "d42b650360d5fbe928eacc0fae3868da435640e0b5d0cceee6e91999b0393d8e",
+      "bytes": 26123
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_140.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "2b082fb665b42d843f6953839981ed3b296dba5ca34683aa80794caf88c7108d",
+      "bytes": 27007
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_141.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "bb13ab45cb4e9be1e7f86919c51e0ecb8c5453de5f89592b390d06e4e110b790",
+      "bytes": 27557
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_142.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e89b206e8b7e86388cc5b3442feaf51754008c77b48d2c6cd7bc513563ea358d",
+      "bytes": 27770
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_143.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "5b36ebe77226eb10c6376be4e40ad358204eb3eb601012587d9be665cd2e5b9e",
+      "bytes": 25846
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_144.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "954fcda4f12c138a80bca85122a1d3cd87c578888b1f52d9138fc83db8975711",
+      "bytes": 26746
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_145.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "4ec869529a57b186dfa6af3ba691151e2d71490d58e0ae4e298f20ca1662995d",
+      "bytes": 25781
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_146.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "07b53609a880433eff138447f0768d6061eeb4fbe764689ed3a0ced5006977d2",
+      "bytes": 26366
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_147.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "bc7d174093c79b88d17d75daf5b2ed26b8b48ceba3f001c8b5ce1e515fa5be60",
+      "bytes": 27436
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_148.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6bea28d4184cb448a3615b3c37a1822a57271ad860e7f61c01518ef6d0790bbb",
+      "bytes": 27212
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_149.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "bcd023971593af41137f9533f59236bd79950ada45b6353bbfd52ab351265ce4",
+      "bytes": 26749
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_150.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "56483e628d29af170e073e93f911ba32fc05f27d51008f044424fb1b75182f26",
+      "bytes": 26471
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_151.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "bb07c37380dd9973514441e78cd7921ceb3536f0958cca1b3c85b1fe5aa44fc5",
+      "bytes": 27111
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_152.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "93780f519d7065625ad4d10b3fade6e04a7009fc7f302129aa816686a31ae64f",
+      "bytes": 26314
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_153.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "142e410f312b9fd6c2e64fc77ce26c5d4fce95236c6469ea57013d13d0cde99c",
+      "bytes": 24116
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_154.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "7fdd1f782ca6f26f17a0c374e8da6d05601a53834f542e736a9ebb889859692a",
+      "bytes": 26954
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_155.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "7cac22f517d2afd399777659f7e3703ede7d61d096b14908d41ebf6237ba16d8",
+      "bytes": 26733
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_156.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "51939294b7a0bb6f7ec18887fbaf71f39e72d960697a88b078e70fc8ca3d1095",
+      "bytes": 25932
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_157.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6a1c4c200f363996ca0b92d5cb228485ecf9b0746ed0bedc1d9c273c46b6ace3",
+      "bytes": 26561
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_158.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "06622b845100ab5629b2d2e5803130384e0a04e0e4afece15e6b20298a6d8c09",
+      "bytes": 25498
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_159.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "9da75f5e36ebc0fc7ca84a0414a0b4c0d15c1e3e3d2a16b93ab24fc22977cbaa",
+      "bytes": 26603
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_160.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "9157cfe6d996eba86fc02ede1bcff5786711c5c3c3b1f4bb6f42f1d2b68a79f2",
+      "bytes": 26592
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_161.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "a26673b648a0dfff23aad8b5574e730480803cdd59eb955a402e87011f3064b0",
+      "bytes": 27200
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_162.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "5e2f1bebf200aba77b13b7f358d9914c657dfebd04f0310abab47fb7f4f939f7",
+      "bytes": 26168
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_163.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "23a61bc5bfafe4a1e7f8a4ab7f475511672a92d0760fb5b9827ba5bf59584cae",
+      "bytes": 25408
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_164.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "af1620f5a9353818441681feccaaeb4189fc9c544b6448f5b31d9f688f83b016",
+      "bytes": 26739
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_165.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "4b9c09dda7f298e912dc7b660a67c2d98582a7dcb195374c722ff0fc4b4be1c7",
+      "bytes": 26183
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_166.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "a88a85c07bd55102b619bfb58794d27d3dd0ecb87f947efb446532fee89fbc28",
+      "bytes": 24977
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_167.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "3db0b8469ea43480f5ad3e9fbe338348ebde32bde435ba1a25cbf94029dc2a71",
+      "bytes": 26060
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_168.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ddff8abc8682af28ac71f2010ada4f9d678fa7cb668070a188b3b9c65f942f40",
+      "bytes": 25354
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_169.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "958d60919a3107da9e16508b17ab39350532b0bc1e713ec51abaf98af585697a",
+      "bytes": 26978
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_170.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "540f4952f72bffbe13b50bfd30279a4b3d84eb00d6a508fe929ca84c3633d0c9",
+      "bytes": 25105
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_171.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "3e7828a79b49df09fc334a6c092c2113fc9b51d2edbf9a4f0d5c4f4226893661",
+      "bytes": 27288
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_172.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "8cd5ffe855c6b531d4c1ac86c8d613f087922ae030d8963db293ca8cac6acd22",
+      "bytes": 25364
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_173.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "8916946ae0236c4890f6011218e7d561d98004e847aa433a40bd46d62c69e086",
+      "bytes": 23979
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_174.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "7d0ed0d1434e4197f4c6dcc3a0590470579bbc00ca755f0c4de5f858054ef61e",
+      "bytes": 26818
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_175.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "0439fc212f97bead94f69c2c14a71ec1b0c95f20a8f533f33bf77a256e50e49f",
+      "bytes": 24766
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_176.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "a183c27df0fd8e32aed406707151d99683d1d738c8833b7e730f5fccc5a49254",
+      "bytes": 26641
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_177.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "055df31a0d7437c7bc956233fecf8b63b5e5066dfbc4bbf17567c9b15b5ee643",
+      "bytes": 26503
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_178.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "7e47aba9a89d8c7f9bccd5f10cbcc9dd3c0203ed7371e39f67ded753b800f2ae",
+      "bytes": 28040
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_179.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "cfd5d4144cc42af00722070aed233e123678b21b51d8f153d83c591bc317a3e0",
+      "bytes": 25695
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_180.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "bfd437bb2e92ac17bd1f0d4aec71d310e7a87a3aadee718719cf8ecc4fb31377",
+      "bytes": 24791
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_181.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "026d536d0cc0afbcabb38bd73c53486ef2caf3b575b969783ec49009dc63dc5a",
+      "bytes": 27628
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_182.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "69eaf7fcc77f8fce623074555be434d42f8425d2b604501dc287363a2ae3cca0",
+      "bytes": 25254
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_183.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "7dda5b40c6716c7145ab10796cda2db673739e4cf656ca75b2f7118a94d3ca61",
+      "bytes": 25518
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_184.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "883de2a15ed863df5f09b28af1cf36c5eb1e2a07581ccdeb405ed046d62d2ef4",
+      "bytes": 27624
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_185.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "d49124be64e7ac14d9d6e223b950deefa66396c47d26321b6997e7b0d85ebe7b",
+      "bytes": 26419
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_186.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "072c481306e497fdf49eb497fff6c6e807b9904c534081fa690a667e9e7dda15",
+      "bytes": 26116
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_187.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "2309fe45f8e98d2b00395dcc3b97d8a791719cb708adbf63201fbdb516c81b37",
+      "bytes": 25208
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_188.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "dc6980954249103ff8b966da96a4f107d62d0d3eb6435086533b9af20b287fba",
+      "bytes": 26200
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_189.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "5e56fcd9167df9d53eaf1103ab3ff141c2c791c7a664c04c158240f1cd3d4dbc",
+      "bytes": 26456
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_190.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "a9e206b7eab148ee445eb098b3ca609aec982d085acf0643e3d7d12b098e3729",
+      "bytes": 26152
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_191.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "cac55a71435cf942ad5a16ec65be7d046e3dc7a2625f2f41aad988b0fbd0f7d3",
+      "bytes": 24392
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_192.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "364fa99fd1ec2888306f343725dc88423357247b7c689b4c1cc5df22b9059265",
+      "bytes": 27774
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_193.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "738d03958e5066564b7b6ce33b64d42eadb7e28ba6a1b2c0b3c34bd80b5e20f4",
+      "bytes": 27250
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_194.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ce132e6fe7018197df11f8d617a2b2d36e68081b765c8d53ee710af3f9c9a6e4",
+      "bytes": 26660
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_195.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "b43087964ecce80c358040486cdc18f517c7dba9f5e70f0add084a375ebe6089",
+      "bytes": 27640
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_196.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "f7879d2906ab49e54a3a0a8ba64d18f2b26afc9b2a3373b5fe1a982525fe597d",
+      "bytes": 23737
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_197.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "9f6719e2f4c44ebde779290c7b62c72c3a65201066e8d1ff7d0dfec9f2513f47",
+      "bytes": 27539
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_198.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "763dd7ccfc47271b6c14dbeb920d2bab9d15578a2bbe1442b8227874a04480f6",
+      "bytes": 25685
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/null_fit_199.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "cc3c34dd0ebfa6e1de395432ec059140faf047ea7224886096986c93f1d37f13",
+      "bytes": 26995
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/observed.npz",
+      "role": "empirical_observed_fit",
+      "level": "primary_cache_input",
+      "sha256": "e20e32d72c693c437a106c5f927d9c77e4543c2118b6a183bebce9d1e56c3d5f",
+      "bytes": 26251
+    },
+    {
+      "path": "R/runs/new_empirical_repair/code/observed_diagnostics.json",
+      "role": "empirical_diagnostics",
+      "level": "primary_cache_input",
+      "sha256": "4b460aa1aaeaa2b8b8ca7cf023e1c44fbdcd1e208d14ebf4fe0af0ad4da5c1f5",
+      "bytes": 396
+    },
+    {
+      "path": "R/runs/new_empirical_repair/early16_training_sensitivity.npz",
+      "role": "early16_sensitivity_draws",
+      "level": "primary_cache_input",
+      "sha256": "a057425bd6167e80d384fe66de39e3cc6cce6fc4d55adb8f5b5f4565de053b6f",
+      "bytes": 160299
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/inputs.npz",
+      "role": "empirical_inputs",
+      "level": "primary_cache_input",
+      "sha256": "3a3bcc360fe20674a264ee86b7fbb38c6a46a8f85967f04d97d21d284350834a",
+      "bytes": 18384
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_diagnostics.json",
+      "role": "empirical_null_diagnostics",
+      "level": "primary_cache_input",
+      "sha256": "e3f2342791014b039405f41adb3a6e2f6342614ce58228acf8f77e2c4fc3f02a",
+      "bytes": 100318
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_draws.npz",
+      "role": "empirical_null_draws",
+      "level": "primary_cache_input",
+      "sha256": "4bf8d9944c231f03cd87845a1b2da4326b87924cbe7ad8764788eb62c160879c",
+      "bytes": 1354396
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_000.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "cac06f42f8bd38817366e3bceee864a17a03fb0712f196d28aa17e8dafa3f160",
+      "bytes": 93700
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_001.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "622adec8958026117d809b909cb90c0ce63496d6a15f4c780e7b1912751081da",
+      "bytes": 92456
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_002.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "9931ac2f95892f7598489e5c3211c604542d1b4993b1082c622ea33a8ac3ea8a",
+      "bytes": 91431
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_003.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "be0510619eba3db0f3db6ac2de2aafe5730b9ce06d82f17cc07cf518f93372db",
+      "bytes": 93602
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_004.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "255ccfe2252f817997d8b27a98d03c6a4688d43481cb7754d43943ecb882fee4",
+      "bytes": 93195
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_005.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "7ef56aa4321825817236cc4e71a423d6feb6dae28af454f136dd18f17e6098c7",
+      "bytes": 92756
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_006.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "45bfc8448078dfa01eddc699f2b1a54203ced970537ab1d57f17683e2cbc534f",
+      "bytes": 91720
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_007.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "90d73fbdd997fcbf0e0d67fe840be3a1b7e8c29440053272f3ccbdff598fd437",
+      "bytes": 97620
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_008.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "94d2d5fea70f18ab64dd3ab158716cf9fe757046b9c0aed2abee06d8d2814f87",
+      "bytes": 94394
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_009.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6dfe44da0ee8d160a055a4863493b130245ee1ddb70803e12514672f0b831183",
+      "bytes": 90985
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_010.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "f3a7a4bbda86555e2052017a48696de5e4be41b4421c1d848c4b04220b679fd1",
+      "bytes": 93434
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_011.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "389d0a95e1eff285e16d12bbded8a9d951f181fa8b8fa8bf7ff56c861994c275",
+      "bytes": 94379
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_012.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "a9a56c32e11f0ab310c282b61783ac138f6a75d416b4002ba46d097f034c93ab",
+      "bytes": 89617
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_013.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "1eaa862fa7f6db6e6dffe8e740f4d6db20df477b587c0a36de243dce3329f28a",
+      "bytes": 93012
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_014.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "3da9c77bf272cfb0d018ed7897ef24ea3077a1c4dadda517c7afe755fa78c5bf",
+      "bytes": 90501
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_015.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "0926c2ebf5011c2f99b7e177c18cb2a69a1020422fe590a851390a3949f09ce5",
+      "bytes": 90205
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_016.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "b0b09e30c56e84780b0b2ee1b1ca75b55c9cf3b7ec2fe322a4f2529ab8d980d6",
+      "bytes": 96633
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_017.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "db136320df712ca850cc23de8f3ccbebf80016409a6310a66388c277ec0817aa",
+      "bytes": 93142
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_018.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e171190b91040c6c5d0c2767e582d37ae178acfc870b33eff789466b631d4f9e",
+      "bytes": 95652
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_019.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "a8ac5f036812f37e0845259b7f295640b3dcfe80b8b548139b5bd50b8d44b606",
+      "bytes": 90115
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_020.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "abf29288c2a0cd50c54dcc86407992268973b325d7e0c28e16ab2b2b52199cec",
+      "bytes": 90815
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_021.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "2cdd243fe44134a94b3446bc851182286c47f51dc93b00fca786340cd2636152",
+      "bytes": 94568
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_022.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "f98585496f0cf300c04e606b5ec230e8975888b3dc220c5eb6912cc5dc256158",
+      "bytes": 96792
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_023.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "72800a70b30a9044f0ade8fd89dcdff9133093404fc093062ba2e5faf60495f9",
+      "bytes": 96693
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_024.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "b85f4b067f98a72df0caa7bca79ebc05d438db80c711cddd791295f62df42526",
+      "bytes": 93160
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_025.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "821977a1ad552690d8af171bb366402b12f815b0eeb6844b9707201065951d1f",
+      "bytes": 95897
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_026.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "8baadb41116c42139b4d750ddf4a65d1a6ac6c1aae8c62997de08f186ed3710d",
+      "bytes": 93722
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_027.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6c832f42c2b2da2dbaf255e93ddeba644f5f91897be57dfb9260e8d16de55e15",
+      "bytes": 93130
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_028.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "2c11ac0a132df820f196a9c42af951c4ea790a70c6e95f768cd13832f5796565",
+      "bytes": 95085
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_029.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "4aea7ed1e736ee877388df00d8337ac3d0716dd112ab309b64cda134256466e2",
+      "bytes": 97007
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_030.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "c2797baa947571e6634c5c8a3fe77ae0e818ef53121218f208879ecec6450f7b",
+      "bytes": 92020
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_031.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e80f76256f8fb6a2c311490f7e0f50aa748e1dce98c30309c1f5bf4aafa3f035",
+      "bytes": 92273
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_032.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "722596cc9f9817e1749ede56fc2c81c12ad7c47c6b8c6183d68773c07054a468",
+      "bytes": 92177
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_033.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "15ba4ecb6713e1be1753d93e9f4d2a105ccf52ebe6cd5876122923e273b039a9",
+      "bytes": 90589
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_034.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "cb038602e5c4c13ba3238ccdd04a5e65f8ba1da71c08c693b4f43e483e6262e0",
+      "bytes": 92131
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_035.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "34d5dfa190d2c7215f5f436d5088163f2dca23ba4c700e0acfbc708be18fd84f",
+      "bytes": 92736
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_036.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "131aafbf47fd7ae71198768a80a963092bb6f171c296cc3f4aa9b9e2c047663f",
+      "bytes": 93639
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_037.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "2a1d668d911c7e7e92cbfb10ef829cdd1c6e5960ae08796c8c8a8495ea90d1c5",
+      "bytes": 97999
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_038.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "8551f6b77059fcbfbc0e2a4313105bfb8b035b10508362c2a29c60069156ca68",
+      "bytes": 93753
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_039.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "66ba585c008c4f726b351020e54ba5a5da91a60e927a46be1637630e3ef6e522",
+      "bytes": 95429
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_040.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "890ad28e255c55ec8bf76e121c564ed041b25ff19cb594d0b6660794e4a9b977",
+      "bytes": 89441
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_041.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "4b781287695cd175261332f7bbed1e76def044006d0f45ced4dbe1099005a37a",
+      "bytes": 91183
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_042.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e61435b6c69eb28a8223597f510a094ce5a951dabf31f5a4489180f5f6c3b988",
+      "bytes": 94891
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_043.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "c8ee7304102cd6bc381958b1ba6c13a105bdcffd88fcbc30d5bc635143ca1fc7",
+      "bytes": 96119
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_044.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "a560086d988e06766f6a1a224f5239a7e9382bcae2451b24d4eba4fbefc6d8d1",
+      "bytes": 92707
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_045.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "5ab9ce716535c98b5b624e2c21fdf5e43cfbff131bee1286f9792f28ce52e5d9",
+      "bytes": 91321
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_046.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "4f4fcb690608f9879853f81aeb4af6bac1e191f4050d4e459e2200a601ea8a54",
+      "bytes": 93500
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_047.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "8dfbf735a51e6c364bcb2ee4f656b794b56fb141ca6bbe1954d7576bd0f99e8e",
+      "bytes": 95536
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_048.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "c06a2ed5d17e88f837b9257b6fd5964f673a9161a00ecc13721fb5d6d6d597be",
+      "bytes": 92344
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_049.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "0b854fda063fc9efcd0d67e1b23f706be551fd6ab94b73fc1fa3e61091b3c763",
+      "bytes": 93451
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_050.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ad7a8b72e93f746598b3980959225538fc16c4a498112f05ef90456e77e5af49",
+      "bytes": 97829
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_051.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "281ef573e07b11acfb037487f6d3ad1949377fadc7e42f6e3954bcb77817559f",
+      "bytes": 91615
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_052.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "db18615255f98e9f85ba4d7b64ae54eb122badc84bad1959a354ca4ce06578f7",
+      "bytes": 92141
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_053.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "78c5988e58a55bc7dbf986379c20268ea59c29d219c6eef5bd9ba3e38fdaa422",
+      "bytes": 95821
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_054.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "13c86128e86d6543bafb658525ead6188f7e1421aeeef439926ad4c46e5a780b",
+      "bytes": 94436
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_055.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6dfc42512bbbaee54496df8bf6f1195806d036b60acc99ba655bef2f0108b606",
+      "bytes": 92235
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_056.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "74e3230022c870c1ba6caa77c942ac3dcadc361ee78d4c19887736eb209107f6",
+      "bytes": 91812
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_057.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "c60a4fd6d6f729c6a7e1ef50957fecf05cf50e85352bf3f1eb8725873067e56f",
+      "bytes": 96259
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_058.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "7165d1a57ebd10d0b8b975075a7a0c26ac00b24a56204fc101de234336ce5d4c",
+      "bytes": 92205
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_059.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "374ee1bfcb46e60fee59f94f0faa2ec81a8887d79910b0ce4a718ebec7ef1b7c",
+      "bytes": 94916
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_060.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "66525d999fea4b6327fc72b5777d681c618409b8b52760486d9a8be523158889",
+      "bytes": 94081
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_061.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ca3f0af8bf3fbf1d1849d55b9c314c5ce0446d0a965be4f2dd36002e4e2cc78d",
+      "bytes": 90799
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_062.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "53539bc44db4e9a152d337f942356bc00670cfe62f958dcb5dbc924c603b06be",
+      "bytes": 95341
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_063.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "4e3bc4a472f7617c8afb2f9d0fc0b0b8ea15e9b82b918b1a56aa8140de5606aa",
+      "bytes": 94908
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_064.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "d817d44625c6bc9df53d0577f9e221a5c38a4be536da1d24f95405ca5d72be3c",
+      "bytes": 95413
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_065.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ec4f5408eba1b8c62deddaaa591b3c3ae7ec70215e9c5ff46b76129f237b6638",
+      "bytes": 91724
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_066.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "a7be57a78ac00e0de384f5beaf3f97aa7b5d53b6895cbe03571302abc255e213",
+      "bytes": 93154
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_067.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "f6d16d639c5cf64cc5385a617e87e273b84f2484b7608814515bdf9b399c6005",
+      "bytes": 93701
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_068.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "acffec91396f1840a7ebb0ddfa383e9353e94b07e773b7e1451065ccc6b1dbc6",
+      "bytes": 93148
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_069.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "4e4cc121a5fe9a67cd6c33b9d929376153bc860ddf3382edb1cc4e44aa9addee",
+      "bytes": 94977
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_070.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "659907e08ea0da14f8499acc521a1b89935bd9038bdf7af7d80f18871a2b041d",
+      "bytes": 92704
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_071.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "61d2ab10399d7fa23b7c6db6d90400c0dc19fd0e2019306846a23a4956543e4a",
+      "bytes": 95226
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_072.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ddcbfae8817c387414c624ec5723a365e0081b4759d7cb77060f65f4accdf8f7",
+      "bytes": 93203
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_073.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "885e2fda10534708f6df6f038b830eca3e0970bae373cf5f8ad94b44ab1609a9",
+      "bytes": 95212
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_074.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "88e0e4a452f12fb62f4cd80c6fb9e0aa0c687064eda1e21837685422b7959dd1",
+      "bytes": 96013
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_075.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e0f50e35a86d8d840df812dab641eba8bd37adff1a283a8763fffa3e44d9f918",
+      "bytes": 93116
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_076.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "4f89e0a74e7fa4d25db816e423a78d404baf39b065e52e09c3e125e951194948",
+      "bytes": 95520
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_077.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "b9d4089efb8a4d8a3e073b309a73f686dc57e0c86ff8d2050353339eb80deaf5",
+      "bytes": 94535
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_078.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "152fdc700b2c05d12a958e0c06de17fc399022ea2277a920bca9ee5f0b57a9e5",
+      "bytes": 91775
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_079.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "375bba1644099b58047c1837913a6d98f7b6b7792915c4986e59de70665e1796",
+      "bytes": 93432
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_080.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "9ece5cf29099efacc123f46bf282177f4544af15cbd20152534a564a2f74b014",
+      "bytes": 93750
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_081.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "067897a09d2af72492c8507936bb890ab755f992da3d5ec5ebb9b33a8407a9e9",
+      "bytes": 92739
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_082.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "376adea9a4304c68ecb6f52a64a490de6df00828f95ea22a3f5e45561b6d036f",
+      "bytes": 93760
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_083.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "7dfe3f8e76379a5cc529ac43997ff0411df8d1d3013948acb1efecc8c3a35c83",
+      "bytes": 95561
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_084.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "0fdf187b33b47ac2d723b8ec47469315c138ef3f2d709f50c66652cb03e8f064",
+      "bytes": 92650
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_085.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "5c39cd055e881bcda634637a252581a82c28eef84ae3fe18f672b7a95fc8964b",
+      "bytes": 93144
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_086.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "0497349aacd85cbf9b3f36db7f39bdd8e7ee3bcdb6a93e34d9293bbd4c0136cd",
+      "bytes": 90167
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_087.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "23c2cefe12e672bc8ba601cabb74f0dd1e366c71582983c7b87ff2ff8dc2aa43",
+      "bytes": 93147
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_088.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "96885bca8c03aff9c26c80ca11979ea51addcdb72fd6ce99354741b968c61919",
+      "bytes": 94555
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_089.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "af83d11ef08068e439c17209b719b3dc4412f76088b3c9ebdb0678bbe63ca87e",
+      "bytes": 91147
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_090.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "605f114ab77a3da121598451a8a87eec006d3edee6bfa7bec4dd7d8c189c8fef",
+      "bytes": 96030
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_091.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "98b24b61e508477314b5b06fc736dc3f308b8e0c873c2320e98601d9512179ce",
+      "bytes": 94724
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_092.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "9b69bfd3f5cd5956b47a41e15fa7119fa3f1158931a5abf76aa7c27f94d48e11",
+      "bytes": 92028
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_093.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "737339b648410fc3717bdb30d04f2e1cbe89a7d77838e2b99347118c31a6c4e4",
+      "bytes": 94143
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_094.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "75c5f290cb298e52a8a6b9ce965e2f7cf2b93c9e53785e7f95b19381e3bd86af",
+      "bytes": 92937
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_095.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "5d44805bf49cbe776e8f91997eae44e6eb8a83d4f039a3d83458959eab897e02",
+      "bytes": 91280
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_096.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "34cb82af4a2f00573d3f4e9ca324a3a037e6e7d4fc9bd15fea4527faa66ef022",
+      "bytes": 95051
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_097.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "8c72a6c78a926445a407dd87751462075fa46fb6c2a67c9417bddbebdc908064",
+      "bytes": 89099
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_098.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "067fb25f3931409a9bcc3b0a276fe5a7c6dfa22de265c6f41f34b91f1383626a",
+      "bytes": 93637
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_099.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "4af06e64d9d4a6821c8dfb748d1d1ec2ccbf4098ab1d054e3c3fc772e1e5b868",
+      "bytes": 92630
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_100.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "bebcb0637b21982563d27a60b2b137887659044332458528c7e7813ca239a2b5",
+      "bytes": 92607
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_101.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "c305c5ae9b7bf2b98b7f9e35386f5317eb3c04b5f261bfe4be81b27b02cef764",
+      "bytes": 90843
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_102.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "7ca3a0ee6709235d4d747ad48417c6f6f0e3aadbf553fa6f866686e9ef6c3d92",
+      "bytes": 93103
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_103.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "9218e5e988109bc5c49ca9c15a984832d922d147cb39119d3679141b6d257905",
+      "bytes": 94338
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_104.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "af63972d9ca021a791f39d1759bf28bd2f1bb239159b70154eb54cebbf3f279c",
+      "bytes": 94908
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_105.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "725f40fb330a14ca86707fefcc5309a1646c2dcab62a4422f154398c93ec5be5",
+      "bytes": 92556
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_106.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "f0044f3ea4e36aa89107a9242e20346c581a2aa5556aece07cd97d48ee85e65c",
+      "bytes": 94683
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_107.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "061562f5639ed9d16359d4fbb7ae3da924a501cd3a4a94a6c927c8a955b36100",
+      "bytes": 94374
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_108.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "3d5ea416d008695d8536c8d6c40de5cd872d20ffce72e7f66aaa9fc27cb2115d",
+      "bytes": 96182
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_109.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "678f2546590f5313e7acf1a60468f62a03b0d8052a01135eee6b5a987c41f186",
+      "bytes": 92261
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_110.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ad32fa6f20b9a25024463393be8fff4479ec30941d554345aa2379508a4b7895",
+      "bytes": 92089
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_111.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "dea4b65c0ef044b2997ed3bce901556b9683fcb7bf1b6f5e602670a8211a9bbc",
+      "bytes": 94575
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_112.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "69a23bfbe5d0cbfb7ddea62788ac6068f7969957a14b4c25ed2b8661253e08b3",
+      "bytes": 96854
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_113.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "347e63e3c888f6d24b2d4180dd87f74fa34cb0894c479ba9ad902f906922f6c4",
+      "bytes": 92813
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_114.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "b5dfc84f2e192c9563e13d1f98b232773fe3019008a96f81e851a9177316cf69",
+      "bytes": 92574
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_115.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "63a9ba0516aecf57ad20a63f9cf918c64695dc6a162032c3e2b4623928ab627a",
+      "bytes": 92622
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_116.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e3761cbf78b757d91f5ac754a91d99aaf3897b236f2283280b18ce13d06dedfb",
+      "bytes": 93928
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_117.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "1249b72165a6a10425579c202852c424134cb1b8b3a655cffa526917ce7aed8e",
+      "bytes": 92127
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_118.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "997e2758216d22420b458251fbf8addf192d92f89292c8ee1a5f26106f72935d",
+      "bytes": 93617
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_119.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "bf3cce6bf296e6ef2f6592281396d49dc8cbe22d3d30d22694db5bfa7492d2bc",
+      "bytes": 92461
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_120.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "d263dca7d7e86bbfee466cc6867dd32e8cf33b42a877cffd72bfd7f9b4bb9ac3",
+      "bytes": 91103
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_121.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "488ecb281b7fb51edfafa2d5538034665a176fd4fc6519dccb635451385c6ebf",
+      "bytes": 91825
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_122.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e5acea13f8ed3571e83567af07bf0c5f813b58e9341f645c5dd7bbeb8d613e35",
+      "bytes": 93720
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_123.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "a428aff48ad16b2b80b9d3e50d57e738c04eb9e26a57de9afcebdb39819d4d64",
+      "bytes": 93355
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_124.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "914ed8d615ab11b1bb4bddf6b16061779a9249948c47b0ac9e74e8506e9d6952",
+      "bytes": 92204
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_125.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e212a142af2a6ee5f93358b5a9a0a48137213f76cf12121d911598adef6c7544",
+      "bytes": 95031
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_126.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "b4a5eea46685ce270b2c9af105cfd2318695040da5466b3ad89f5fb72a3a2bb6",
+      "bytes": 92440
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_127.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "4b9e24241c754a198994a63c97f88753bd5cfd296cecb210f52bc844579a81d5",
+      "bytes": 95378
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_128.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "aa71a01641338205ffbc4fc952a1ad9d4cb3fd0a041313fcdb00b1436951e08c",
+      "bytes": 92396
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_129.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "64d7b4b02cd91487e261b741a0673f00704488510ada7401dd6c7dc44aaf5c50",
+      "bytes": 91100
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_130.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "78a0158425ba7eefd8c12ee6d2d1df49c55145575f036146bf29d6cdf42e6386",
+      "bytes": 90782
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_131.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "8a33cf0a77f09936deaaee32a7df92d14c6baae2fbcb89d35fabc6657b706202",
+      "bytes": 96542
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_132.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "9c69a4869bf3c12152575f85f2bb81045bf8f14973a0ec5fbbca0c0dd4939583",
+      "bytes": 92553
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_133.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "70eb6d92dc19cd36bdcb396507d9fa2bcb43ca39fdabefe133499a8d4b282913",
+      "bytes": 91509
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_134.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "63364c53ddfdc11a5595d35dba2ac9a07b73aa640dd588fb569baa5bea242091",
+      "bytes": 89193
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_135.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "480df568d60791599e40035f4ec17284d7e184c8ab4c0a3f553be8d67b942a8b",
+      "bytes": 92386
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_136.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "1253554764cc98f02391f2cf2b0cac1eac498e11d63100f2fc404f17a74bc087",
+      "bytes": 90582
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_137.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "0c54757408740155e7fb7052f0fda1058fffb45b8f4d5e8081719bbd0b96eab5",
+      "bytes": 94251
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_138.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "d267f4830ebc0224447ef9ce73ce5a90b54b896ffa5a0d77dfe206410cc2421e",
+      "bytes": 90980
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_139.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "8a3bcee20142be474ba0c698f86b9d830d7bc88547d95abd0960e1713a6184ef",
+      "bytes": 92842
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_140.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "8a5bb5a20e8c98ce29c8c787f0be6de3610dcf86a791cbd23f8b311eaa011190",
+      "bytes": 89490
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_141.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "8a5123229484f37f345078ecc29e1e969a061d4ae023a278c1c49983c909b7f1",
+      "bytes": 91162
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_142.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "26855e6b7379b0cf8ac5aa7b343349bf451012892607df1bf3bf5cdb02f428e6",
+      "bytes": 92684
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_143.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "66a823795ba9565698894803c84b1deb7539cadd3dc4fc6f76196e8a5a94db44",
+      "bytes": 92343
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_144.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "99f6185b9f4a14e534849c1b5943b2c0211769298e65b0affdcd0ec0b4e96e62",
+      "bytes": 91907
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_145.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6ea864d3ef020cbf2dce3963178ffa82740c0eccda9d36c8f4cc05a6fe0cafaa",
+      "bytes": 94827
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_146.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "f921039a98c04e5efe227ff2a4fca9209f4613dadda19d093a130ef158860b21",
+      "bytes": 91631
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_147.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "f39ef5f29828681a64ffa3a366f06cd8246fbbb9c83fa0547d21315ccb24a818",
+      "bytes": 91160
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_148.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "9887b6f8af2dc7832e735adf498be8efb36624aed7ca3df3f9a79cac420bcf03",
+      "bytes": 95739
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_149.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "623cb0f68f914b06124bac3a0e89e610a3fcea4acd091b054b5ced050518d1ba",
+      "bytes": 93715
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_150.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "3c7013f52f4c6abbc11cf8492e49c1b2983e2b5a1ede1f637433baa1f5c101d0",
+      "bytes": 95683
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_151.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "4ce027fb2a1b9d427748d28e6d97e3f4a624bd3de72244440e61c926b2ba69f1",
+      "bytes": 92046
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_152.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "1d67925435bda49fa580f224afd70d9d522cf937116fc679d76452752d04c1d8",
+      "bytes": 94544
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_153.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "86109dd22a1686085e66c3b0a39064974d73868981b21c22493db5a8b0be2afe",
+      "bytes": 91774
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_154.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "0be426fe95f85d423f9f6b1c6777eb538fb541e48eb4e4b077709657a7e9b8ce",
+      "bytes": 96030
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_155.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "832e923be7fae1218b7c3d71355178cdf0eb048407295dfcf733c4359286221a",
+      "bytes": 93178
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_156.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "d59ad98be1e3a76f149d718fdef11d1b4353a92200c87b91f4b0c2c865420fbb",
+      "bytes": 97518
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_157.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "616210534aad858ee4c7fa321b2588b69e73fc4b70459e6192dcbe28db03e53d",
+      "bytes": 92062
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_158.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "f093dbb06f4eb727c9c3a0bc3d05f97fa4d3e108c8549234434e6a3d4ff67c4b",
+      "bytes": 91305
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_159.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e3b6e6b688128c55b705a1c7c7cccbf37942c9bf97ca03c9c7faef5eb2b98c49",
+      "bytes": 93668
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_160.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "5a43f658c7303c95e197f6685f766f70ef48fc60656f99858daca671b42261af",
+      "bytes": 93235
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_161.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "9e7af5d1cc9651320c045dd9e05c55443f4c0c3a0ee44a0918a6df1d16848c69",
+      "bytes": 94034
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_162.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "5795b836426cd2700699029bea8c12f5e3fd5a2cc087746a6b6927015840850b",
+      "bytes": 92338
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_163.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ce246f5111f93cfe1b7288659b55c54f6bffcc4624ca63d6aa7b7721e9355696",
+      "bytes": 92170
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_164.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "258a1a9c1ab787ba6ec9212df5fa7b4a3f61433071e5a7adbb77176ba24004cf",
+      "bytes": 89689
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_165.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "bff7449cd67a4cc342bb6c7c7ac5062742df2e389aa94cd27a5a1cc2b4d1702b",
+      "bytes": 93054
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_166.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "f2d12e09ee8734c108f229e155093e239c4e01277b9d139bb974db93520b71e3",
+      "bytes": 89224
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_167.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "245409117560f2d00463e587520d6c7045b7e6a2cd9442c7b8319fef5fa06644",
+      "bytes": 93490
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_168.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "66e1bd48973a0f74107d2eb8c2ca9efee6703ae2e071838f8c09b2270b6d91af",
+      "bytes": 92661
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_169.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "7970e0ecfc4e28653319d324ff1016787bfac77356748a1a2874628ac37a7bb0",
+      "bytes": 94934
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_170.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6d8311aeb02cb677d492999ab333b10e02bb5babc64d6770eae2f136496d76d6",
+      "bytes": 90953
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_171.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "6ce558500b44ea7396aa0219433b28129b13487d4db4ff3b502a3f1c2fe9304d",
+      "bytes": 94168
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_172.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "535d210c6a01d7c05ae905ab4747df33bfcc1c6ea75c09dbc66ff5a4c221fe80",
+      "bytes": 90491
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_173.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "b49dc012eaf43bcb9091ce6d8100063ab18de79385574de69cc5ccb1ec1c3204",
+      "bytes": 94092
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_174.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "5e4d4dae7bdc1967e658ea86397d721f0fffe86121475113b5d961f5e3d56966",
+      "bytes": 91593
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_175.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "029c6f7563d4e64d1831a7c854973bb60bd8756a1a34b8782aea0f04746cd320",
+      "bytes": 92637
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_176.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e8d8976e0f5eaa8667253c059a00df118e0316d62afd58b794140cf22ebdc651",
+      "bytes": 94224
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_177.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "49fb70b037d3e6aae6e8bd58523c366f1be6461ef164e47da12ac851b1882ebf",
+      "bytes": 95852
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_178.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "ed0e6c8afb9dc3e80119905853fe477f569dfeafce011fb907994679ea6fa487",
+      "bytes": 95887
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_179.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "fde8750004928315995ff9c088837d93b3aacf497443c501f319081aa0860064",
+      "bytes": 93657
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_180.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "352f54e4cebd40d05bacfdb5103a9692eda0d283de03e7c04dfb50e7f19b20f8",
+      "bytes": 91577
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_181.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "5cdc9da834167f3fa5c0b065ad97cce1a2a929ba40985fe14c8f18e8b0e78189",
+      "bytes": 91756
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_182.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "a075c8bba446f8c112512f0cf23f8708005b7ecd77f4b6e783668833e5f3f793",
+      "bytes": 92137
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_183.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "40d0e1e90e6110a982fc1ea5b2cc2f6f80e05a1446c447c5735b75e99f2e15cd",
+      "bytes": 92690
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_184.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "48d3e72a4edcb023dc836a50025bc60d3c6757004de2a3d3b2a2e03af2791473",
+      "bytes": 92071
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_185.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "48d86276a6764426ada642c4db8a1bb6810b98194957ec43478e502e3d7d46e7",
+      "bytes": 90364
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_186.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "5f6c551044331b3250dcfa13c88f9039fe551df218f899e1ba2e92cc9f97e9f3",
+      "bytes": 94939
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_187.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "bcb65d1a5abe15cb030e4c05e585294fd8a12da9e99f20c193730c67076f0a5c",
+      "bytes": 92676
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_188.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "390a13661eeb85297cae9f799ccaa5ed18adb5097599c85321b98ff88589a7ae",
+      "bytes": 91587
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_189.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "235ae165c3a98d4f62df000d00cc72cd042ef04c566985ee06c76acb054cac43",
+      "bytes": 95061
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_190.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "63ddb96d94811af92d8f82ff38c8919507d3d661e454add0c02402514f41cd2f",
+      "bytes": 91714
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_191.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "969d50048b09c1ebfaf26e5274a128467ccaf809a8cdef7633e7f7a987b6f765",
+      "bytes": 92764
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_192.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "e6e05097e56ea7ad77a28831a6bcf27a0867baef321a3cb92bfa6262cf8e5856",
+      "bytes": 92570
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_193.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "221c787b0ba8a8526abb0eb19b1e6fd91d94ddd6d7340d39ba475781fa391f0d",
+      "bytes": 92086
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_194.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "7df6e409239a14ab2500d316818f719704cb1554334eb4e7b58f856c87ecfaa0",
+      "bytes": 95624
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_195.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "38271928fc6705d3747b910bd6a25906f6bc80c4ff017ea585137b0b332da5b8",
+      "bytes": 93108
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_196.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "4ff5e8497aad59c6b2cbdb34ff6dfeb435013e308a05457264d8caddddb4c6d7",
+      "bytes": 92784
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_197.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "2b05406553bcbc96c4c91c1479444e55ade9a97f414af1ccd3f8aaba6ad81092",
+      "bytes": 93837
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_198.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "3fc614cf4a7b645cbe0197295381f98e134d7361cee087309c984b38d4acfb89",
+      "bytes": 91981
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/null_fit_199.npz",
+      "role": "empirical_null_fit",
+      "level": "primary_cache_input",
+      "sha256": "380f8e2a31fb23df5c3a3cf07ecfe3ff75b359e5858f6f777a242751f6f6147a",
+      "bytes": 95104
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/observed.npz",
+      "role": "empirical_observed_fit",
+      "level": "primary_cache_input",
+      "sha256": "a6221e785da7edd1338c8048dedfce18824356db19dabbf2076f6d1a1e4961d1",
+      "bytes": 96003
+    },
+    {
+      "path": "R/runs/new_empirical_repair/math/observed_diagnostics.json",
+      "role": "empirical_diagnostics",
+      "level": "primary_cache_input",
+      "sha256": "aaffdfc027ccf11db50cdf9e0e0c811e26720fbcd8475b2d9814c5b0b3d2b6b8",
+      "bytes": 394
+    },
+    {
+      "path": "R/runs/new_empirical_repair/report.json",
+      "role": "accepted_producer_summary",
+      "level": "comparator_only",
+      "sha256": "ec3b88b1d4d6df2c20ccae8473317b2f0b5e431c46758d764624bf2931e35a99",
+      "bytes": 8763
+    },
+    {
+      "path": "R/runs/new_medical_repair/medical_A_2pl_0.7.json",
+      "role": "medical_fit_report",
+      "level": "comparator_only",
+      "sha256": "146116f5f09810a8568ca19b122b0c20d952efe09c6582387cbe0dd412b2a387",
+      "bytes": 925
+    },
+    {
+      "path": "R/runs/new_medical_repair/medical_A_2pl_0.7.npz",
+      "role": "medical_fit_arrays",
+      "level": "primary_cache_input",
+      "sha256": "4a3095cfe3bf86a641b4df6bd2ff997ef73edb0da9dd18d1e3008566b7e5a0b8",
+      "bytes": 101919
+    },
+    {
+      "path": "R/runs/new_medical_repair/medical_A_2pl_1.0.json",
+      "role": "medical_fit_report",
+      "level": "comparator_only",
+      "sha256": "8c8d6bca775f7f13bd1ca2c9112fd6707c3749b9b9f5d65f90c683124ffabdd4",
+      "bytes": 925
+    },
+    {
+      "path": "R/runs/new_medical_repair/medical_A_2pl_1.0.npz",
+      "role": "medical_fit_arrays",
+      "level": "primary_cache_input",
+      "sha256": "a9448e0c893eba6a08311f518898093201716d8c41ad597e9c777116857019e9",
+      "bytes": 101417
+    },
+    {
+      "path": "R/runs/new_medical_repair/medical_A_map_1.0.json",
+      "role": "medical_fit_report",
+      "level": "comparator_only",
+      "sha256": "2dc6ed9b29546c91f6d4e5d1a4a256471016942e38f242b5ffe43e55306ea765",
+      "bytes": 920
+    },
+    {
+      "path": "R/runs/new_medical_repair/medical_A_map_1.0.npz",
+      "role": "medical_fit_arrays",
+      "level": "primary_cache_input",
+      "sha256": "b1ef53f1d77cc0a7e58bd03c96b548c17f969a905b5d2bfb09e00127de5e071d",
+      "bytes": 96808
+    },
+    {
+      "path": "R/runs/new_medical_repair/medical_A_rasch_1.0.json",
+      "role": "medical_fit_report",
+      "level": "comparator_only",
+      "sha256": "c96607ea7275eaf994e88c39d09b389b47c9677fbaf202655733cb7062fa0b43",
+      "bytes": 928
+    },
+    {
+      "path": "R/runs/new_medical_repair/medical_A_rasch_1.0.npz",
+      "role": "medical_fit_arrays",
+      "level": "primary_cache_input",
+      "sha256": "10503046366dc268c13bb1e916a71cb8e3c39d8eed4b91c606ab0ccaf6b9f11c",
+      "bytes": 55698
+    },
+    {
+      "path": "R/runs/new_medical_repair/medical_B_2pl_0.7.json",
+      "role": "medical_fit_report",
+      "level": "comparator_only",
+      "sha256": "a255f364df1ad7bafee45f4236625b077b6f83995a1743a4293ae4a33f74d56c",
+      "bytes": 923
+    },
+    {
+      "path": "R/runs/new_medical_repair/medical_B_2pl_0.7.npz",
+      "role": "medical_fit_arrays",
+      "level": "primary_cache_input",
+      "sha256": "c499f80fdb5ab63b004d02f6e7ad080f6b9052694c7c2678ae8fd674af0f4208",
+      "bytes": 104128
+    },
+    {
+      "path": "R/runs/new_medical_repair/medical_B_2pl_1.0.json",
+      "role": "medical_fit_report",
+      "level": "comparator_only",
+      "sha256": "f0b4bf662970d9723e8e4bc4cc6e08da1e5cca732f9d50744417699f61f3a755",
+      "bytes": 926
+    },
+    {
+      "path": "R/runs/new_medical_repair/medical_B_2pl_1.0.npz",
+      "role": "medical_fit_arrays",
+      "level": "primary_cache_input",
+      "sha256": "9a61da2a0da817d4b3bbbae04b741a8ced78ae90a05f8034dab946274700cf92",
+      "bytes": 104847
+    },
+    {
+      "path": "R/runs/new_medical_repair/medical_B_map_1.0.json",
+      "role": "medical_fit_report",
+      "level": "comparator_only",
+      "sha256": "3b10667f42013c5e5cbe5b8811ed5166310567ffec7ef5220d6608584b0a5473",
+      "bytes": 925
+    },
+    {
+      "path": "R/runs/new_medical_repair/medical_B_map_1.0.npz",
+      "role": "medical_fit_arrays",
+      "level": "primary_cache_input",
+      "sha256": "a143ae40c31ad1cea745fda68e90c2de3effe34bd4e9832daaa76f775a5077a1",
+      "bytes": 100198
+    },
+    {
+      "path": "R/runs/new_medical_repair/medical_B_rasch_1.0.json",
+      "role": "medical_fit_report",
+      "level": "comparator_only",
+      "sha256": "3efba3398d65a7bc2603ce2e1b779c4a2fd78b3547513d80340673c64d2c2357",
+      "bytes": 912
+    },
+    {
+      "path": "R/runs/new_medical_repair/medical_B_rasch_1.0.npz",
+      "role": "medical_fit_arrays",
+      "level": "primary_cache_input",
+      "sha256": "041214165f4d268d13502011e3dc6b8b16a5a1a86e02d9e8c92198c3d86437d4",
+      "bytes": 57500
+    },
+    {
+      "path": "R/runs/new_medical_repair/summary.json",
+      "role": "accepted_producer_summary",
+      "level": "comparator_only",
+      "sha256": "fcae2403c1c9bf7feb57bb96ab692661d3308654adc1dd2a7eaf996d94b743bf",
+      "bytes": 13288
+    },
+    {
+      "path": "R/runs/new_medical_repair_refined/medical_A_2pl_0.7.json",
+      "role": "medical_fit_report",
+      "level": "comparator_only",
+      "sha256": "6614119d7e443628a7f5179ee3bfc1f009ea2460916f460c601d903585ec2ee7",
+      "bytes": 932
+    },
+    {
+      "path": "R/runs/new_medical_repair_refined/medical_A_2pl_0.7.npz",
+      "role": "medical_fit_arrays",
+      "level": "primary_cache_input",
+      "sha256": "d25d10c5ecd143578d6501e325ac7c132928a359c50fcb795acf16ee4f81c67d",
+      "bytes": 119040
+    },
+    {
+      "path": "R/runs/new_medical_repair_refined/medical_A_2pl_1.0.json",
+      "role": "medical_fit_report",
+      "level": "comparator_only",
+      "sha256": "cd33c7e7e8e3435eb4ae4a44b4e15c782d526cebe79cea2b7ecf1eb835b6602c",
+      "bytes": 929
+    },
+    {
+      "path": "R/runs/new_medical_repair_refined/medical_A_2pl_1.0.npz",
+      "role": "medical_fit_arrays",
+      "level": "primary_cache_input",
+      "sha256": "f473f71ad8de4a71d35efa7d7f45db606785e3ccca6de28eb30fa78671397b7b",
+      "bytes": 119527
+    },
+    {
+      "path": "R/runs/new_medical_repair_refined/medical_A_map_1.0.json",
+      "role": "medical_fit_report",
+      "level": "comparator_only",
+      "sha256": "575db39b1695015d879822ed1a55581c7755096d81d4ce43f4a8dcaa004326b3",
+      "bytes": 921
+    },
+    {
+      "path": "R/runs/new_medical_repair_refined/medical_A_map_1.0.npz",
+      "role": "medical_fit_arrays",
+      "level": "primary_cache_input",
+      "sha256": "6674becd5468426c9ac67c53c379e2a6833cecc7e705515e7c15047a3c1404bb",
+      "bytes": 117347
+    },
+    {
+      "path": "R/runs/new_medical_repair_refined/medical_B_2pl_0.7.json",
+      "role": "medical_fit_report",
+      "level": "comparator_only",
+      "sha256": "846fbe65d7fa5ec3d2380892905084fbd533a4fb7e738fde5ed89c2ee9b1dba1",
+      "bytes": 927
+    },
+    {
+      "path": "R/runs/new_medical_repair_refined/medical_B_2pl_0.7.npz",
+      "role": "medical_fit_arrays",
+      "level": "primary_cache_input",
+      "sha256": "8616858b76b5242e4dd510d292549ae7486d3504ee50b62d1d023cd1bb5404e5",
+      "bytes": 122089
+    },
+    {
+      "path": "R/runs/new_medical_repair_refined/medical_B_2pl_1.0.json",
+      "role": "medical_fit_report",
+      "level": "comparator_only",
+      "sha256": "f920bfc4d4ad09429ef6c51823dbe91bdfdf903205d4865a078c6c5fc8406bca",
+      "bytes": 923
+    },
+    {
+      "path": "R/runs/new_medical_repair_refined/medical_B_2pl_1.0.npz",
+      "role": "medical_fit_arrays",
+      "level": "primary_cache_input",
+      "sha256": "5af0193a37edd9cb984f9a97a7899cca2041280f7488b4d8e4951321ac1c085c",
+      "bytes": 122102
+    },
+    {
+      "path": "R/runs/new_medical_repair_refined/medical_B_map_1.0.json",
+      "role": "medical_fit_report",
+      "level": "comparator_only",
+      "sha256": "009aa333dc9b5c38eaad2a782d5adeacb1b26dad4110333d4a1b7d7960dd0a86",
+      "bytes": 923
+    },
+    {
+      "path": "R/runs/new_medical_repair_refined/medical_B_map_1.0.npz",
+      "role": "medical_fit_arrays",
+      "level": "primary_cache_input",
+      "sha256": "65d5b84a4a5c983be43824feaf33c304413285f3a9e377db6ac2cd3e1ef31b47",
+      "bytes": 122216
+    },
+    {
+      "path": "R/runs/new_medical_repair_refined/summary.json",
+      "role": "accepted_producer_summary",
+      "level": "comparator_only",
+      "sha256": "09507fdfa1f3278479b00b148454e436dd28638c61f84f3259e910408f552cc6",
+      "bytes": 10971
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/bos/artifact_hashes.json",
+      "role": "bos_artifact_hashes",
+      "level": "hash_declaration",
+      "sha256": "c707123d6f6b561eda8cda84b4cde8d4454c9fa5e2258f5b16b10e917bd5929b",
+      "bytes": 567
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/bos/bootstrap_draws.npz",
+      "role": "bos_bootstrap_draws",
+      "level": "primary_cache_input",
+      "sha256": "14bd42efa69344116701a6caf18ee4763ee77f17f4db48c760431b2bc0ad2adf",
+      "bytes": 234993
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/bos/input_contract.json",
+      "role": "bos_input_contract_snapshot",
+      "level": "hash_declaration",
+      "sha256": "8663c60bae57cf60b3d5b1f6beb8e83326eb0d26d7518d07a7b363feb6703ed8",
+      "bytes": 91022
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/bos/per_model_inputs.npz",
+      "role": "bos_per_model_inputs",
+      "level": "primary_cache_input",
+      "sha256": "fe844651ecd0d221cb618185efa6f25f5acd27f40ca7ec58974a601f3cd28d50",
+      "bytes": 10874
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/bos/rarefaction_draws.json",
+      "role": "bos_rarefaction_draws",
+      "level": "secondary_linkage_input",
+      "sha256": "ccd3bcde1546056907ba2994c6807950f164a4edefa2df3be3474c4073e77659",
+      "bytes": 551337
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/bos/rarefied_spectral_inputs.npz",
+      "role": "bos_rarefied_spectral_inputs",
+      "level": "secondary_linkage_input",
+      "sha256": "93155794e6000309e7ecf779019c3874ca1d3afde39bf4b2840ebc5b8ad2908f",
+      "bytes": 1809
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/bos/results.json",
+      "role": "accepted_producer_summary",
+      "level": "comparator_only",
+      "sha256": "e20325f0b34b1bd6b1832cebe1969ba93ca2a903018395f50c3cedd4c8db9302",
+      "bytes": 29549
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/main/per_model_inputs.npz",
+      "role": "per_model_inputs",
+      "level": "primary_cache_input",
+      "sha256": "ba6dbb506a8c29868697d9f3a0d226261e47ecb081b01c33b987e4b8df32b229",
+      "bytes": 362288
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/main/resampling_indices.npz",
+      "role": "resampling_indices",
+      "level": "primary_cache_input",
+      "sha256": "6d5f7eec412a04bd6d921e44f33344491b806d623608154dda584c9434aa3705",
+      "bytes": 995828
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/main/resampling_statistics.npz",
+      "role": "resampling_statistics",
+      "level": "primary_cache_input",
+      "sha256": "0a67113f6d473685e5dc7c4b97db065f54c27f9b120e8635441dab17a392a7ae",
+      "bytes": 1203926
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/main/results.json",
+      "role": "accepted_producer_summary",
+      "level": "comparator_only",
+      "sha256": "3d34221869ecd63b9aac19dae1d6524d05d4d56ca47512fcb078cbcfa982ee07",
+      "bytes": 19709
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/retention/input_contract.json",
+      "role": "retention_input_contract_snapshot",
+      "level": "hash_declaration",
+      "sha256": "51190692d7cab20920ee8d07fdb989fe8d380e256b9bd797a8ccf82ad2a3848f",
+      "bytes": 750096
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/retention/per_model_statistical_inputs.npz",
+      "role": "retention_per_model_inputs",
+      "level": "primary_cache_input",
+      "sha256": "eb064fa600c86d6f357fe2374d62bb8daf5a2f5c3a888a0fc91ddc4a2928d0ba",
+      "bytes": 1536301
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/retention/results.json",
+      "role": "accepted_producer_summary",
+      "level": "comparator_only",
+      "sha256": "dab08302331881f86b35ceda3fdfaab9e0442596f6a171c038f1287bdcbf63d0",
+      "bytes": 40850
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/retention/seed0_sampling_statistics.npz",
+      "role": "retention_seed0_draws",
+      "level": "primary_cache_input",
+      "sha256": "a473cad6746c093058b9bc94e46e0847ba06503ec9b03aca7f86b1f6c1037d5d",
+      "bytes": 909566
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/fits/medical_A/fit.json",
+      "role": "medical_source_metadata",
+      "level": "primary_cache_input",
+      "sha256": "ef2e3160dd7ed78574296ca471b42c9c0eb043a1ffabc22fd73a43cb4e353656",
+      "bytes": 4042
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/fits/medical_A/response_matrix.npz",
+      "role": "medical_source_matrix",
+      "level": "primary_cache_input",
+      "sha256": "cf2f9a3fc2593a3a113186adb2def3417da8c7a2b792f17199e40bedbdd40fbd",
+      "bytes": 517598
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/SCI_SIGN_RECONSTRUCTED.json",
+      "role": "accepted_producer_summary",
+      "level": "comparator_only",
+      "sha256": "383606cd8feec13bd0e1128d096c29daff75be00d1db02c36272e501d012c81b",
+      "bytes": 516
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/U2A_SELECTION.json",
+      "role": "retained_legacy_selection",
+      "level": "primary_cache_input",
+      "sha256": "5990628f92e11670f432a3471be7b2510489e6c49533f698413b66ce7f255db6",
+      "bytes": 1024
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/drop3__science__eff_rank_pr.json",
+      "role": "retained_legacy_cell",
+      "level": "primary_cache_input",
+      "sha256": "aaa4a9c9b230baa6e3c3aba030e37ba9b7b6fe00cd4184b366435cd614379a21",
+      "bytes": 2102
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/h3__code__eff_rank_pr.json",
+      "role": "retained_legacy_cell",
+      "level": "primary_cache_input",
+      "sha256": "d1b3c2c1fba88652eeb1a5dfb087a2ea7cfd247fb4efdc1f57cde15f0c3b6255",
+      "bytes": 1627
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/h3__math__eff_rank_pr.json",
+      "role": "retained_legacy_cell",
+      "level": "primary_cache_input",
+      "sha256": "ab4ba61de2822f567e84430532c35027c5bae466f5875262db13948b2b29e0af",
+      "bytes": 1624
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/h3__medical__eff_rank_pr.json",
+      "role": "retained_legacy_cell",
+      "level": "primary_cache_input",
+      "sha256": "ad20c0aac2464164181d8c9cbf505cd05f5e3b074f7f1ba330d218f27b381e54",
+      "bytes": 1361
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/h3__science__eff_rank_pr.json",
+      "role": "retained_legacy_cell",
+      "level": "primary_cache_input",
+      "sha256": "32a0f9ac0a5dc6475327e968175e43ddba04b59a606f06cab22c8a0fa076a57f",
+      "bytes": 2115
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/u2a__code__twoNN_id.json",
+      "role": "retained_legacy_cell",
+      "level": "primary_cache_input",
+      "sha256": "9ca0cd8ad1e428e54d9c59461d65ef34694f5ab9c4ec8bc029310810b8d0ed50",
+      "bytes": 1748
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/u2a__math__twoNN_id.json",
+      "role": "retained_legacy_cell",
+      "level": "primary_cache_input",
+      "sha256": "1eb29e2d89cd0a93be049ed7d27fa8c1593081824fab9e8c7df4a50759e79369",
+      "bytes": 1745
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/u2a__medical__eff_rank_pr.json",
+      "role": "retained_legacy_cell",
+      "level": "primary_cache_input",
+      "sha256": "75896ca2a683dddf14dd9e0db203ebf21210c2204cafc8aaf546b6b9fdc4359c",
+      "bytes": 1363
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/u2a__science__eff_rank_pr.json",
+      "role": "retained_legacy_cell",
+      "level": "primary_cache_input",
+      "sha256": "eaf4079d8dc569987857ff23a9225b0eafeeccee457f473726a6bfbf4492dd2a",
+      "bytes": 2249
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/u2a__science__isoscore.json",
+      "role": "retained_legacy_cell",
+      "level": "primary_cache_input",
+      "sha256": "0609a9880b521ebe62d5c393658d827ea21f632c23ebf939747d51d3a3d54565",
+      "bytes": 2244
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/u2a__science__rankme.json",
+      "role": "retained_legacy_cell",
+      "level": "primary_cache_input",
+      "sha256": "c6f91609df6b3d3874d0f20cf37329a72f2f4ea6fb0b63417f2502dad97d1eac",
+      "bytes": 2236
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/u2a__science__spectral_alpha.json",
+      "role": "retained_legacy_cell",
+      "level": "primary_cache_input",
+      "sha256": "dcdd9b27bae3fab9c2b4c0fbcdc324606ef3e9566245f10b1279da9fd9b556d8",
+      "bytes": 2251
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/u2a__science__stable_rank.json",
+      "role": "retained_legacy_cell",
+      "level": "primary_cache_input",
+      "sha256": "44348e2274d62c56faeb79fc1a4e722f9e6b89650f4a03de54a3bb5fc6e4fe54",
+      "bytes": 2248
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/u2a__science__vn_entropy.json",
+      "role": "retained_legacy_cell",
+      "level": "primary_cache_input",
+      "sha256": "d8368f21000c0f0f3151b3886e75d9d3176f7db1f843a8875430f64de2520d11",
+      "bytes": 2249
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/drop3__science__eff_rank_pr.npz",
+      "role": "retained_legacy_draws",
+      "level": "primary_cache_input",
+      "sha256": "3226987f1f579436f3a260f511b1902979eb477c93104b83d10926bf2a0cbcc6",
+      "bytes": 768290
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/h3__code__eff_rank_pr.npz",
+      "role": "retained_legacy_draws",
+      "level": "primary_cache_input",
+      "sha256": "1b14fecfa4e17bb822a050345580c627f40432defe89bf51c095d070cb6ff322",
+      "bytes": 881896
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/h3__math__eff_rank_pr.npz",
+      "role": "retained_legacy_draws",
+      "level": "primary_cache_input",
+      "sha256": "f5bcd44b7258f8c42d43bc83d70cd698dcbcde82a6232978b3a11b2f03f8ba90",
+      "bytes": 912982
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/h3__science__eff_rank_pr.npz",
+      "role": "retained_legacy_draws",
+      "level": "primary_cache_input",
+      "sha256": "3e6bed0ac8c7662c0d0f96c7580f1820c3e021e9e7040c731367f751ecdf8c1d",
+      "bytes": 810419
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/u2a__code__twoNN_id.npz",
+      "role": "retained_legacy_draws",
+      "level": "primary_cache_input",
+      "sha256": "9e07fecb8672229388d43dd857a749e94533caa2f37bc3e308092d1797226482",
+      "bytes": 755211
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/u2a__math__twoNN_id.npz",
+      "role": "retained_legacy_draws",
+      "level": "primary_cache_input",
+      "sha256": "d6d10f9a5448e89708d459903a63079f034d88b366ba1cf054bd7c474c8632dd",
+      "bytes": 784467
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/u2a__science__eff_rank_pr.npz",
+      "role": "retained_legacy_draws",
+      "level": "primary_cache_input",
+      "sha256": "c29586733ba19ffc1332af8158d8ece4eb9af305ea09e1266536988cf0bd42f1",
+      "bytes": 684686
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/u2a__science__isoscore.npz",
+      "role": "retained_legacy_draws",
+      "level": "primary_cache_input",
+      "sha256": "63ba1e2b5121aa06abf4761c93fd6bb83e41442a88fa7b769ad185ae8b34c118",
+      "bytes": 684732
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/u2a__science__rankme.npz",
+      "role": "retained_legacy_draws",
+      "level": "primary_cache_input",
+      "sha256": "c12185c3bf9f052edb21693f89ef13815e42df3456796e11eb216a2874b041b1",
+      "bytes": 684795
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/u2a__science__spectral_alpha.npz",
+      "role": "retained_legacy_draws",
+      "level": "primary_cache_input",
+      "sha256": "490d3a2a27a26e1f11312d8a636e8e28ef03eafc15cb6f71332cd1d27ff4069e",
+      "bytes": 684565
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/u2a__science__stable_rank.npz",
+      "role": "retained_legacy_draws",
+      "level": "primary_cache_input",
+      "sha256": "2a370cc21b70773a84281a4d1468c2efc5798cbdfa72b91afe95b5089d7a60c7",
+      "bytes": 684641
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/u2a__science__vn_entropy.npz",
+      "role": "retained_legacy_draws",
+      "level": "primary_cache_input",
+      "sha256": "f0d0fdc0a7d1d161357b6c525f7fca770604fc7d4d7564fcbe1519c6ff8f8f68",
+      "bytes": 684740
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/h3_geometry/code.json",
+      "role": "h3_geometry_rows",
+      "level": "primary_cache_input",
+      "sha256": "31cd7c7c1f7dce572f4c6b53b219259a3ab282f324741c80652d4a67bb0916d5",
+      "bytes": 362424
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/h3_geometry/math.json",
+      "role": "h3_geometry_rows",
+      "level": "primary_cache_input",
+      "sha256": "e9cfc3ac0242e7779c1ca304adf4b6e429f6bc2631b46730685e57f8ce42e5b3",
+      "bytes": 838272
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/h3_geometry/science.json",
+      "role": "h3_geometry_rows",
+      "level": "primary_cache_input",
+      "sha256": "f1c59869d1bd0cf78b38284b74336cb43454b381e62230a5804ff53ee95fafc9",
+      "bytes": 247344
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/h3_geometry/science_drop3.json",
+      "role": "h3_geometry_rows",
+      "level": "primary_cache_input",
+      "sha256": "5942d8d10e1784e6794218a445f16fd99121f63749813e6832b94fffb2174cb6",
+      "bytes": 236730
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/inputs/code.json",
+      "role": "retained_legacy_inputs",
+      "level": "secondary_linkage_input",
+      "sha256": "b26d6c45e032e58700bc38f04389a4aa1d178316c9e940ad7f15e180efd8f8bd",
+      "bytes": 45404
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/inputs/math.json",
+      "role": "retained_legacy_inputs",
+      "level": "secondary_linkage_input",
+      "sha256": "b3160193ed882d9c1cb0e48572f17b61961f27ed4ab3cc0ef346a71cf0ff0284",
+      "bytes": 47323
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/inputs/science.json",
+      "role": "retained_legacy_inputs",
+      "level": "secondary_linkage_input",
+      "sha256": "6427ab958ac131484b44757c8c455d92500d45831ca398eef26af01c99c5bef5",
+      "bytes": 41413
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/inputs/science_drop3.json",
+      "role": "retained_legacy_inputs",
+      "level": "secondary_linkage_input",
+      "sha256": "d72d0a14efc3769d3b487349cea24b558d5ebb25269c197b09bfc09da4957bf8",
+      "bytes": 38636
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/lofo/inputs.json",
+      "role": "lofo_inputs",
+      "level": "primary_cache_input",
+      "sha256": "c8ad9c5613b3b37eee7b79c740d2d1e4aee89c2f74ddbf6e5f71021facbe87a0",
+      "bytes": 4876
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/lofo/permutation_indices.npy",
+      "role": "lofo_permutation_indices",
+      "level": "primary_cache_input",
+      "sha256": "604e4468a3ecca8c972f47d951b71a45d303e2dfc903ba1f6dd7eae48f75bebd",
+      "bytes": 344128
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/lofo/permutation_raw_rho.npy",
+      "role": "lofo_permutation_statistics",
+      "level": "primary_cache_input",
+      "sha256": "35db03e168f6bf9649c0f21f7a16b80a7f7e8a94747228307c5677ff4e73315b",
+      "bytes": 16128
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/lofo/receipt.json",
+      "role": "lofo_receipt",
+      "level": "hash_declaration",
+      "sha256": "f3225385d65509e803de96ea74e09aa668df424dbee93bbf5eb14ca28f0c39ec",
+      "bytes": 1454
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/lofo/results.json",
+      "role": "accepted_producer_summary",
+      "level": "comparator_only",
+      "sha256": "8c98973e716caafe70c823e99500505ac3ab5992be29f04a3cb7bce55324ba08",
+      "bytes": 3721
+    },
+    {
+      "path": "R/runs/theory_execution_v1/result.json",
+      "role": "accepted_producer_summary",
+      "level": "comparator_only",
+      "sha256": "ec4cb04b94802d55d5e4b77e2544b1101188415e39f6216e2087cac7712d31b1",
+      "bytes": 1696
+    },
+    {
+      "path": "R/verifier/V_NUM_BOS_G_BRANCH.json",
+      "role": "verifier_report",
+      "level": "comparator_only",
+      "sha256": "f97ca23cd67700781cf30533259790320167c1f0c7b1e6344625657ecf478963",
+      "bytes": 103533
+    },
+    {
+      "path": "R/verifier/V_NUM_RETENTION_FINAL_INDEPENDENT.json",
+      "role": "verifier_report",
+      "level": "comparator_only",
+      "sha256": "74ab98c379382ef36cd12e3c943af93a2ef9d932f552c0507fd5fd9b9c559404",
+      "bytes": 84245
+    },
+    {
+      "path": "R/verifier/V_RETENTION_TRACKB_RESIDUAL_SCREEN.json",
+      "role": "verifier_residual_screen",
+      "level": "comparator_only",
+      "sha256": "1c656964a37555da7738498804497871b14501ed7f7d9dd3d018dd22be1c675b",
+      "bytes": 4767
+    }
+  ],
+  "roles": [
+    "accepted_producer_summary",
+    "bos_artifact_hashes",
+    "bos_bootstrap_draws",
+    "bos_input_contract_snapshot",
+    "bos_per_model_inputs",
+    "bos_rarefaction_draws",
+    "bos_rarefied_spectral_inputs",
+    "early16_inputs",
+    "early16_sensitivity_draws",
+    "empirical_diagnostics",
+    "empirical_inputs",
+    "empirical_null_diagnostics",
+    "empirical_null_draws",
+    "empirical_null_fit",
+    "empirical_observed_fit",
+    "frozen_rule_binding",
+    "h3_geometry_rows",
+    "ledger_context",
+    "lofo_inputs",
+    "lofo_permutation_indices",
+    "lofo_permutation_statistics",
+    "lofo_receipt",
+    "medical_fit_arrays",
+    "medical_fit_contract",
+    "medical_fit_report",
+    "medical_source_matrix",
+    "medical_source_metadata",
+    "per_model_inputs",
+    "resampling_indices",
+    "resampling_statistics",
+    "retained_legacy_cell",
+    "retained_legacy_draws",
+    "retained_legacy_inputs",
+    "retained_legacy_selection",
+    "retention_input_contract_snapshot",
+    "retention_per_model_inputs",
+    "retention_seed0_draws",
+    "saved_metric_cache",
+    "source_code_reference",
+    "theory_binding",
+    "upstream_panel_theta",
+    "verifier_report",
+    "verifier_residual_screen"
+  ],
+  "levels": [
+    "comparator_only",
+    "frozen_rule_config",
+    "hash_declaration",
+    "primary_cache_input",
+    "reference_code_only",
+    "secondary_linkage_input"
+  ],
+  "source_mutation_check": true,
+  "comparator_only_declaration": "accepted producer summaries are read after fresh numbers exist and are used exclusively for comparator rows"
+}

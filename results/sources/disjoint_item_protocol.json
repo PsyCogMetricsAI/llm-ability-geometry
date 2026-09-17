@@ -1,0 +1,396 @@
+{
+  "schema": "C17-CACHE-BASELINE-REPLAY-v1/retention",
+  "branch": "retention",
+  "status": "CACHED_BASELINE_REPLAY_PRODUCED",
+  "replay_level": "CACHED_BASELINE_REPLAY (saved disjoint item splits and saved seed0 draws reused; no scoring, extraction or fit rerun)",
+  "ids": [
+    "P2-B-007-CODE",
+    "P2-B-007-MATH"
+  ],
+  "seeds": [
+    20260608,
+    20260609,
+    20260610,
+    20260611,
+    20260612,
+    20260613,
+    20260614,
+    20260615,
+    20260616,
+    20260617,
+    20260618,
+    20260619,
+    20260620,
+    20260621,
+    20260622,
+    20260623,
+    20260624,
+    20260625,
+    20260626,
+    20260627
+  ],
+  "domains": {
+    "code": {
+      "median_partial": -0.4164132959411808,
+      "full_run_partial_ref": -0.3947,
+      "retention": 1.0550121508517376,
+      "retention_percent": 105.50121508517375,
+      "same_sign": true,
+      "n_fits": 40,
+      "n_direction_cells": 40,
+      "seed0_full": {
+        "geoA_thB": {
+          "raw_rho": -0.5560483870967742,
+          "partial_rho_controlling_C": -0.4027747272251649,
+          "bare_cluster_ci": [
+            -0.7504547695414551,
+            -0.28326054620970104
+          ],
+          "controlled_cluster_ci": [
+            -0.7127987984290857,
+            0.13470583326863791
+          ],
+          "bare_ci_excludes_zero": true,
+          "controlled_ci_excludes_zero": false,
+          "permutation_p": 0.036096390360963904,
+          "n_models": 31,
+          "bootstrap_valid_counts": [
+            10000,
+            10000
+          ],
+          "permutation_valid_count": 10000,
+          "permutation_exceed_count": 360,
+          "verdict": "SHADOW-ONLY",
+          "representative_regeneration": [
+            {
+              "stream": "bare",
+              "row": 0,
+              "abs_difference": 0.0
+            },
+            {
+              "stream": "controlled",
+              "row": 0,
+              "abs_difference": 1.1102230246251565e-16
+            },
+            {
+              "stream": "bare",
+              "row": 1,
+              "abs_difference": 1.1102230246251565e-16
+            },
+            {
+              "stream": "controlled",
+              "row": 1,
+              "abs_difference": 5.551115123125783e-16
+            },
+            {
+              "stream": "bare",
+              "row": 5000,
+              "abs_difference": 0.0
+            },
+            {
+              "stream": "controlled",
+              "row": 5000,
+              "abs_difference": 1.1102230246251565e-16
+            },
+            {
+              "stream": "bare",
+              "row": 9999,
+              "abs_difference": 1.1102230246251565e-16
+            },
+            {
+              "stream": "controlled",
+              "row": 9999,
+              "abs_difference": 0.0
+            },
+            {
+              "stream": "permutation",
+              "row": 0,
+              "abs_difference": 1.1102230246251565e-16
+            },
+            {
+              "stream": "permutation",
+              "row": 1,
+              "abs_difference": 5.551115123125783e-17
+            },
+            {
+              "stream": "permutation",
+              "row": 9999,
+              "abs_difference": 1.1102230246251565e-16
+            }
+          ]
+        },
+        "geoB_thA": {
+          "raw_rho": -0.6072580645161291,
+          "partial_rho_controlling_C": -0.4327895155061856,
+          "bare_cluster_ci": [
+            -0.7726340445909455,
+            -0.2896584881287696
+          ],
+          "controlled_cluster_ci": [
+            -0.724228854712418,
+            0.14430713417736915
+          ],
+          "bare_ci_excludes_zero": true,
+          "controlled_ci_excludes_zero": false,
+          "permutation_p": 0.022097790220977902,
+          "n_models": 31,
+          "bootstrap_valid_counts": [
+            10000,
+            10000
+          ],
+          "permutation_valid_count": 10000,
+          "permutation_exceed_count": 220,
+          "verdict": "SHADOW-ONLY",
+          "representative_regeneration": [
+            {
+              "stream": "bare",
+              "row": 0,
+              "abs_difference": 1.1102230246251565e-16
+            },
+            {
+              "stream": "controlled",
+              "row": 0,
+              "abs_difference": 1.1102230246251565e-16
+            },
+            {
+              "stream": "bare",
+              "row": 1,
+              "abs_difference": 0.0
+            },
+            {
+              "stream": "controlled",
+              "row": 1,
+              "abs_difference": 8.326672684688674e-16
+            },
+            {
+              "stream": "bare",
+              "row": 5000,
+              "abs_difference": 0.0
+            },
+            {
+              "stream": "controlled",
+              "row": 5000,
+              "abs_difference": 1.1102230246251565e-16
+            },
+            {
+              "stream": "bare",
+              "row": 9999,
+              "abs_difference": 1.1102230246251565e-16
+            },
+            {
+              "stream": "controlled",
+              "row": 9999,
+              "abs_difference": 2.220446049250313e-16
+            },
+            {
+              "stream": "permutation",
+              "row": 0,
+              "abs_difference": 1.1102230246251565e-16
+            },
+            {
+              "stream": "permutation",
+              "row": 1,
+              "abs_difference": 6.938893903907228e-17
+            },
+            {
+              "stream": "permutation",
+              "row": 9999,
+              "abs_difference": 6.938893903907228e-18
+            }
+          ]
+        }
+      },
+      "seed0_verdicts_concordant": true
+    },
+    "math": {
+      "median_partial": 0.5030085612238885,
+      "full_run_partial_ref": 0.4821,
+      "retention": 1.0433697598504221,
+      "retention_percent": 104.33697598504222,
+      "same_sign": true,
+      "n_fits": 40,
+      "n_direction_cells": 40,
+      "seed0_full": {
+        "geoA_thB": {
+          "raw_rho": 0.3254032258064516,
+          "partial_rho_controlling_C": 0.4965254161911188,
+          "bare_cluster_ci": [
+            0.052226476790860225,
+            0.740058420674797
+          ],
+          "controlled_cluster_ci": [
+            0.12031955515003843,
+            0.8144657487573137
+          ],
+          "bare_ci_excludes_zero": true,
+          "controlled_ci_excludes_zero": true,
+          "permutation_p": 0.009999000099990002,
+          "n_models": 31,
+          "bootstrap_valid_counts": [
+            10000,
+            10000
+          ],
+          "permutation_valid_count": 10000,
+          "permutation_exceed_count": 99,
+          "verdict": "CONFIRM",
+          "representative_regeneration": [
+            {
+              "stream": "bare",
+              "row": 0,
+              "abs_difference": 5.551115123125783e-17
+            },
+            {
+              "stream": "controlled",
+              "row": 0,
+              "abs_difference": 1.6653345369377348e-16
+            },
+            {
+              "stream": "bare",
+              "row": 1,
+              "abs_difference": 1.1102230246251565e-16
+            },
+            {
+              "stream": "controlled",
+              "row": 1,
+              "abs_difference": 1.1102230246251565e-16
+            },
+            {
+              "stream": "bare",
+              "row": 5000,
+              "abs_difference": 5.551115123125783e-17
+            },
+            {
+              "stream": "controlled",
+              "row": 5000,
+              "abs_difference": 1.1102230246251565e-16
+            },
+            {
+              "stream": "bare",
+              "row": 9999,
+              "abs_difference": 5.551115123125783e-17
+            },
+            {
+              "stream": "controlled",
+              "row": 9999,
+              "abs_difference": 3.3306690738754696e-16
+            },
+            {
+              "stream": "permutation",
+              "row": 0,
+              "abs_difference": 9.71445146547012e-17
+            },
+            {
+              "stream": "permutation",
+              "row": 1,
+              "abs_difference": 2.7755575615628914e-17
+            },
+            {
+              "stream": "permutation",
+              "row": 9999,
+              "abs_difference": 5.551115123125783e-17
+            }
+          ]
+        },
+        "geoB_thA": {
+          "raw_rho": 0.3463709677419355,
+          "partial_rho_controlling_C": 0.5527573630830243,
+          "bare_cluster_ci": [
+            0.0595894767055851,
+            0.7832146854573293
+          ],
+          "controlled_cluster_ci": [
+            0.23962438932370975,
+            0.8645184444688947
+          ],
+          "bare_ci_excludes_zero": true,
+          "controlled_ci_excludes_zero": true,
+          "permutation_p": 0.0033996600339966003,
+          "n_models": 31,
+          "bootstrap_valid_counts": [
+            10000,
+            10000
+          ],
+          "permutation_valid_count": 10000,
+          "permutation_exceed_count": 33,
+          "verdict": "CONFIRM",
+          "representative_regeneration": [
+            {
+              "stream": "bare",
+              "row": 0,
+              "abs_difference": 1.1102230246251565e-16
+            },
+            {
+              "stream": "controlled",
+              "row": 0,
+              "abs_difference": 5.551115123125783e-17
+            },
+            {
+              "stream": "bare",
+              "row": 1,
+              "abs_difference": 0.0
+            },
+            {
+              "stream": "controlled",
+              "row": 1,
+              "abs_difference": 1.1102230246251565e-16
+            },
+            {
+              "stream": "bare",
+              "row": 5000,
+              "abs_difference": 5.551115123125783e-17
+            },
+            {
+              "stream": "controlled",
+              "row": 5000,
+              "abs_difference": 2.220446049250313e-16
+            },
+            {
+              "stream": "bare",
+              "row": 9999,
+              "abs_difference": 0.0
+            },
+            {
+              "stream": "controlled",
+              "row": 9999,
+              "abs_difference": 1.1102230246251565e-16
+            },
+            {
+              "stream": "permutation",
+              "row": 0,
+              "abs_difference": 1.0408340855860843e-16
+            },
+            {
+              "stream": "permutation",
+              "row": 1,
+              "abs_difference": 4.163336342344337e-17
+            },
+            {
+              "stream": "permutation",
+              "row": 9999,
+              "abs_difference": 5.551115123125783e-17
+            }
+          ]
+        }
+      },
+      "seed0_verdicts_concordant": true
+    }
+  },
+  "interpretation": "Descriptive signal retention under original31model protocol; no construct realism or causal independence claim.",
+  "limitations": [
+    "Ordinal family code is not categorical fixed effects.",
+    "Unrestricted theta permutations do not demonstrate conditional/family exchangeability.",
+    "Bare interval conditions on family code; not an interval for raw rho.",
+    "Retention is descriptive across repeated overlapping splits; not causal independence or construct realism.",
+    "Medical nonfinite criterion is failed measurement, not negative-control evidence.",
+    "Historical verdict strings cannot license scientific CONFIRM/REFUTE conclusions."
+  ],
+  "source_level": "saved per-half geometry summaries (eff_rank/PR/chi) plus saved seed0 bootstrap and permutation draws; the raw activation-level rebuild was already executed by the accepted retention producer with its own cache diagnostics, not repeated here",
+  "underlying_binding_contract": {
+    "path": "R/runs/study1_reuse_v1/retention/input_contract.json",
+    "domains": [
+      "code",
+      "math"
+    ],
+    "n_observed_npz_bindings": 62
+  }
+}

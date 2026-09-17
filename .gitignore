@@ -1,0 +1,10 @@
+/outputs/
+.venv*/
+.env
+.env.*
+__pycache__/
+*.py[cod]
+*.log
+*.aux
+*.out
+*.synctex.gz

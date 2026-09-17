@@ -1,0 +1,602 @@
+{
+  "schema": "C17-CACHE-BASELINE-REPLAY-v1/retained_study2_legacy",
+  "status": "RETAINED_LEGACY_STATS_AGGREGATED",
+  "replay_level": "CACHED_BASELINE_REPLAY (bounded aggregation of saved per-cell draws; no refit)",
+  "replaced_grid_policy": "28-grid cells and medical 28-grid associations are replaced by the new28 node (other worker); only retained (non-replaced) estimands are aggregated here.",
+  "cells": [
+    {
+      "key": "u2a__code__twoNN_id",
+      "domain": "code",
+      "feature": "twoNN_id",
+      "kind": "U2A",
+      "n_models": 48,
+      "n_families": 13,
+      "raw_rho": 0.3882978723404255,
+      "spearman_theta_accuracy": 0.906426400347373,
+      "passes_gate": false,
+      "acc": {
+        "partial_rho": 0.22603563098233165,
+        "bootstrap": {
+          "ci": [
+            -0.2652703140189448,
+            0.45177750679135253
+          ],
+          "n_valid": 2000,
+          "n_invalid": 0,
+          "ci_excludes_zero": false,
+          "rho": 0.22603563098233165
+        },
+        "permutation": {
+          "p": 0.13088691130886912,
+          "exceed_count": 1308,
+          "n_valid": 10000,
+          "n_invalid": 0
+        }
+      },
+      "acc_plus_C": {
+        "partial_rho": 0.18404169240414875,
+        "bootstrap": {
+          "ci": [
+            -0.29071702096562013,
+            0.40696271727017924
+          ],
+          "n_valid": 2000,
+          "n_invalid": 0,
+          "ci_excludes_zero": false,
+          "rho": 0.18404169240414875
+        },
+        "permutation": {
+          "p": 0.24217578242175783,
+          "exceed_count": 2421,
+          "n_valid": 10000,
+          "n_invalid": 0
+        }
+      }
+    },
+    {
+      "key": "u2a__math__twoNN_id",
+      "domain": "math",
+      "feature": "twoNN_id",
+      "kind": "U2A",
+      "n_models": 50,
+      "n_families": 13,
+      "raw_rho": 0.5448739495798319,
+      "spearman_theta_accuracy": 0.9824249699879952,
+      "passes_gate": false,
+      "acc": {
+        "partial_rho": 0.15640025120432488,
+        "bootstrap": {
+          "ci": [
+            -0.2539983610695072,
+            0.5799644708446651
+          ],
+          "n_valid": 2000,
+          "n_invalid": 0,
+          "ci_excludes_zero": false,
+          "rho": 0.15640025120432488
+        },
+        "permutation": {
+          "p": 0.2956704329567043,
+          "exceed_count": 2956,
+          "n_valid": 10000,
+          "n_invalid": 0
+        }
+      },
+      "acc_plus_C": {
+        "partial_rho": 0.19161163402275325,
+        "bootstrap": {
+          "ci": [
+            -0.13427298507152693,
+            0.5724631719535553
+          ],
+          "n_valid": 2000,
+          "n_invalid": 0,
+          "ci_excludes_zero": false,
+          "rho": 0.19161163402275325
+        },
+        "permutation": {
+          "p": 0.2104789521047895,
+          "exceed_count": 2104,
+          "n_valid": 10000,
+          "n_invalid": 0
+        }
+      }
+    },
+    {
+      "key": "u2a__science__eff_rank_pr",
+      "domain": "science",
+      "feature": "eff_rank_pr",
+      "kind": "U2A",
+      "n_models": 43,
+      "n_families": 13,
+      "raw_rho": -0.6066143159166415,
+      "spearman_theta_accuracy": 0.9726566144242789,
+      "passes_gate": false,
+      "acc": {
+        "partial_rho": -0.08041265325050014,
+        "bootstrap": {
+          "ci": [
+            -0.5125760187962023,
+            0.2553023337927354
+          ],
+          "n_valid": 2000,
+          "n_invalid": 0,
+          "ci_excludes_zero": false,
+          "rho": -0.08041265325050014
+        },
+        "permutation": {
+          "p": 0.6156384361563844,
+          "exceed_count": 6156,
+          "n_valid": 10000,
+          "n_invalid": 0
+        }
+      },
+      "acc_plus_C": {
+        "partial_rho": -0.1706953762213962,
+        "bootstrap": {
+          "ci": [
+            -0.5492820035256445,
+            0.12469119936485742
+          ],
+          "n_valid": 2000,
+          "n_invalid": 0,
+          "ci_excludes_zero": false,
+          "rho": -0.1706953762213962
+        },
+        "permutation": {
+          "p": 0.3076692330766923,
+          "exceed_count": 3076,
+          "n_valid": 10000,
+          "n_invalid": 0
+        }
+      }
+    },
+    {
+      "key": "u2a__science__rankme",
+      "domain": "science",
+      "feature": "rankme",
+      "kind": "U2A",
+      "n_models": 43,
+      "n_families": 13,
+      "raw_rho": -0.4163394744790094,
+      "spearman_theta_accuracy": 0.9726566144242789,
+      "passes_gate": false,
+      "acc": {
+        "partial_rho": 0.046849672163115565,
+        "bootstrap": {
+          "ci": [
+            -0.38966530261652904,
+            0.36496328877269474
+          ],
+          "n_valid": 2000,
+          "n_invalid": 0,
+          "ci_excludes_zero": false,
+          "rho": 0.046849672163115565
+        },
+        "permutation": {
+          "p": 0.765023497650235,
+          "exceed_count": 7650,
+          "n_valid": 10000,
+          "n_invalid": 0
+        }
+      },
+      "acc_plus_C": {
+        "partial_rho": 0.0012975305018951334,
+        "bootstrap": {
+          "ci": [
+            -0.4765154135404456,
+            0.3085087669164922
+          ],
+          "n_valid": 2000,
+          "n_invalid": 0,
+          "ci_excludes_zero": false,
+          "rho": 0.0012975305018951334
+        },
+        "permutation": {
+          "p": 0.9941005899410059,
+          "exceed_count": 9941,
+          "n_valid": 10000,
+          "n_invalid": 0
+        }
+      }
+    },
+    {
+      "key": "u2a__science__stable_rank",
+      "domain": "science",
+      "feature": "stable_rank",
+      "kind": "U2A",
+      "n_models": 43,
+      "n_families": 13,
+      "raw_rho": -0.5613107822410148,
+      "spearman_theta_accuracy": 0.9726566144242789,
+      "passes_gate": false,
+      "acc": {
+        "partial_rho": -0.08218670428979155,
+        "bootstrap": {
+          "ci": [
+            -0.5146155150045633,
+            0.2545842455577482
+          ],
+          "n_valid": 2000,
+          "n_invalid": 0,
+          "ci_excludes_zero": false,
+          "rho": -0.08218670428979155
+        },
+        "permutation": {
+          "p": 0.6025397460253975,
+          "exceed_count": 6025,
+          "n_valid": 10000,
+          "n_invalid": 0
+        }
+      },
+      "acc_plus_C": {
+        "partial_rho": -0.20968382384284587,
+        "bootstrap": {
+          "ci": [
+            -0.5545890327638097,
+            0.06757205209253545
+          ],
+          "n_valid": 2000,
+          "n_invalid": 0,
+          "ci_excludes_zero": false,
+          "rho": -0.20968382384284587
+        },
+        "permutation": {
+          "p": 0.20387961203879612,
+          "exceed_count": 2038,
+          "n_valid": 10000,
+          "n_invalid": 0
+        }
+      }
+    },
+    {
+      "key": "u2a__science__spectral_alpha",
+      "domain": "science",
+      "feature": "spectral_alpha",
+      "kind": "U2A",
+      "n_models": 43,
+      "n_families": 13,
+      "raw_rho": 0.5451525218967079,
+      "spearman_theta_accuracy": 0.9726566144242789,
+      "passes_gate": false,
+      "acc": {
+        "partial_rho": 0.10930847625292266,
+        "bootstrap": {
+          "ci": [
+            -0.18769891079591808,
+            0.45942279116967477
+          ],
+          "n_valid": 2000,
+          "n_invalid": 0,
+          "ci_excludes_zero": false,
+          "rho": 0.10930847625292266
+        },
+        "permutation": {
+          "p": 0.49445055494450557,
+          "exceed_count": 4944,
+          "n_valid": 10000,
+          "n_invalid": 0
+        }
+      },
+      "acc_plus_C": {
+        "partial_rho": 0.22677583433763882,
+        "bootstrap": {
+          "ci": [
+            -0.08804307756906922,
+            0.5493447038051961
+          ],
+          "n_valid": 2000,
+          "n_invalid": 0,
+          "ci_excludes_zero": false,
+          "rho": 0.22677583433763882
+        },
+        "permutation": {
+          "p": 0.17398260173982602,
+          "exceed_count": 1739,
+          "n_valid": 10000,
+          "n_invalid": 0
+        }
+      }
+    },
+    {
+      "key": "u2a__science__vn_entropy",
+      "domain": "science",
+      "feature": "vn_entropy",
+      "kind": "U2A",
+      "n_models": 43,
+      "n_families": 13,
+      "raw_rho": -0.6105406221685291,
+      "spearman_theta_accuracy": 0.9726566144242789,
+      "passes_gate": false,
+      "acc": {
+        "partial_rho": -0.035187304971838494,
+        "bootstrap": {
+          "ci": [
+            -0.43650421706175807,
+            0.3345931530347333
+          ],
+          "n_valid": 2000,
+          "n_invalid": 0,
+          "ci_excludes_zero": false,
+          "rho": -0.035187304971838494
+        },
+        "permutation": {
+          "p": 0.8247175282471753,
+          "exceed_count": 8247,
+          "n_valid": 10000,
+          "n_invalid": 0
+        }
+      },
+      "acc_plus_C": {
+        "partial_rho": -0.08370663488002686,
+        "bootstrap": {
+          "ci": [
+            -0.48996442593179107,
+            0.25813164237484904
+          ],
+          "n_valid": 2000,
+          "n_invalid": 0,
+          "ci_excludes_zero": false,
+          "rho": -0.08370663488002686
+        },
+        "permutation": {
+          "p": 0.6163383661633837,
+          "exceed_count": 6163,
+          "n_valid": 10000,
+          "n_invalid": 0
+        }
+      }
+    },
+    {
+      "key": "u2a__science__isoscore",
+      "domain": "science",
+      "feature": "isoscore",
+      "kind": "U2A",
+      "n_models": 43,
+      "n_families": 13,
+      "raw_rho": -0.6507097553609181,
+      "spearman_theta_accuracy": 0.9726566144242789,
+      "passes_gate": false,
+      "acc": {
+        "partial_rho": -0.09711391384904636,
+        "bootstrap": {
+          "ci": [
+            -0.5043339078128316,
+            0.24221536814486053
+          ],
+          "n_valid": 2000,
+          "n_invalid": 0,
+          "ci_excludes_zero": false,
+          "rho": -0.09711391384904636
+        },
+        "permutation": {
+          "p": 0.5448455154484552,
+          "exceed_count": 5448,
+          "n_valid": 10000,
+          "n_invalid": 0
+        }
+      },
+      "acc_plus_C": {
+        "partial_rho": -0.12661798909949826,
+        "bootstrap": {
+          "ci": [
+            -0.5403738288560898,
+            0.2223246397876323
+          ],
+          "n_valid": 2000,
+          "n_invalid": 0,
+          "ci_excludes_zero": false,
+          "rho": -0.12661798909949826
+        },
+        "permutation": {
+          "p": 0.45285471452854714,
+          "exceed_count": 4528,
+          "n_valid": 10000,
+          "n_invalid": 0
+        }
+      }
+    },
+    {
+      "key": "u2a__medical__eff_rank_pr",
+      "domain": "medical",
+      "feature": "eff_rank_pr",
+      "kind": "U2A",
+      "status": "BLOCKED_NONFINITE_INPUT",
+      "replayed": false,
+      "reason": "saved cell is blocked (no persisted draws); retained as blocked, not replayed"
+    },
+    {
+      "key": "h3__code__eff_rank_pr",
+      "domain": "code",
+      "kind": "H3",
+      "raw_rho": -0.4566869300911854,
+      "bare_rho": -0.4631948792964532,
+      "partial_rho": -0.2321656438726579,
+      "bare_bootstrap": {
+        "ci": [
+          -0.6272311518827375,
+          -0.18686765643194253
+        ],
+        "n_valid": 10000,
+        "n_invalid": 0,
+        "ci_excludes_zero": true,
+        "rho": -0.4631948792964532
+      },
+      "controlled_bootstrap": {
+        "ci": [
+          -0.4047203762268869,
+          0.028040820877900427
+        ],
+        "n_valid": 10000,
+        "n_invalid": 0,
+        "ci_excludes_zero": false,
+        "rho": -0.2321656438726579
+      },
+      "controlled_ci": [
+        -0.4047203762268869,
+        0.028040820877900427
+      ],
+      "permutation": {
+        "p": 0.13738626137386262,
+        "exceed_count": 1373,
+        "n_valid": 10000,
+        "n_invalid": 0
+      },
+      "rel_geo": 0.9859651053993066,
+      "rel_th": 0.985488015967104,
+      "disattenuation_ceiling": 0.9857265318194287,
+      "verdict": "SHADOW-ONLY"
+    },
+    {
+      "key": "h3__math__eff_rank_pr",
+      "domain": "math",
+      "kind": "H3",
+      "raw_rho": -0.01531812725090036,
+      "bare_rho": -0.01380090548434991,
+      "partial_rho": 0.14308517130519485,
+      "bare_bootstrap": {
+        "ci": [
+          -0.2769554448854682,
+          0.4145229676838998
+        ],
+        "n_valid": 10000,
+        "n_invalid": 0,
+        "ci_excludes_zero": false,
+        "rho": -0.01380090548434991
+      },
+      "controlled_bootstrap": {
+        "ci": [
+          -0.05562414399747942,
+          0.46515353892982253
+        ],
+        "n_valid": 10000,
+        "n_invalid": 0,
+        "ci_excludes_zero": false,
+        "rho": 0.14308517130519485
+      },
+      "controlled_ci": [
+        -0.05562414399747942,
+        0.46515353892982253
+      ],
+      "permutation": {
+        "p": 0.34656534346565343,
+        "exceed_count": 3465,
+        "n_valid": 10000,
+        "n_invalid": 0
+      },
+      "rel_geo": 0.9964822667694679,
+      "rel_th": 0.994990005142914,
+      "disattenuation_ceiling": 0.9957358564086037,
+      "verdict": "REFUTE"
+    },
+    {
+      "key": "h3__science__eff_rank_pr",
+      "domain": "science",
+      "kind": "H3",
+      "raw_rho": -0.6066143159166415,
+      "bare_rho": -0.601557501087088,
+      "partial_rho": -0.6372728238704494,
+      "bare_bootstrap": {
+        "ci": [
+          -0.7656526474410309,
+          -0.29296038244882255
+        ],
+        "n_valid": 10000,
+        "n_invalid": 0,
+        "ci_excludes_zero": true,
+        "rho": -0.601557501087088
+      },
+      "controlled_bootstrap": {
+        "ci": [
+          -0.7630581932685747,
+          -0.30766062238281994
+        ],
+        "n_valid": 10000,
+        "n_invalid": 0,
+        "ci_excludes_zero": true,
+        "rho": -0.6372728238704494
+      },
+      "controlled_ci": [
+        -0.7630581932685747,
+        -0.30766062238281994
+      ],
+      "permutation": {
+        "p": 9.999000099990002e-05,
+        "exceed_count": 0,
+        "n_valid": 10000,
+        "n_invalid": 0
+      },
+      "rel_geo": 0.9894704715397528,
+      "rel_th": 0.9825098149438244,
+      "disattenuation_ceiling": 0.9859840008260282,
+      "verdict": "CONFIRM"
+    },
+    {
+      "key": "h3__medical__eff_rank_pr",
+      "domain": "medical",
+      "kind": "H3",
+      "status": "BLOCKED_NONFINITE_INPUT",
+      "replayed": false,
+      "reason": "saved cell is blocked (no persisted draws); retained as blocked, not replayed"
+    },
+    {
+      "key": "drop3__science__eff_rank_pr",
+      "domain": "science_drop3",
+      "kind": "DROP3",
+      "raw_rho": -0.6045028142589118,
+      "bare_rho": -0.6024537899965982,
+      "partial_rho": -0.6132380457081924,
+      "bare_bootstrap": {
+        "ci": [
+          -0.7828995242292763,
+          -0.28617491486551133
+        ],
+        "n_valid": 10000,
+        "n_invalid": 0,
+        "ci_excludes_zero": true,
+        "rho": -0.6024537899965982
+      },
+      "controlled_bootstrap": {
+        "ci": [
+          -0.7855661315751692,
+          -0.28576601436569415
+        ],
+        "n_valid": 10000,
+        "n_invalid": 0,
+        "ci_excludes_zero": true,
+        "rho": -0.6132380457081924
+      },
+      "controlled_ci": [
+        -0.7855661315751692,
+        -0.28576601436569415
+      ],
+      "permutation": {
+        "p": 0.00019998000199980003,
+        "exceed_count": 1,
+        "n_valid": 10000,
+        "n_invalid": 0
+      },
+      "rel_geo": 0.9880387317258402,
+      "rel_th": 0.9807825835731375,
+      "disattenuation_ceiling": 0.9844039719405827,
+      "verdict": "CONFIRM"
+    }
+  ],
+  "sign_diagnostics": {
+    "sign": {
+      "spearman_PR_theta": -0.6066143159166415,
+      "spearman_PR_usable_n": -0.42811511356779475,
+      "spearman_theta_usable_n": 0.6301569655010367
+    },
+    "usable_n_partial": {
+      "partial_PR_theta_4cov": -0.6372728238704494,
+      "partial_PR_theta_4cov_plus_usable_n": -0.5719027423617776,
+      "partial_PR_theta_usable_n_only": -0.4800177962358613
+    }
+  },
+  "sign_scope": "Sign matches original script; appended usable-n partials reconstructed from declared estimand; exact original generating entry absent.",
+  "notes": [
+    "P2-C-004 DROP3 and P2-C-005 usable-n sign diagnostics recomputed from saved h3 geometry rows and saved inputs.",
+    "D-family accuracy-conditioned cells recomputed from saved per-cell draws including BH-free p-values; the historical U2A selection remains diagnostic-only (current BH grid unresolved)."
+  ]
+}

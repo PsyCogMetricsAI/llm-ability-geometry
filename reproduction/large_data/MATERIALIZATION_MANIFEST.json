@@ -1,0 +1,78 @@
+{
+  "schema": "c17-materialization-manifest-v1",
+  "package_level": "public code, configuration and scientific reference data; large scientific sources supplied separately",
+  "materialize": "python code/rfinal_replay/tools/materialize_sources.py --source-project <P> --source-analysis <R> --dest <private-copy>",
+  "blocks_required": {
+    "S40_sources": {
+      "count": 464,
+      "manifest": "code/c17_cache_simulations/SOURCE_MANIFEST_v1.json"
+    }
+  },
+  "gated_weights": "no model weights or credentials are shipped; optional GPU source rerun requires authorized acquisition and hash verification",
+  "tmp_note": "any /tmp staging must be re-materialized from the declared hashes",
+  "blocks": {
+    "S40": {
+      "manifest": "code/c17_cache_simulations/SOURCE_MANIFEST_v1.json",
+      "manifest_sha256": "1c498605a17452c7d0d0551276ed6cc5dd99bac263c6ff7c58f69d69a69a3ed2",
+      "key": "sources",
+      "entries": 464
+    },
+    "S41": {
+      "manifest": "code/c17_cache_observations/expected_inputs_v1.json",
+      "manifest_sha256": "4ef5a7050eae3c6522a3168c54f67a9588ee935380f1d90733de6a8a3f353cf9",
+      "key": "files",
+      "entries": 1632
+    },
+    "S42": {
+      "manifest": "code/c17_cache_baseline/expected_manifest_v1.json",
+      "manifest_sha256": "3b6de874618368aa9f88229e67eab1693fa3af3dc9ea2facfafd80a2f0b16da3",
+      "key": "entries",
+      "entries": 527
+    },
+    "S43": {
+      "manifest": "code/c17_replay_supplements_a/SOURCE_MANIFEST_v1.json",
+      "manifest_sha256": "512dff217abadb49a3c840c8acda1f3a207c53b42250ef99c54e3d0994ea05c8",
+      "key": "sources",
+      "entries": 77
+    },
+    "S44": {
+      "manifest": "code/c17_replay_supplements_b/expected_manifest_v1.json",
+      "manifest_sha256": "b96a25c933599058013a54f96c27fcc7ef3e5a9f40b6aa85472358c1ee9df1d0",
+      "key": "files",
+      "entries": 92
+    }
+  },
+  "derived_references": {
+    "config/CT_C17_RENDER_COMPARISON_v1.json": {
+      "files": 1,
+      "sha256": {
+        "CT_C17_RENDER_COMPARISON_v1.json": "e897e01d7ecb37207dc8189a1ac13d1ffc334c3c9cfe4d1dd073faa4ad546207"
+      }
+    },
+    "recovered/c17_render_comparison_v1": {
+      "files": 14,
+      "sha256": {
+        "P2-B-TAB-CONVERGENCE/convergence_table.csv": "8708290e6d63bd569da350c79d82aee31a87b8d9da645641cf1c2ff0f1139e05",
+        "P2-B-TAB-CONVERGENCE/convergence_values_long.csv": "420e3ddb4109d9d282c2bd73f81eb5943965b757b1ff18999754c5b96facb2b5",
+        "P2-B-TAB-CONVERGENCE/convergence_values_long_absent.csv": "420e3ddb4109d9d282c2bd73f81eb5943965b757b1ff18999754c5b96facb2b5",
+        "P2-B-TAB-CONVERGENCE/convergence_values_long_not_in_fresh.csv": "420e3ddb4109d9d282c2bd73f81eb5943965b757b1ff18999754c5b96facb2b5",
+        "P2-C-TAB-LOFO/lofo_table.csv": "2f70f1fd241a221597a67b4479737cca78285bdbd1652076c490934f64e64e2d",
+        "P2-C-TAB-LOFO/lofo_values_long.csv": "2778b048c789a20614d325e41bf78d2fac91060119afa78fde3069726e0a58d0",
+        "P2-C-TAB-SCIENCE/science_grid_table.csv": "f057cfb9e34409569cb74d0819377ba0abf6d6e45786bf2f3998d98b92c57a41",
+        "P2-C-TAB-SCIENCE/science_grid_values_long.csv": "6efcfe26cea4f99d74b6c56c7de4b2ac069311d2346b6cc831e84937c2424e89",
+        "P2-F-FIG-PROFILES/depth_peaks_fresh.csv": "446733d5cd1b25eda73318594cea1dff12bcd56cbae6876301d92c0968b4773a",
+        "P2-F-FIG-PROFILES/depth_profiles_series.csv": "a8e4b9351e845726ccb48e158cd50534f9f2f66cf048e8c8806d8874e72fe3bc",
+        "P2-F-FIG-PROFILES/depth_summary_fresh.csv": "fc598bb5fb3fd2a95fb9ba3795db7f51686cba2e76dec0c16aa796c636ca51cf",
+        "P2-F-TAB-PROBES/extension_probes_table.csv": "8464237ff5a80cd758f4a42b34671290eb2b4afcc0faefd77b057d6c78fe41a1",
+        "P2-G-FIG-MTMM/mtmm_cells.csv": "8d17651040e6652974d0de16995c09c974215abdbbb2b4f378e82c5ba3b5a936",
+        "P2-G-TAB-SUPPLEMENTS/supplement_topology.csv": "1cb57a2d100721bc0090066992e741752fdf5a039e913053ff9806245d86a218"
+      }
+    }
+  },
+  "note": "materialize_sources.py copies packaged code/config/comparison as the pinned override and materializes every whitelist entry referenced by the 10 active stages",
+  "external_inventory": {
+    "unique_files": 3094,
+    "bytes": 4325608929,
+    "scope": "Required non-packaged sources; local size inventory, not new full-payload digest verification"
+  }
+}

@@ -1,0 +1,11 @@
+item,evidence_source,binding_status
+Per-indicator grid (7 indicators x 4 domains),render/adapted/F1-native-28.json; render/adapted/F1-rarefied-28.json,regenerated: 28 cells per variant; supersedes the historical 21-cell description
+Table 1 - instrument reliability,"../../../../results/sources/study1_baseline.json (/domains/*/rel_geo, /domains/*/rel_th); retained reliability reproductions",regenerated from retained Study-1 results; original reliability reproductions retained
+Table 3 - frozen per-domain convergence panel,P2-B-TAB-CONVERGENCE convergence_table.csv/.tex (regenerated from retained Study-1 results),regenerated: emitted as its own result output
+Table 3b - frozen verdict statistics,../../../../results/sources/study1_baseline.json (/domains/*/verdict),regenerated from retained frozen verdict statistics
+Table 4 - per-indicator map,render/adapted/F1-native-28.json; render/adapted/F1-rarefied-28.json,regenerated: 28-cell map supersedes the historical 21-cell map
+Appendix A - analysis plan and deviations,no recoverable fresh evidence (historical plan/threshold records unavailable),historical limitation retained; not regenerated
+Appendix B - theory derivations,runs/theory_execution_v1/result.json (symbolic checks),retained: symbolic derivation checks unchanged
+Appendix C - decomposition audits,retained original decomposition record (P2-B-006),retained original; not re-run
+Appendix D - adversarial probes,retained new analysis: appendix-D residual item structure (P2-G-RESIDUAL-DIM),retained; no numeric values are defined in this topology
+Appendix E - medical theta-instability probe,regenerated medical criterion-failure record (free-2PL failure retained),replaced by the regenerated medical MAP-primary analysis

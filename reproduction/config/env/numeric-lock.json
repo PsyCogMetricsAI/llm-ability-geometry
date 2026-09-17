@@ -1,0 +1,10 @@
+{
+  "schema": "c17-numeric-env-lock-v1",
+  "python": "3.12.11",
+  "numpy": "2.5.0",
+  "scipy": "1.18.1",
+  "girth": "0.8.0",
+  "sympy": "1.14.0",
+  "source": "C17 frozen numeric environment (cache replay)",
+  "rebuild": "python3.12 -m venv <dir> && <dir>/bin/pip install numpy==2.5.0 scipy==1.18.1 girth==0.8.0 sympy==1.14.0"
+}

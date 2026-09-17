@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using these research materials."
+type: software
+repository-code: "https://github.com/PsyCogMetricsAI/llm-ability-geometry"
+url: "https://github.com/PsyCogMetricsAI/llm-ability-geometry"
+title: "Companion materials: Two Instruments, One Capability: A Convergent-Validity Audit of Behavioral IRT Ability and Representation Geometry in LLMs"
+authors:
+  - family-names: Jin
+    given-names: Zhiye
+  - family-names: Wang
+    given-names: Xuequn
+  - family-names: Wang
+    given-names: Yuehan
+  - family-names: Li
+    given-names: Yibai
+preferred-citation:
+  type: unpublished
+  title: "Two Instruments, One Capability: A Convergent-Validity Audit of Behavioral IRT Ability and Representation Geometry in LLMs"
+  authors:
+    - family-names: Jin
+      given-names: Zhiye
+    - family-names: Wang
+      given-names: Xuequn
+    - family-names: Wang
+      given-names: Yuehan
+    - family-names: Li
+      given-names: Yibai
+  year: 2026
+  notes: "Manuscript associated with HICSS Submission 12370; no conference acceptance or DOI is asserted here."

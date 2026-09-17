@@ -1,0 +1,1715 @@
+{
+  "status": "PRODUCER_COMPLETE_PENDING_INDEPENDENT_REVIEW",
+  "classification": "NEW_ALTERNATIVE_MODEL_SENSITIVITY_NOT_OLD_NEGATIVE_CONTROL_OR_BH_RESTORATION",
+  "contract_sha256": "0f4aff7350c351253e4dd15cf095d631b6a7cc6c95a4c05fe8416b071a66ab80",
+  "code_sha256": "335a7abec7c4ac50080e3100ee1f1fe3bab88a2d16919b67e14036272c27ad11",
+  "panels": {
+    "A": {
+      "n": 45,
+      "features": [
+        "native_twoNN_id",
+        "native_eff_rank_pr",
+        "native_rankme",
+        "native_stable_rank",
+        "native_spectral_alpha",
+        "native_vn_entropy",
+        "native_isoscore",
+        "rarefied_twoNN_id",
+        "rarefied_eff_rank_pr",
+        "rarefied_rankme",
+        "rarefied_stable_rank",
+        "rarefied_spectral_alpha",
+        "rarefied_vn_entropy",
+        "rarefied_isoscore"
+      ],
+      "family_order": [
+        "Arcee",
+        "ByteDance",
+        "EleutherAI",
+        "GLM",
+        "Gemma",
+        "Granite",
+        "Llama",
+        "Mistral",
+        "OLMo",
+        "Phi",
+        "Qwen",
+        "SmolLM",
+        "Yi"
+      ],
+      "family_sizes": [
+        1,
+        3,
+        2,
+        2,
+        5,
+        4,
+        6,
+        3,
+        6,
+        1,
+        9,
+        1,
+        2
+      ],
+      "canonicalization": {
+        "max_EAP_within_total_spread": 0.0,
+        "unique_totals": 45,
+        "exact_total_ranking_used": true,
+        "source_EAP_vs_total_rho": 0.9999999999999999
+      },
+      "inputs_sha256": "a3d5391d7d126f50b1ebb1aca23994f74e924df2bb1bd47f5a14c3e595b714ac",
+      "bootstrap_sha256": "8ea971dbb248429d618f15278889505fb5fa5b648c277cac94b8db6d48c5ca37"
+    },
+    "B": {
+      "n": 48,
+      "features": [
+        "trackB_eff_rank_pr"
+      ],
+      "family_order": [
+        "Arcee",
+        "ByteDance",
+        "EleutherAI",
+        "GLM",
+        "Gemma",
+        "Granite",
+        "Llama",
+        "Mistral",
+        "OLMo",
+        "Phi",
+        "Qwen",
+        "SmolLM",
+        "Yi"
+      ],
+      "family_sizes": [
+        2,
+        3,
+        2,
+        2,
+        5,
+        4,
+        6,
+        4,
+        6,
+        1,
+        9,
+        2,
+        2
+      ],
+      "canonicalization": {
+        "max_EAP_within_total_spread": 0.0,
+        "unique_totals": 48,
+        "exact_total_ranking_used": true,
+        "source_EAP_vs_total_rho": 1.0
+      },
+      "inputs_sha256": "350769caa0ab68a40bac4f066241ee78f28a19fb069b6a9b0523f2fafaf0cae3",
+      "bootstrap_sha256": "6f7948c093a70c4a0fddd019b63fe3067e6fcfbfc237ec1271a42389438777b8"
+    }
+  },
+  "status_codes": {
+    "0": "valid",
+    "1": "constant_input",
+    "2": "rank_deficient_design",
+    "3": "zero_residual_rank",
+    "4": "zero_residual_norm"
+  },
+  "rows": [
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "raw",
+      "feature": "native_twoNN_id",
+      "point": 0.5079051383399209,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        0.3678928654654248,
+        0.6319612597478727
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "raw",
+      "feature": "native_eff_rank_pr",
+      "point": -0.6266139657444004,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7571952932489298,
+        -0.4538565474122695
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "raw",
+      "feature": "native_rankme",
+      "point": -0.31660079051383394,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.6108648643487776,
+        -0.07578944648708141
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "raw",
+      "feature": "native_stable_rank",
+      "point": -0.6072463768115941,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7569846095009647,
+        -0.36440972003254424
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "raw",
+      "feature": "native_spectral_alpha",
+      "point": 0.32437417654808953,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.05789836182358636,
+        0.5686010555780385
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "raw",
+      "feature": "native_vn_entropy",
+      "point": -0.5873517786561264,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7084903649551244,
+        -0.40901061470731087
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "raw",
+      "feature": "native_isoscore",
+      "point": -0.7152832674571804,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.8326603231957119,
+        -0.4756610612378788
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "raw",
+      "feature": "rarefied_twoNN_id",
+      "point": 0.16996047430830039,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        0.01268262172535064,
+        0.42126451926441
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "raw",
+      "feature": "rarefied_eff_rank_pr",
+      "point": -0.6461133069828722,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7670148855972355,
+        -0.4819952043359833
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "raw",
+      "feature": "rarefied_rankme",
+      "point": -0.5969696969696969,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7275920985141647,
+        -0.42993976376635334
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "raw",
+      "feature": "rarefied_stable_rank",
+      "point": -0.6115942028985506,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.751892799064504,
+        -0.36558768039430045
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "raw",
+      "feature": "rarefied_spectral_alpha",
+      "point": 0.36969696969696964,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        0.12525043146997358,
+        0.564361735878424
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "raw",
+      "feature": "rarefied_vn_entropy",
+      "point": -0.6306982872200263,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7466103022010953,
+        -0.4855194527145674
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "raw",
+      "feature": "rarefied_isoscore",
+      "point": -0.7201581027667984,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.8286014304221679,
+        -0.5009149555169322
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "raw",
+      "feature": "native_twoNN_id",
+      "point": 0.5176548089591567,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        0.37397310658031285,
+        0.6376841791704797
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "raw",
+      "feature": "native_eff_rank_pr",
+      "point": -0.6326745718050065,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7636796596887157,
+        -0.45111942264148824
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "raw",
+      "feature": "native_rankme",
+      "point": -0.3272727272727272,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.6142009903438224,
+        -0.08054873168475195
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "raw",
+      "feature": "native_stable_rank",
+      "point": -0.6123847167325428,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7653069430248641,
+        -0.3606773520183844
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "raw",
+      "feature": "native_spectral_alpha",
+      "point": 0.33807641633728586,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.03977768701725857,
+        0.5668842447783141
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "raw",
+      "feature": "native_vn_entropy",
+      "point": -0.5897233201581027,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7129136176848379,
+        -0.40206187856950704
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "raw",
+      "feature": "native_isoscore",
+      "point": -0.7187088274044795,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.8412529501069881,
+        -0.4707900676600425
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "raw",
+      "feature": "rarefied_twoNN_id",
+      "point": 0.1789196310935441,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        0.024498970236872565,
+        0.4304530581861506
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "raw",
+      "feature": "rarefied_eff_rank_pr",
+      "point": -0.6528326745718049,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7743079135580072,
+        -0.480838721824082
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "raw",
+      "feature": "rarefied_rankme",
+      "point": -0.6061923583662714,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7303375272358016,
+        -0.42589682044287847
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "raw",
+      "feature": "rarefied_stable_rank",
+      "point": -0.6151515151515151,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7599920727098427,
+        -0.3635350498227782
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "raw",
+      "feature": "rarefied_spectral_alpha",
+      "point": 0.38761528326745714,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        0.14083714356128937,
+        0.5694053377837478
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "raw",
+      "feature": "rarefied_vn_entropy",
+      "point": -0.634387351778656,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7490353068815637,
+        -0.478413049756992
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "raw",
+      "feature": "rarefied_isoscore",
+      "point": -0.7227931488801053,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.8353791574994626,
+        -0.4950169483325577
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C",
+      "feature": "native_twoNN_id",
+      "point": 0.4268073679844356,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        0.1762507355623431,
+        0.6077210996132235
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C",
+      "feature": "native_eff_rank_pr",
+      "point": -0.5870641541203997,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7309840668784298,
+        -0.33210201460526184
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C",
+      "feature": "native_rankme",
+      "point": -0.26097829769550174,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.6755142696893471,
+        0.1520699607608678
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C",
+      "feature": "native_stable_rank",
+      "point": -0.5557051100829576,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7214652785695591,
+        -0.1977719024623992
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C",
+      "feature": "native_spectral_alpha",
+      "point": 0.35265572998155337,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        0.010391268723802525,
+        0.5873364305214104
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C",
+      "feature": "native_vn_entropy",
+      "point": -0.5518489148457465,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.6887235652670705,
+        -0.2592655478687555
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C",
+      "feature": "native_isoscore",
+      "point": -0.6129034090049852,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7573780636659456,
+        -0.32437064777455027
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C",
+      "feature": "rarefied_twoNN_id",
+      "point": 0.11873326100162852,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.14851122359276178,
+        0.4417323840552661
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C",
+      "feature": "rarefied_eff_rank_pr",
+      "point": -0.6083983588644102,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7350452538865804,
+        -0.37197878328623246
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C",
+      "feature": "rarefied_rankme",
+      "point": -0.5804139974328796,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7137281590682564,
+        -0.3288993179578328
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C",
+      "feature": "rarefied_stable_rank",
+      "point": -0.5581541292149848,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7125975516225365,
+        -0.20670670431928748
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C",
+      "feature": "rarefied_spectral_alpha",
+      "point": 0.2676452695844846,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.0582312318131084,
+        0.531440374222292
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C",
+      "feature": "rarefied_vn_entropy",
+      "point": -0.6113397265551673,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.711650025113773,
+        -0.415131125713903
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C",
+      "feature": "rarefied_isoscore",
+      "point": -0.6176660351933799,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7510993387649767,
+        -0.36023095964038154
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C",
+      "feature": "native_twoNN_id",
+      "point": 0.4402112208073418,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        0.18868177802800237,
+        0.6103170179060945
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C",
+      "feature": "native_eff_rank_pr",
+      "point": -0.5910484080103844,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7382047211727377,
+        -0.3301282330537187
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C",
+      "feature": "native_rankme",
+      "point": -0.26903927154203383,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.6828663225699896,
+        0.1476817023819382
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C",
+      "feature": "native_stable_rank",
+      "point": -0.5579671688363036,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7263431927828373,
+        -0.1976884631839801
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C",
+      "feature": "native_spectral_alpha",
+      "point": 0.3651786855160216,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        0.028802941183030107,
+        0.59253529099096
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C",
+      "feature": "native_vn_entropy",
+      "point": -0.5510789895628004,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.6907439602525403,
+        -0.24967742747417063
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C",
+      "feature": "native_isoscore",
+      "point": -0.6144744915927829,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7670912597933452,
+        -0.3188998778214624
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C",
+      "feature": "rarefied_twoNN_id",
+      "point": 0.13131528771073744,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.12512215546605307,
+        0.4411806834030486
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C",
+      "feature": "rarefied_eff_rank_pr",
+      "point": -0.6135226263318762,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7427286633322248,
+        -0.3713696581069278
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C",
+      "feature": "rarefied_rankme",
+      "point": -0.5880898282204748,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7186363193374241,
+        -0.3307322173861718
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C",
+      "feature": "rarefied_stable_rank",
+      "point": -0.558657679844532,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7164464881816799,
+        -0.20624215442876984
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C",
+      "feature": "rarefied_spectral_alpha",
+      "point": 0.28393106663678847,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.03859835282976598,
+        0.537145545004083
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C",
+      "feature": "rarefied_vn_entropy",
+      "point": -0.6128502632212145,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7125937218134425,
+        -0.4101800871574706
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C",
+      "feature": "rarefied_isoscore",
+      "point": -0.6182007550117471,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7577666020047533,
+        -0.3522239289660864
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "native_twoNN_id",
+      "point": null,
+      "point_status": "zero_residual_rank",
+      "valid": 0,
+      "B": 10000,
+      "CI95": null,
+      "bootstrap_status": {
+        "zero_residual_rank": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "native_eff_rank_pr",
+      "point": null,
+      "point_status": "zero_residual_rank",
+      "valid": 0,
+      "B": 10000,
+      "CI95": null,
+      "bootstrap_status": {
+        "zero_residual_rank": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "native_rankme",
+      "point": null,
+      "point_status": "zero_residual_rank",
+      "valid": 0,
+      "B": 10000,
+      "CI95": null,
+      "bootstrap_status": {
+        "zero_residual_rank": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "native_stable_rank",
+      "point": null,
+      "point_status": "zero_residual_rank",
+      "valid": 0,
+      "B": 10000,
+      "CI95": null,
+      "bootstrap_status": {
+        "zero_residual_rank": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "native_spectral_alpha",
+      "point": null,
+      "point_status": "zero_residual_rank",
+      "valid": 0,
+      "B": 10000,
+      "CI95": null,
+      "bootstrap_status": {
+        "zero_residual_rank": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "native_vn_entropy",
+      "point": null,
+      "point_status": "zero_residual_rank",
+      "valid": 0,
+      "B": 10000,
+      "CI95": null,
+      "bootstrap_status": {
+        "zero_residual_rank": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "native_isoscore",
+      "point": null,
+      "point_status": "zero_residual_rank",
+      "valid": 0,
+      "B": 10000,
+      "CI95": null,
+      "bootstrap_status": {
+        "zero_residual_rank": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "rarefied_twoNN_id",
+      "point": null,
+      "point_status": "zero_residual_rank",
+      "valid": 0,
+      "B": 10000,
+      "CI95": null,
+      "bootstrap_status": {
+        "zero_residual_rank": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "rarefied_eff_rank_pr",
+      "point": null,
+      "point_status": "zero_residual_rank",
+      "valid": 0,
+      "B": 10000,
+      "CI95": null,
+      "bootstrap_status": {
+        "zero_residual_rank": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "rarefied_rankme",
+      "point": null,
+      "point_status": "zero_residual_rank",
+      "valid": 0,
+      "B": 10000,
+      "CI95": null,
+      "bootstrap_status": {
+        "zero_residual_rank": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "rarefied_stable_rank",
+      "point": null,
+      "point_status": "zero_residual_rank",
+      "valid": 0,
+      "B": 10000,
+      "CI95": null,
+      "bootstrap_status": {
+        "zero_residual_rank": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "rarefied_spectral_alpha",
+      "point": null,
+      "point_status": "zero_residual_rank",
+      "valid": 0,
+      "B": 10000,
+      "CI95": null,
+      "bootstrap_status": {
+        "zero_residual_rank": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "rarefied_vn_entropy",
+      "point": null,
+      "point_status": "zero_residual_rank",
+      "valid": 0,
+      "B": 10000,
+      "CI95": null,
+      "bootstrap_status": {
+        "zero_residual_rank": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "Rasch",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "rarefied_isoscore",
+      "point": null,
+      "point_status": "zero_residual_rank",
+      "valid": 0,
+      "B": 10000,
+      "CI95": null,
+      "bootstrap_status": {
+        "zero_residual_rank": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "native_twoNN_id",
+      "point": 0.21180393947971374,
+      "point_status": "valid",
+      "valid": 9524,
+      "B": 10000,
+      "CI95": [
+        -0.19211720111576375,
+        0.3780360675454236
+      ],
+      "bootstrap_status": {
+        "valid": 9524,
+        "zero_residual_rank": 476
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "native_eff_rank_pr",
+      "point": -0.09210933167790897,
+      "point_status": "valid",
+      "valid": 9524,
+      "B": 10000,
+      "CI95": [
+        -0.37653789114688224,
+        0.24223188386283517
+      ],
+      "bootstrap_status": {
+        "valid": 9524,
+        "zero_residual_rank": 476
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "native_rankme",
+      "point": -0.11949866454679307,
+      "point_status": "valid",
+      "valid": 9524,
+      "B": 10000,
+      "CI95": [
+        -0.46199986295643375,
+        0.18942979821941475
+      ],
+      "bootstrap_status": {
+        "valid": 9524,
+        "zero_residual_rank": 476
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "native_stable_rank",
+      "point": -0.06116975908443015,
+      "point_status": "valid",
+      "valid": 9524,
+      "B": 10000,
+      "CI95": [
+        -0.40684034036088434,
+        0.27328864969046385
+      ],
+      "bootstrap_status": {
+        "valid": 9524,
+        "zero_residual_rank": 476
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "native_spectral_alpha",
+      "point": 0.18935436098654235,
+      "point_status": "valid",
+      "valid": 9524,
+      "B": 10000,
+      "CI95": [
+        -0.19346861042896146,
+        0.42036754727477127
+      ],
+      "bootstrap_status": {
+        "valid": 9524,
+        "zero_residual_rank": 476
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "native_vn_entropy",
+      "point": -0.01328471087469373,
+      "point_status": "valid",
+      "valid": 9524,
+      "B": 10000,
+      "CI95": [
+        -0.3662241960066136,
+        0.2986223915960226
+      ],
+      "bootstrap_status": {
+        "valid": 9524,
+        "zero_residual_rank": 476
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "native_isoscore",
+      "point": -0.05570451357223314,
+      "point_status": "valid",
+      "valid": 9524,
+      "B": 10000,
+      "CI95": [
+        -0.43102492200092474,
+        0.27890122318283805
+      ],
+      "bootstrap_status": {
+        "valid": 9524,
+        "zero_residual_rank": 476
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "rarefied_twoNN_id",
+      "point": 0.17020321608515757,
+      "point_status": "valid",
+      "valid": 9524,
+      "B": 10000,
+      "CI95": [
+        -0.16904963854796937,
+        0.38092437912087257
+      ],
+      "bootstrap_status": {
+        "valid": 9524,
+        "zero_residual_rank": 476
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "rarefied_eff_rank_pr",
+      "point": -0.11376036219869955,
+      "point_status": "valid",
+      "valid": 9524,
+      "B": 10000,
+      "CI95": [
+        -0.37365585376034244,
+        0.22977517989077484
+      ],
+      "bootstrap_status": {
+        "valid": 9524,
+        "zero_residual_rank": 476
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "rarefied_rankme",
+      "point": -0.15050731334740122,
+      "point_status": "valid",
+      "valid": 9524,
+      "B": 10000,
+      "CI95": [
+        -0.3726541795098891,
+        0.20076773806495982
+      ],
+      "bootstrap_status": {
+        "valid": 9524,
+        "zero_residual_rank": 476
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "rarefied_stable_rank",
+      "point": -0.03370336091566341,
+      "point_status": "valid",
+      "valid": 9524,
+      "B": 10000,
+      "CI95": [
+        -0.39943780815000796,
+        0.2908833872564569
+      ],
+      "bootstrap_status": {
+        "valid": 9524,
+        "zero_residual_rank": 476
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "rarefied_spectral_alpha",
+      "point": 0.23156138713434468,
+      "point_status": "valid",
+      "valid": 9524,
+      "B": 10000,
+      "CI95": [
+        -0.15431672272158675,
+        0.438989548141552
+      ],
+      "bootstrap_status": {
+        "valid": 9524,
+        "zero_residual_rank": 476
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "rarefied_vn_entropy",
+      "point": -0.05454363316419374,
+      "point_status": "valid",
+      "valid": 9524,
+      "B": 10000,
+      "CI95": [
+        -0.3613371418048239,
+        0.29057989509074295
+      ],
+      "bootstrap_status": {
+        "valid": 9524,
+        "zero_residual_rank": 476
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "A",
+      "score": "MAP",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "rarefied_isoscore",
+      "point": -0.03897596847050132,
+      "point_status": "valid",
+      "valid": 9524,
+      "B": 10000,
+      "CI95": [
+        -0.4156060181335896,
+        0.29787457476685725
+      ],
+      "bootstrap_status": {
+        "valid": 9524,
+        "zero_residual_rank": 476
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "B",
+      "score": "Rasch",
+      "mode": "raw",
+      "feature": "trackB_eff_rank_pr",
+      "point": -0.5630699088145897,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7155738709366195,
+        -0.338788640136461
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "B",
+      "score": "MAP",
+      "mode": "raw",
+      "feature": "trackB_eff_rank_pr",
+      "point": -0.5640468953538863,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.716485455846935,
+        -0.3333304367975901
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "B",
+      "score": "Rasch",
+      "mode": "partial4C",
+      "feature": "trackB_eff_rank_pr",
+      "point": -0.484607602618344,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.7274499001791069,
+        -0.19841483112897226
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "B",
+      "score": "MAP",
+      "mode": "partial4C",
+      "feature": "trackB_eff_rank_pr",
+      "point": -0.4818325906681136,
+      "point_status": "valid",
+      "valid": 10000,
+      "B": 10000,
+      "CI95": [
+        -0.72715131603412,
+        -0.19174953826219251
+      ],
+      "bootstrap_status": {
+        "valid": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "B",
+      "score": "Rasch",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "trackB_eff_rank_pr",
+      "point": null,
+      "point_status": "zero_residual_rank",
+      "valid": 0,
+      "B": 10000,
+      "CI95": null,
+      "bootstrap_status": {
+        "zero_residual_rank": 10000
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    },
+    {
+      "panel": "B",
+      "score": "MAP",
+      "mode": "partial4C_plus_fitaccuracy",
+      "feature": "trackB_eff_rank_pr",
+      "point": 0.03994072738775021,
+      "point_status": "valid",
+      "valid": 9279,
+      "B": 10000,
+      "CI95": [
+        -0.263009568534631,
+        0.2812066564906905
+      ],
+      "bootstrap_status": {
+        "valid": 9279,
+        "zero_residual_rank": 721
+      },
+      "interpretation": "descriptive sensitivity only; no calibrated significance or negative-control verdict"
+    }
+  ],
+  "limits": [
+    "Cached geometry start; no GPU re-extraction.",
+    "A has14columns;B isPR-only.",
+    "Rasch exact total-rank equivalence enforced; accuracy-conditioned residual undefined.",
+    "No permutationp,BH,negativecontrol verdict; descriptiveCI uncalibrated small-family inference.",
+    "No model chosen as primary from association results."
+  ]
+}

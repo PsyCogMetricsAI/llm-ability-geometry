@@ -1,0 +1,470 @@
+{
+  "schema": "C17-REPLAY-SUPPLEMENTS-A-v1/expected-manifest",
+  "generated_utc": "2026-09-17T06:11:56Z",
+  "n_sources": 77,
+  "path_convention": "paths are labelled R/... (analysis root) or P/... (project root)",
+  "sources": [
+    {
+      "path": "P/Imports/geometry/g5no_gates_50.json",
+      "sha256": "cb18e476af5927314e41398315abbd8295c5e66b07f4889552ec247ead74a6e4",
+      "role": "historical_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "P/Imports/geometry/theta_hat_girth_20260607.json",
+      "sha256": "977c880a9f47b93319ba79d9cc5caa04de569270c389973586f02e0274ef7279",
+      "role": "raw_vector",
+      "level": "primary_raw"
+    },
+    {
+      "path": "P/Imports/geometry/theta_hat_mirt.json",
+      "sha256": "99680273b66d579be4afc046fd901ea7ab82bc873fbf082eeb19ae8d7af3a764",
+      "role": "raw_vector",
+      "level": "primary_raw"
+    },
+    {
+      "path": "P/Imports/geometry/theta_splithalf_in/resp_code_halfa.csv",
+      "sha256": "5ca578f8c88ff6b1c6b0facb7af88c426c59a9aae6079da12b83fc8f355ee5de",
+      "role": "raw_vector",
+      "level": "primary_raw"
+    },
+    {
+      "path": "P/Imports/geometry/theta_splithalf_in/resp_code_halfb.csv",
+      "sha256": "cad6e623a339333d74b31134ce942b3607f64e5a97f079cf46cabceb9ef81330",
+      "role": "raw_vector",
+      "level": "primary_raw"
+    },
+    {
+      "path": "P/Imports/geometry/theta_splithalf_in/resp_math_halfa.csv",
+      "sha256": "5cde51426a09f3cdf8904ce5b89f81cc15a1f8f744c218e87af6b8c8b88db2bf",
+      "role": "raw_vector",
+      "level": "primary_raw"
+    },
+    {
+      "path": "P/Imports/geometry/theta_splithalf_in/resp_math_halfb.csv",
+      "sha256": "3d300d1b7735be8a2cb44feb3e4af05ff6a994c60abedc350db19cfb01df174b",
+      "role": "raw_vector",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/config/STUDY2_FEATURE_REUSE_V1.json",
+      "sha256": "2f261ef06f935427ffe30798413000f78dc30329d2e3a8d5256a258d6ebfa207",
+      "role": "config",
+      "level": "configuration"
+    },
+    {
+      "path": "R/config/STUDY2_INFERENCE_REUSE_V1.json",
+      "sha256": "89aac73fb46e63663a81ae4a1bde738765380bbd36dccaa724fa02ab5f667908",
+      "role": "config",
+      "level": "configuration"
+    },
+    {
+      "path": "R/recovered/Imports/geometry/route_c_mc_dispatch_20260608/panel_geom_bfull_20260609/_l0cache/afm_4_5b__code.npy",
+      "sha256": "3bed4d6fafad9dc68de8c09f56254feef5d74eb9760e85b51603145f2a08b36f",
+      "role": "raw_vector",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/recovered/Imports/geometry/route_c_mc_dispatch_20260608/panel_geom_bfull_20260609/_l0cache/afm_4_5b__science.npy",
+      "sha256": "bb79da188f1b57fe42b47deab1e92b57a79bb3852cefcfe235a29920298a2bdf",
+      "role": "raw_vector",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/recovered/Imports/geometry/route_c_mc_dispatch_20260608/panel_geom_bfull_20260609/_l0cache/gemma_2_27b_it__code.npy",
+      "sha256": "2fd799cba0db19f6061a5e1525429d68411afb37f84dd9663816e0c70b03b1b8",
+      "role": "raw_vector",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/recovered/Imports/geometry/route_c_mc_dispatch_20260608/panel_geom_bfull_20260609/_l0cache/gemma_2_27b_it__medical.npy",
+      "sha256": "67245d47806a8b396e76ee6394eabaa6865a6414bd2045c06c4beb2a7e0351ff",
+      "role": "raw_vector",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/recovered/Imports/geometry/route_c_mc_dispatch_20260608/panel_geom_bfull_20260609/_l0cache/gemma_2_27b_it__science.npy",
+      "sha256": "63b1a19352527274af79f08af0ff571343805584872d5a46a94c60c4f9c31d30",
+      "role": "raw_vector",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/recovered/Imports/geometry/route_c_mc_dispatch_20260608/panel_geom_bfull_20260609/_l0cache/llama_3_1_8b_instruct__medical.npy",
+      "sha256": "37d426333bc9b6e66757da67ffb08391ca0a243c742bba0e4fa45e50839ebeb2",
+      "role": "raw_vector",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/recovered/Imports/geometry/route_c_mc_dispatch_20260608/panel_geom_bfull_20260609/_l0cache/qwen3_8b__code.npy",
+      "sha256": "1649c409f1343b6e0bc996512b23647895cac20bda7139753d62063f70473c37",
+      "role": "raw_vector",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/recovered/Imports/geometry/route_c_mc_dispatch_20260608/panel_geom_bfull_20260609/_l0cache/qwen3_8b__medical.npy",
+      "sha256": "9d007b2281d1beb365e4103c99fc3304991eaff927049ff44a775618f158b356",
+      "role": "raw_vector",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/recovered/Imports/geometry/route_c_mc_dispatch_20260608/panel_geom_bfull_20260609/_l0cache/qwen3_8b__science.npy",
+      "sha256": "8fe67bc26336f5401f87f22d5df918eb9fc816120236845df30904b5454699c1",
+      "role": "raw_vector",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/reports/C17_FINAL_EVIDENCE_LEDGER_v1.json",
+      "sha256": "8726d8802628a4ecd106f45e5e4105643f2d00679d16a8d5a8056da4a69f417e",
+      "role": "claim_ledger_pointer_source",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/reports/study1_reuse_additional_contract.json",
+      "sha256": "8663c60bae57cf60b3d5b1f6beb8e83326eb0d26d7518d07a7b363feb6703ed8",
+      "role": "declared_contract",
+      "level": "hash_declaration"
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/additional/fit_code_a.json",
+      "sha256": "7734350e65b4852ed08f613dd6ab8981ae9863857d6a95808d0f1c636496fb76",
+      "role": "saved_fit_parameters",
+      "level": "saved_fit"
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/additional/fit_code_b.json",
+      "sha256": "8e47cb99d474fc377a4cf54252b846930502339b761aa495beb24dc1d6202079",
+      "role": "saved_fit_parameters",
+      "level": "saved_fit"
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/additional/fit_math_a.json",
+      "sha256": "1dd752b8eed00ac02abacd95598799be58321234c3c8f9d4c02ce5828fea2765",
+      "role": "saved_fit_parameters",
+      "level": "saved_fit"
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/additional/fit_math_b.json",
+      "sha256": "55fdeed1ffb3e95c933bca706162ff96be4c1301f7f01b020d46a8a0fff67da7",
+      "role": "saved_fit_parameters",
+      "level": "saved_fit"
+    },
+    {
+      "path": "R/runs/study1_reuse_v1/additional/results.json",
+      "sha256": "5b6b6211f047fa9cabb765132593ed2ad7f1a3fd6c00a7663e8b300f80096d6e",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/features/H4A_RECOMPUTED.json",
+      "sha256": "917eb282e565a05976c4fd949e7bf2e258b880abdfd97b9a247112947d6d94f0",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/features/h4a/afm_4_5b__code.json",
+      "sha256": "b5716f380fa6e9e4c4c519c497c85ae65019a0de5d0805e22d73ed82605b0c11",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/features/h4a/afm_4_5b__science.json",
+      "sha256": "a260511a304e0c3a7537b11ac4c84dd4cdb90845ea8cd2c5f6c91400e78b05fd",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/features/h4a/gemma_2_27b_it__code.json",
+      "sha256": "4d404fe03c4f3d07adb83828a88b1d74ecd6437e069bc15a861153a5523945e4",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/features/h4a/gemma_2_27b_it__medical.json",
+      "sha256": "9e5ef75c013a39d742c9a730ad8d7152b29f220f652301f9f89b0672905cacf6",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/features/h4a/gemma_2_27b_it__science.json",
+      "sha256": "60db08618985747637e1945791dabc22070a07d137200e891966eb97b8c99cd8",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/features/h4a/llama_3_1_8b_instruct__medical.json",
+      "sha256": "5be3b40233a8d7364e7fd50602bce01d76131128243144e0c08eb94d69523afc",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/features/h4a/qwen3_8b__code.json",
+      "sha256": "6c6311a786ddea3c3b89c67e2d057cf5930d3a854c64ede6dea2785167757abd",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/features/h4a/qwen3_8b__medical.json",
+      "sha256": "be4102e3b1ac5b45edeb7770a3f875dabcdd18b732587936a5985ded7b1cf7f6",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/features/h4a/qwen3_8b__science.json",
+      "sha256": "6e77c566cc36cb343b857d5ae709de07516b0d235b4ced9d774f247f44cad778",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/h3__code__eff_rank_pr.json",
+      "sha256": "d1b3c2c1fba88652eeb1a5dfb087a2ea7cfd247fb4efdc1f57cde15f0c3b6255",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/native__code__eff_rank_pr.json",
+      "sha256": "aec646a99e5ad381d629ca29d546a9448968653517a65840642eea54febc75d2",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/native__code__isoscore.json",
+      "sha256": "4f5a645727973da7e4bf54f8ab74bd443c7c64e65e00d4f83d9be22aa2da49e8",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/native__code__rankme.json",
+      "sha256": "b7aef7eeee0614f2567c4f709b5e2d434a1cb904fd061af3903cb507cab26c51",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/native__code__spectral_alpha.json",
+      "sha256": "0f6a6fb9a91b23c5e6165284bfd4a0fd79bb3a8ac5d4d6b92d6b8599e330a120",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/native__code__stable_rank.json",
+      "sha256": "495c8c34cb62c8b01a21787f16f9bf74ab104c0a50828ca20448e1af88f2c937",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/native__code__twoNN_id.json",
+      "sha256": "006b3bc5c6f933b20b92fd2c408e97cfebc78cdefe62ffaf5282a68475efaf3a",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/native__code__vn_entropy.json",
+      "sha256": "145de7960fb790568fc52617385544a756faa7fec26720e2311235c034b2ed0c",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/rarefied__code__eff_rank_pr.json",
+      "sha256": "48ccc3e00d145a148ebf9fde2413e63591144834c36f8106f73af9bb4d621e18",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/rarefied__code__isoscore.json",
+      "sha256": "534e145b4b13b4201e3f1985eb3ca3115b253173797076e2df58c296246f6f08",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/rarefied__code__rankme.json",
+      "sha256": "99226172ff357b716fa3df72360a44a70d48727029761e99a3c549d4aae06fa3",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/rarefied__code__spectral_alpha.json",
+      "sha256": "8be99f23d0c93ea83e2a459f70785ff2b2360432a5b04a6be4dfba5c9f08df41",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/rarefied__code__stable_rank.json",
+      "sha256": "0ce6a280c0142f7dc77291ae5e8d974338de144b8247e0d2a86e7be000130d1b",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/rarefied__code__twoNN_id.json",
+      "sha256": "298ff75418255f3cf9a74f98cd32e5386859dccaec5c8bb5893116791fcdf215",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/cells/rarefied__code__vn_entropy.json",
+      "sha256": "e33b880136edc75d6fd9a1a0e32be155795143e6002a19ef0a484b3afcf2f4a6",
+      "role": "terminal_aggregate_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/h3__code__eff_rank_pr.npz",
+      "sha256": "1b14fecfa4e17bb822a050345580c627f40432defe89bf51c095d070cb6ff322",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/native__code__eff_rank_pr.npz",
+      "sha256": "2e251fa1b2f9f4c1c6b5b8f1cda7ef2082ac1a8ce335acfacb026425297ff9ff",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/native__code__isoscore.npz",
+      "sha256": "73072d578d6373fdb3a594ec61b7a3dbc031b54599da9454f0d455cd3313b3cb",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/native__code__rankme.npz",
+      "sha256": "9dc6d10af9f8ad29d4d28bc5cf4c868d93eb653996743117dd984bd882110bf2",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/native__code__spectral_alpha.npz",
+      "sha256": "3c554e00b2af14c124665ee1ee6163834e902bb7c33f36f5074210539bbfcc65",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/native__code__stable_rank.npz",
+      "sha256": "316dcb3717e47e3d833619c97146815d5742925fa969442c29655c11f5ea4e42",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/native__code__twoNN_id.npz",
+      "sha256": "21f435a2f6e21f918cbd8ec6017c13a1186d2eb7ca0422e8e2793a8679edd272",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/native__code__vn_entropy.npz",
+      "sha256": "775f8d1d04e580948b633e749cc88fcaa66e09f37c8afd14cd5e98ba1a11f40a",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/rarefied__code__eff_rank_pr.npz",
+      "sha256": "19b6a6840ceb832c8a0b3c78311f80c02e419a2078bfa0091bc7613111aa59a9",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/rarefied__code__isoscore.npz",
+      "sha256": "27e9c11d5ce33ab04864eadfe5b3bac8be6797f51d32f9c99451a750337e1f17",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/rarefied__code__rankme.npz",
+      "sha256": "8dacce0b865c51b5cb232cf61e1de65a0b2a8c893a556eb74f5e57795b1415a6",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/rarefied__code__spectral_alpha.npz",
+      "sha256": "500d04030f750255b3161877f0a816cac1f616a6e0eba97b89a3b4d21d6a09fd",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/rarefied__code__stable_rank.npz",
+      "sha256": "85afa170398cc01db35dcc51fd6ceeb0b41b8e65713f9511e37a515db63d3327",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/rarefied__code__twoNN_id.npz",
+      "sha256": "8cb3f5c283aa3d282ecf757d6c19236d53c0cdced02cc6ccf3cd60a256d606e1",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/inference/draws/rarefied__code__vn_entropy.npz",
+      "sha256": "03b5dff35a0527cdd2367be25cd9bdad6c9d570eec931857a2b21d3d716d26ff",
+      "role": "per_draw_values",
+      "level": "saved_draw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/observations/afm_4_5b__code.json",
+      "sha256": "300446d5f7953d10f425c78b20c3620996e1eece30c4d2c0b2175f336743dc8d",
+      "role": "raw_vector_metadata",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/observations/afm_4_5b__science.json",
+      "sha256": "ec3ba51f1063db84a5d6f7f7c58929938888c213501318e746659a7cdaf66737",
+      "role": "raw_vector_metadata",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/observations/gemma_2_27b_it__code.json",
+      "sha256": "c67e61fc51b65600e62cea660c4325d1645c01201544c906e930cd5ec7441d89",
+      "role": "raw_vector_metadata",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/observations/gemma_2_27b_it__medical.json",
+      "sha256": "082d6173b705d6c21b99b40a96dbd6487099323c2c35195b525ebec73cb0185f",
+      "role": "raw_vector_metadata",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/observations/gemma_2_27b_it__science.json",
+      "sha256": "de3861caa50c7887dfe384610efc92d8f86aeb75644a9888a471864e732f7093",
+      "role": "raw_vector_metadata",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/observations/llama_3_1_8b_instruct__medical.json",
+      "sha256": "66cd7247922df23e5de4becbd0b81b58600f6a8c9db9e261812b375c0b023db9",
+      "role": "raw_vector_metadata",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/observations/qwen3_8b__code.json",
+      "sha256": "cc1cdc2efb55ec9938ca2c43bf4c35021f26221c5b36c277a6d3ba94f9d124c3",
+      "role": "raw_vector_metadata",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/observations/qwen3_8b__medical.json",
+      "sha256": "00c2a313943fe9e345410d631796531dd772c5c7103a6a5374043525c2193a05",
+      "role": "raw_vector_metadata",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/runs/study2_reuse_v1/observations/qwen3_8b__science.json",
+      "sha256": "307cd57d4a61e3d6354ab65810955f6d24554c3280ada9df4952d7fa45766a4b",
+      "role": "raw_vector_metadata",
+      "level": "primary_raw"
+    },
+    {
+      "path": "R/verifier/V_NUM_STUDY1_ADDITIONAL_REUSE.json",
+      "sha256": "3613bd01431c8fd44f5d4f146edde9089f5cb253d62c7c18ffb11eece21fd758",
+      "role": "independent_review_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/verifier/V_NUM_STUDY2_FEATURES_REUSE.json",
+      "sha256": "bd63d5f166448e51bed5dfdea1fdd7bfef9b3cdd03fcc165cbd063db5b0cd221",
+      "role": "independent_review_comparator",
+      "level": "comparator_only"
+    },
+    {
+      "path": "R/verifier/V_NUM_STUDY2_INFERENCE_REUSE.json",
+      "sha256": "d887b65d42e64eff0d957a81a88543a18ae56e562e88d8d95166852516ab6bf0",
+      "role": "independent_review_comparator",
+      "level": "comparator_only"
+    }
+  ]
+}

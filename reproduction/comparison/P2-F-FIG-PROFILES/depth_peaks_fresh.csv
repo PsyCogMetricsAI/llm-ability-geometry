@@ -1,0 +1,4 @@
+metric,relative_depth,value,n_models
+median_r2_b,0.75,0.4266426525151469,29
+rho_H2,0.4,0.9881773399014778,29
+median_r2_eps,0.75,0.4572027664584065,29

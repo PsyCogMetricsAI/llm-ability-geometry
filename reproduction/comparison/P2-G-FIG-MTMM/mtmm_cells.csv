@@ -1,0 +1,5 @@
+row,col,role,applicable,value,display
+0,0,validity,False,,no numeric value defined (empty)
+0,1,convergent (monotrait-heteromethod),True,,no numeric estimate in this schematic
+1,0,heterotrait same-method,False,,no numeric value defined (empty)
+1,1,heterotrait hetero-method,False,,no numeric value defined (empty)

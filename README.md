@@ -42,6 +42,7 @@ Important scope conditions include nonconverged code/math IRT fits, differing sc
 |---|---|
 | Follow the argument section by section | [Paper guide](docs/PAPER_GUIDE.md) |
 | Trace the current tables to accepted results | [Evidence map](docs/EVIDENCE_MAP.md) |
+| **Reproduce the main results end-to-end (recommended)** | [`reader/README.md`](reader/README.md) — re-fit IRT ability and recompute Tables 1–2 from shipped inputs |
 | Verify files and export table displays | [Reproduction instructions](docs/REPRODUCING.md) |
 | Understand input availability and reuse scope | [Data availability](docs/DATA_AVAILABILITY.md) |
 
@@ -54,6 +55,10 @@ python3 reproduction/examples/run_depth_example.py
 ```
 
 These are distinct checks. The verifier checks release files against their manifest. The exporter reconstructs table displays from accepted saved JSON results; it does **not** refit models or recompute intervals. The depth example recomputes an ancillary summary, not the paper's main associations.
+
+### End-to-end reproduction of the main results (recommended)
+
+The [`reader/`](reader/README.md) pipeline reproduces the paper's **main tables** end-to-end from small, fully shipped inputs: it **independently re-fits the IRT ability (θ)** from the 0/1 response matrices and **recomputes** the raw, adjusted, and family-block-interval associations, reproducing **Table 1 (code/math)** and **Table 2 (native science)** to displayed precision. It needs only a Python env with `girth` and an R env with `mirt` (no large download). Run `bash reader/run_t3.sh`. See [`reader/README.md`](reader/README.md) for scope (what it does and does not establish, including the native-vs-rarefied distinction).
 
 ### Full cached replay requires additional inputs
 

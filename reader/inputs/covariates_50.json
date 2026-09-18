@@ -1,0 +1,873 @@
+{
+ "_meta": {
+  "SEED": 20260605,
+  "B_BOOT": 10000,
+  "B_PERM": 10000,
+  "covariates_C": [
+   "scale",
+   "d_model",
+   "family_code",
+   "fluency"
+  ],
+  "panel_n_geom": 50,
+  "theta_source": "theta_hat_panel51.json (51-panel 2PL EAP, zero-coding)",
+  "composite": "panel_composite = sign-oriented PC1 of z(eff_rank, participation_ratio, g5no_chi if gate-pass)",
+  "n_items_filtered": {
+   "code": 157,
+   "math": 1103
+  },
+  "ci": "signed family-block cluster-bootstrap, no abs"
+ },
+ "models": {
+  "afm_4_5b": {
+   "model_id": "afm_4_5b",
+   "code": {
+    "scale_log10_params": 0.6532125137753437,
+    "d_model": 2560.0,
+    "family": "Arcee",
+    "family_code": 0.0,
+    "fluency_mean_logprob": -0.08878734080833109
+   },
+   "math": {
+    "scale_log10_params": 0.6532125137753437,
+    "d_model": 2560.0,
+    "family": "Arcee",
+    "family_code": 0.0,
+    "fluency_mean_logprob": -0.45855993699261205
+   }
+  },
+  "afm_4_5b_base": {
+   "model_id": "afm_4_5b_base",
+   "code": {
+    "scale_log10_params": 0.6532125137753437,
+    "d_model": 2560.0,
+    "family": "Arcee",
+    "family_code": 0.0,
+    "fluency_mean_logprob": -0.2310742473511985
+   },
+   "math": {
+    "scale_log10_params": 0.6532125137753437,
+    "d_model": 2560.0,
+    "family": "Arcee",
+    "family_code": 0.0,
+    "fluency_mean_logprob": -0.4128272687535038
+   }
+  },
+  "gemma_2_27b_it": {
+   "model_id": "gemma_2_27b_it",
+   "code": {
+    "scale_log10_params": 1.4313637641589874,
+    "d_model": 4608.0,
+    "family": "Gemma",
+    "family_code": 4.0,
+    "fluency_mean_logprob": -0.05415973162812674
+   },
+   "math": {
+    "scale_log10_params": 1.4313637641589874,
+    "d_model": 4608.0,
+    "family": "Gemma",
+    "family_code": 4.0,
+    "fluency_mean_logprob": -0.14235567028590007
+   }
+  },
+  "gemma_2_9b": {
+   "model_id": "gemma_2_9b",
+   "code": {
+    "scale_log10_params": 0.9542425094393249,
+    "d_model": 3584.0,
+    "family": "Gemma",
+    "family_code": 4.0,
+    "fluency_mean_logprob": -0.17705721339953492
+   },
+   "math": {
+    "scale_log10_params": 0.9542425094393249,
+    "d_model": 3584.0,
+    "family": "Gemma",
+    "family_code": 4.0,
+    "fluency_mean_logprob": -1.6876069305394337
+   }
+  },
+  "gemma_2_9b_it": {
+   "model_id": "gemma_2_9b_it",
+   "code": {
+    "scale_log10_params": 0.9542425094393249,
+    "d_model": 3584.0,
+    "family": "Gemma",
+    "family_code": 4.0,
+    "fluency_mean_logprob": -0.05244632243343136
+   },
+   "math": {
+    "scale_log10_params": 0.9542425094393249,
+    "d_model": 3584.0,
+    "family": "Gemma",
+    "family_code": 4.0,
+    "fluency_mean_logprob": -0.18704005164381587
+   }
+  },
+  "gemma_4_e2b_it": {
+   "model_id": "gemma_4_e2b_it",
+   "code": {
+    "scale_log10_params": 0.3010299956639812,
+    "d_model": 1536.0,
+    "family": "Gemma",
+    "family_code": 4.0,
+    "fluency_mean_logprob": -0.04402343298739461
+   },
+   "math": {
+    "scale_log10_params": 0.3010299956639812,
+    "d_model": 1536.0,
+    "family": "Gemma",
+    "family_code": 4.0,
+    "fluency_mean_logprob": -0.12937754784619598
+   }
+  },
+  "gemma_4_e4b_it": {
+   "model_id": "gemma_4_e4b_it",
+   "code": {
+    "scale_log10_params": 0.6020599913279624,
+    "d_model": 2560.0,
+    "family": "Gemma",
+    "family_code": 4.0,
+    "fluency_mean_logprob": -0.059366574517353936
+   },
+   "math": {
+    "scale_log10_params": 0.6020599913279624,
+    "d_model": 2560.0,
+    "family": "Gemma",
+    "family_code": 4.0,
+    "fluency_mean_logprob": -0.1903423179551972
+   }
+  },
+  "glm_4_9b_0414": {
+   "model_id": "glm_4_9b_0414",
+   "code": {
+    "scale_log10_params": 0.9542425094393249,
+    "d_model": 4096.0,
+    "family": "GLM",
+    "family_code": 3.0,
+    "fluency_mean_logprob": -0.32703865126651877
+   },
+   "math": {
+    "scale_log10_params": 0.9542425094393249,
+    "d_model": 4096.0,
+    "family": "GLM",
+    "family_code": 3.0,
+    "fluency_mean_logprob": -4.050291600928482
+   }
+  },
+  "glm_4_9b_chat": {
+   "model_id": "glm_4_9b_chat",
+   "code": {
+    "scale_log10_params": 0.9542425094393249,
+    "d_model": 4096.0,
+    "family": "GLM",
+    "family_code": 3.0,
+    "fluency_mean_logprob": -0.23925997023196782
+   },
+   "math": {
+    "scale_log10_params": 0.9542425094393249,
+    "d_model": 4096.0,
+    "family": "GLM",
+    "family_code": 3.0,
+    "fluency_mean_logprob": -5.604197571130954
+   }
+  },
+  "gpt_neox_20b": {
+   "model_id": "gpt_neox_20b",
+   "code": {
+    "scale_log10_params": 1.3010299956639813,
+    "d_model": 6144.0,
+    "family": "EleutherAI",
+    "family_code": 2.0,
+    "fluency_mean_logprob": -0.12272434462519254
+   },
+   "math": {
+    "scale_log10_params": 1.3010299956639813,
+    "d_model": 6144.0,
+    "family": "EleutherAI",
+    "family_code": 2.0,
+    "fluency_mean_logprob": -0.2743134510773918
+   }
+  },
+  "granite_3_3_8b_base": {
+   "model_id": "granite_3_3_8b_base",
+   "code": {
+    "scale_log10_params": 0.9030899869919435,
+    "d_model": 4096.0,
+    "family": "Granite",
+    "family_code": 5.0,
+    "fluency_mean_logprob": -0.12080189173164613
+   },
+   "math": {
+    "scale_log10_params": 0.9030899869919435,
+    "d_model": 4096.0,
+    "family": "Granite",
+    "family_code": 5.0,
+    "fluency_mean_logprob": -0.1306531366005551
+   }
+  },
+  "granite_3_3_8b_instruct": {
+   "model_id": "granite_3_3_8b_instruct",
+   "code": {
+    "scale_log10_params": 0.9030899869919435,
+    "d_model": 4096.0,
+    "family": "Granite",
+    "family_code": 5.0,
+    "fluency_mean_logprob": -0.11719103788594058
+   },
+   "math": {
+    "scale_log10_params": 0.9030899869919435,
+    "d_model": 4096.0,
+    "family": "Granite",
+    "family_code": 5.0,
+    "fluency_mean_logprob": -0.1813241300770551
+   }
+  },
+  "granite_4_1_8b": {
+   "model_id": "granite_4_1_8b",
+   "code": {
+    "scale_log10_params": 0.9444826721501687,
+    "d_model": 4096.0,
+    "family": "Granite",
+    "family_code": 5.0,
+    "fluency_mean_logprob": -0.04391569331534864
+   },
+   "math": {
+    "scale_log10_params": 0.9444826721501687,
+    "d_model": 4096.0,
+    "family": "Granite",
+    "family_code": 5.0,
+    "fluency_mean_logprob": -0.12859119373428426
+   }
+  },
+  "granite_4_1_8b_base": {
+   "model_id": "granite_4_1_8b_base",
+   "code": {
+    "scale_log10_params": 0.9444826721501687,
+    "d_model": 4096.0,
+    "family": "Granite",
+    "family_code": 5.0,
+    "fluency_mean_logprob": -0.16149259741897837
+   },
+   "math": {
+    "scale_log10_params": 0.9444826721501687,
+    "d_model": 4096.0,
+    "family": "Granite",
+    "family_code": 5.0,
+    "fluency_mean_logprob": -1.14432833438566
+   }
+  },
+  "llama_2_13b_chat_hf": {
+   "model_id": "llama_2_13b_chat_hf",
+   "code": {
+    "scale_log10_params": 1.1139433523068367,
+    "d_model": 5120.0,
+    "family": "Llama",
+    "family_code": 6.0,
+    "fluency_mean_logprob": -0.13979160750613492
+   },
+   "math": {
+    "scale_log10_params": 1.1139433523068367,
+    "d_model": 5120.0,
+    "family": "Llama",
+    "family_code": 6.0,
+    "fluency_mean_logprob": -5.181695081427727
+   }
+  },
+  "llama_2_13b_hf": {
+   "model_id": "llama_2_13b_hf",
+   "code": {
+    "scale_log10_params": 1.1139433523068367,
+    "d_model": 5120.0,
+    "family": "Llama",
+    "family_code": 6.0,
+    "fluency_mean_logprob": -0.15373826757387585
+   },
+   "math": {
+    "scale_log10_params": 1.1139433523068367,
+    "d_model": 5120.0,
+    "family": "Llama",
+    "family_code": 6.0,
+    "fluency_mean_logprob": -0.09326541921680677
+   }
+  },
+  "llama_3_1_8b": {
+   "model_id": "llama_3_1_8b",
+   "code": {
+    "scale_log10_params": 0.9030899869919435,
+    "d_model": 4096.0,
+    "family": "Llama",
+    "family_code": 6.0,
+    "fluency_mean_logprob": -0.2983839773759246
+   },
+   "math": {
+    "scale_log10_params": 0.9030899869919435,
+    "d_model": 4096.0,
+    "family": "Llama",
+    "family_code": 6.0,
+    "fluency_mean_logprob": -0.25921532620440046
+   }
+  },
+  "llama_3_1_8b_instruct": {
+   "model_id": "llama_3_1_8b_instruct",
+   "code": {
+    "scale_log10_params": 0.9030899869919435,
+    "d_model": 4096.0,
+    "family": "Llama",
+    "family_code": 6.0,
+    "fluency_mean_logprob": -0.10118885428151664
+   },
+   "math": {
+    "scale_log10_params": 0.9030899869919435,
+    "d_model": 4096.0,
+    "family": "Llama",
+    "family_code": 6.0,
+    "fluency_mean_logprob": -0.40628725643872754
+   }
+  },
+  "llama_3_2_1b_instruct": {
+   "model_id": "llama_3_2_1b_instruct",
+   "code": {
+    "scale_log10_params": 0.0,
+    "d_model": 2048.0,
+    "family": "Llama",
+    "family_code": 6.0,
+    "fluency_mean_logprob": -0.13167669574237045
+   },
+   "math": {
+    "scale_log10_params": 0.0,
+    "d_model": 2048.0,
+    "family": "Llama",
+    "family_code": 6.0,
+    "fluency_mean_logprob": -0.8492618924417635
+   }
+  },
+  "llama_3_2_3b_instruct": {
+   "model_id": "llama_3_2_3b_instruct",
+   "code": {
+    "scale_log10_params": 0.47712125471966244,
+    "d_model": 3072.0,
+    "family": "Llama",
+    "family_code": 6.0,
+    "fluency_mean_logprob": -0.09355904890553039
+   },
+   "math": {
+    "scale_log10_params": 0.47712125471966244,
+    "d_model": 3072.0,
+    "family": "Llama",
+    "family_code": 6.0,
+    "fluency_mean_logprob": -0.45060197087055254
+   }
+  },
+  "ministral_3_3b_base_2512": {
+   "model_id": "ministral_3_3b_base_2512",
+   "code": {
+    "scale_log10_params": 0.47712125471966244,
+    "d_model": 3072.0,
+    "family": "Mistral",
+    "family_code": 7.0,
+    "fluency_mean_logprob": -0.7395575114103577
+   },
+   "math": {
+    "scale_log10_params": 0.47712125471966244,
+    "d_model": 3072.0,
+    "family": "Mistral",
+    "family_code": 7.0,
+    "fluency_mean_logprob": -1.0420553997360371
+   }
+  },
+  "ministral_3_8b_base_2512": {
+   "model_id": "ministral_3_8b_base_2512",
+   "code": {
+    "scale_log10_params": 0.9242792860618817,
+    "d_model": 4096.0,
+    "family": "Mistral",
+    "family_code": 7.0,
+    "fluency_mean_logprob": -0.6397681072538282
+   },
+   "math": {
+    "scale_log10_params": 0.9242792860618817,
+    "d_model": 4096.0,
+    "family": "Mistral",
+    "family_code": 7.0,
+    "fluency_mean_logprob": -0.475930164293379
+   }
+  },
+  "mistral_7b_instruct_v0_3": {
+   "model_id": "mistral_7b_instruct_v0_3",
+   "code": {
+    "scale_log10_params": 0.8450980400142568,
+    "d_model": 4096.0,
+    "family": "Mistral",
+    "family_code": 7.0,
+    "fluency_mean_logprob": -0.26040998971199286
+   },
+   "math": {
+    "scale_log10_params": 0.8450980400142568,
+    "d_model": 4096.0,
+    "family": "Mistral",
+    "family_code": 7.0,
+    "fluency_mean_logprob": -1.2663549351913257
+   }
+  },
+  "mistral_7b_v0_3": {
+   "model_id": "mistral_7b_v0_3",
+   "code": {
+    "scale_log10_params": 0.8573324964312685,
+    "d_model": 4096.0,
+    "family": "Mistral",
+    "family_code": 7.0,
+    "fluency_mean_logprob": -0.29101275104629104
+   },
+   "math": {
+    "scale_log10_params": 0.8573324964312685,
+    "d_model": 4096.0,
+    "family": "Mistral",
+    "family_code": 7.0,
+    "fluency_mean_logprob": -0.21245320366852613
+   }
+  },
+  "mistral_small_24b_base_2501": {
+   "model_id": "mistral_small_24b_base_2501",
+   "code": {
+    "scale_log10_params": 1.380211241711606,
+    "d_model": 5120.0,
+    "family": "Mistral",
+    "family_code": 7.0,
+    "fluency_mean_logprob": -0.23308672814777023
+   },
+   "math": {
+    "scale_log10_params": 1.380211241711606,
+    "d_model": 5120.0,
+    "family": "Mistral",
+    "family_code": 7.0,
+    "fluency_mean_logprob": -0.32643770669690436
+   }
+  },
+  "mistral_small_24b_instruct_2501": {
+   "model_id": "mistral_small_24b_instruct_2501",
+   "code": {
+    "scale_log10_params": 1.380211241711606,
+    "d_model": 5120.0,
+    "family": "Mistral",
+    "family_code": 7.0,
+    "fluency_mean_logprob": -0.08118117240887573
+   },
+   "math": {
+    "scale_log10_params": 1.380211241711606,
+    "d_model": 5120.0,
+    "family": "Mistral",
+    "family_code": 7.0,
+    "fluency_mean_logprob": -0.3467231125204732
+   }
+  },
+  "olmo_2_1124_7b": {
+   "model_id": "olmo_2_1124_7b",
+   "code": {
+    "scale_log10_params": 0.8450980400142568,
+    "d_model": 4096.0,
+    "family": "OLMo",
+    "family_code": 8.0,
+    "fluency_mean_logprob": -0.1500142996879757
+   },
+   "math": {
+    "scale_log10_params": 0.8450980400142568,
+    "d_model": 4096.0,
+    "family": "OLMo",
+    "family_code": 8.0,
+    "fluency_mean_logprob": -1.1725983587639177
+   }
+  },
+  "olmo_2_1124_7b_instruct": {
+   "model_id": "olmo_2_1124_7b_instruct",
+   "code": {
+    "scale_log10_params": 0.8450980400142568,
+    "d_model": 4096.0,
+    "family": "OLMo",
+    "family_code": 8.0,
+    "fluency_mean_logprob": -0.11619479284786126
+   },
+   "math": {
+    "scale_log10_params": 0.8450980400142568,
+    "d_model": 4096.0,
+    "family": "OLMo",
+    "family_code": 8.0,
+    "fluency_mean_logprob": -0.22368082730681418
+   }
+  },
+  "olmo_3_1025_7b": {
+   "model_id": "olmo_3_1025_7b",
+   "code": {
+    "scale_log10_params": 0.8450980400142568,
+    "d_model": 4096.0,
+    "family": "OLMo",
+    "family_code": 8.0,
+    "fluency_mean_logprob": -0.18098520538889062
+   },
+   "math": {
+    "scale_log10_params": 0.8450980400142568,
+    "d_model": 4096.0,
+    "family": "OLMo",
+    "family_code": 8.0,
+    "fluency_mean_logprob": -1.884369050035761
+   }
+  },
+  "olmo_3_1125_32b": {
+   "model_id": "olmo_3_1125_32b",
+   "code": {
+    "scale_log10_params": 1.505149978319906,
+    "d_model": 5120.0,
+    "family": "OLMo",
+    "family_code": 8.0,
+    "fluency_mean_logprob": -0.13472291580372792
+   },
+   "math": {
+    "scale_log10_params": 1.505149978319906,
+    "d_model": 5120.0,
+    "family": "OLMo",
+    "family_code": 8.0,
+    "fluency_mean_logprob": -1.3310438079995794
+   }
+  },
+  "olmo_3_1_32b_instruct": {
+   "model_id": "olmo_3_1_32b_instruct",
+   "code": {
+    "scale_log10_params": 1.505149978319906,
+    "d_model": 5120.0,
+    "family": "OLMo",
+    "family_code": 8.0,
+    "fluency_mean_logprob": -0.09428196021026987
+   },
+   "math": {
+    "scale_log10_params": 1.505149978319906,
+    "d_model": 5120.0,
+    "family": "OLMo",
+    "family_code": 8.0,
+    "fluency_mean_logprob": -0.4383565088121955
+   }
+  },
+  "olmo_3_7b_instruct": {
+   "model_id": "olmo_3_7b_instruct",
+   "code": {
+    "scale_log10_params": 0.8450980400142568,
+    "d_model": 4096.0,
+    "family": "OLMo",
+    "family_code": 8.0,
+    "fluency_mean_logprob": -0.1431315316928222
+   },
+   "math": {
+    "scale_log10_params": 0.8450980400142568,
+    "d_model": 4096.0,
+    "family": "OLMo",
+    "family_code": 8.0,
+    "fluency_mean_logprob": -0.2135473692383713
+   }
+  },
+  "phi_4_mini_instruct": {
+   "model_id": "phi_4_mini_instruct",
+   "code": {
+    "scale_log10_params": 0.5797835966168101,
+    "d_model": 3072.0,
+    "family": "Phi",
+    "family_code": 9.0,
+    "fluency_mean_logprob": -0.0880709371967789
+   },
+   "math": {
+    "scale_log10_params": 0.5797835966168101,
+    "d_model": 3072.0,
+    "family": "Phi",
+    "family_code": 9.0,
+    "fluency_mean_logprob": -0.3102012347754958
+   }
+  },
+  "pythia_12b_deduped": {
+   "model_id": "pythia_12b_deduped",
+   "code": {
+    "scale_log10_params": 1.0737183503461227,
+    "d_model": 5120.0,
+    "family": "EleutherAI",
+    "family_code": 2.0,
+    "fluency_mean_logprob": -0.1070594340124551
+   },
+   "math": {
+    "scale_log10_params": 1.0737183503461227,
+    "d_model": 5120.0,
+    "family": "EleutherAI",
+    "family_code": 2.0,
+    "fluency_mean_logprob": -0.11526880444314636
+   }
+  },
+  "qwen2_5_14b_instruct": {
+   "model_id": "qwen2_5_14b_instruct",
+   "code": {
+    "scale_log10_params": 1.146128035678238,
+    "d_model": 5120.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.06965142368582533
+   },
+   "math": {
+    "scale_log10_params": 1.146128035678238,
+    "d_model": 5120.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.06322309166300089
+   }
+  },
+  "qwen2_5_32b": {
+   "model_id": "qwen2_5_32b",
+   "code": {
+    "scale_log10_params": 1.5118833609788744,
+    "d_model": 5120.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.16416732777348336
+   },
+   "math": {
+    "scale_log10_params": 1.5118833609788744,
+    "d_model": 5120.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.39330760090606987
+   }
+  },
+  "qwen2_5_32b_instruct": {
+   "model_id": "qwen2_5_32b_instruct",
+   "code": {
+    "scale_log10_params": 1.5118833609788744,
+    "d_model": 5120.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.05413988904808374
+   },
+   "math": {
+    "scale_log10_params": 1.5118833609788744,
+    "d_model": 5120.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.06811634205987861
+   }
+  },
+  "qwen2_5_3b_instruct": {
+   "model_id": "qwen2_5_3b_instruct",
+   "code": {
+    "scale_log10_params": 0.47712125471966244,
+    "d_model": 2048.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.09472424926523886
+   },
+   "math": {
+    "scale_log10_params": 0.47712125471966244,
+    "d_model": 2048.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.21391287678118145
+   }
+  },
+  "qwen3_0_6b": {
+   "model_id": "qwen3_0_6b",
+   "code": {
+    "scale_log10_params": -0.2218487496163564,
+    "d_model": 1024.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.11441029947908486
+   },
+   "math": {
+    "scale_log10_params": -0.2218487496163564,
+    "d_model": 1024.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.042093346137060894
+   }
+  },
+  "qwen3_14b": {
+   "model_id": "qwen3_14b",
+   "code": {
+    "scale_log10_params": 1.146128035678238,
+    "d_model": 5120.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.02554538423285167
+   },
+   "math": {
+    "scale_log10_params": 1.146128035678238,
+    "d_model": 5120.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.05787070858863922
+   }
+  },
+  "qwen3_1_7b": {
+   "model_id": "qwen3_1_7b",
+   "code": {
+    "scale_log10_params": 0.2304489213782739,
+    "d_model": 2048.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.04145056979810654
+   },
+   "math": {
+    "scale_log10_params": 0.2304489213782739,
+    "d_model": 2048.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.07730785457653576
+   }
+  },
+  "qwen3_4b": {
+   "model_id": "qwen3_4b",
+   "code": {
+    "scale_log10_params": 0.6020599913279624,
+    "d_model": 2560.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.019749479728377938
+   },
+   "math": {
+    "scale_log10_params": 0.6020599913279624,
+    "d_model": 2560.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.0805548809510088
+   }
+  },
+  "qwen3_8b": {
+   "model_id": "qwen3_8b",
+   "code": {
+    "scale_log10_params": 0.9030899869919435,
+    "d_model": 4096.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.03068026849463228
+   },
+   "math": {
+    "scale_log10_params": 0.9030899869919435,
+    "d_model": 4096.0,
+    "family": "Qwen",
+    "family_code": 10.0,
+    "fluency_mean_logprob": -0.0794750267801956
+   }
+  },
+  "seed_oss_36b_base": {
+   "model_id": "seed_oss_36b_base",
+   "code": {
+    "scale_log10_params": 1.5563025007672873,
+    "d_model": 5120.0,
+    "family": "ByteDance",
+    "family_code": 1.0,
+    "fluency_mean_logprob": -0.2531369070686838
+   },
+   "math": {
+    "scale_log10_params": 1.5563025007672873,
+    "d_model": 5120.0,
+    "family": "ByteDance",
+    "family_code": 1.0,
+    "fluency_mean_logprob": -0.5806950311339268
+   }
+  },
+  "seed_oss_36b_base_wosyn": {
+   "model_id": "seed_oss_36b_base_wosyn",
+   "code": {
+    "scale_log10_params": 1.5563025007672873,
+    "d_model": 5120.0,
+    "family": "ByteDance",
+    "family_code": 1.0,
+    "fluency_mean_logprob": -0.5186308306039257
+   },
+   "math": {
+    "scale_log10_params": 1.5563025007672873,
+    "d_model": 5120.0,
+    "family": "ByteDance",
+    "family_code": 1.0,
+    "fluency_mean_logprob": -1.133029039447536
+   }
+  },
+  "seed_oss_36b_instruct": {
+   "model_id": "seed_oss_36b_instruct",
+   "code": {
+    "scale_log10_params": 1.5563025007672873,
+    "d_model": 5120.0,
+    "family": "ByteDance",
+    "family_code": 1.0,
+    "fluency_mean_logprob": -0.8942911068744519
+   },
+   "math": {
+    "scale_log10_params": 1.5563025007672873,
+    "d_model": 5120.0,
+    "family": "ByteDance",
+    "family_code": 1.0,
+    "fluency_mean_logprob": -6.594984746055324
+   }
+  },
+  "smollm3_3b": {
+   "model_id": "smollm3_3b",
+   "code": {
+    "scale_log10_params": 0.47712125471966244,
+    "d_model": 2048.0,
+    "family": "SmolLM",
+    "family_code": 11.0,
+    "fluency_mean_logprob": -0.10668204476618591
+   },
+   "math": {
+    "scale_log10_params": 0.47712125471966244,
+    "d_model": 2048.0,
+    "family": "SmolLM",
+    "family_code": 11.0,
+    "fluency_mean_logprob": -0.3370010456563841
+   }
+  },
+  "smollm3_3b_base": {
+   "model_id": "smollm3_3b_base",
+   "code": {
+    "scale_log10_params": 0.47712125471966244,
+    "d_model": 2048.0,
+    "family": "SmolLM",
+    "family_code": 11.0,
+    "fluency_mean_logprob": -0.2575029918303092
+   },
+   "math": {
+    "scale_log10_params": 0.47712125471966244,
+    "d_model": 2048.0,
+    "family": "SmolLM",
+    "family_code": 11.0,
+    "fluency_mean_logprob": -0.28822076609553965
+   }
+  },
+  "yi_1_5_34b_chat": {
+   "model_id": "yi_1_5_34b_chat",
+   "code": {
+    "scale_log10_params": 1.5314789170422551,
+    "d_model": 7168.0,
+    "family": "Yi",
+    "family_code": 12.0,
+    "fluency_mean_logprob": -0.5533400808187092
+   },
+   "math": {
+    "scale_log10_params": 1.5314789170422551,
+    "d_model": 7168.0,
+    "family": "Yi",
+    "family_code": 12.0,
+    "fluency_mean_logprob": -1.3259084237107415
+   }
+  },
+  "yi_1_5_9b_chat": {
+   "model_id": "yi_1_5_9b_chat",
+   "code": {
+    "scale_log10_params": 0.9542425094393249,
+    "d_model": 4096.0,
+    "family": "Yi",
+    "family_code": 12.0,
+    "fluency_mean_logprob": -0.5146768137812614
+   },
+   "math": {
+    "scale_log10_params": 0.9542425094393249,
+    "d_model": 4096.0,
+    "family": "Yi",
+    "family_code": 12.0,
+    "fluency_mean_logprob": -2.1142918305431015
+   }
+  }
+ }
+}

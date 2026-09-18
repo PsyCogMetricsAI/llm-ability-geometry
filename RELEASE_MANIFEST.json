@@ -10,8 +10,8 @@
       "bytes": 1114
     },
     "README.md": {
-      "sha256": "f8b30f763275b80bdb45fd754d1588de01b1ca1147f0d3677b460c954cef782b",
-      "bytes": 5845
+      "sha256": "5f96e7d247d5b5170753154063de7287e557a3cfa488da7af1b8f17c4df24783",
+      "bytes": 6712
     },
     "analysis_sources/README.md": {
       "sha256": "790e209782e1701d5a2a519211a7b88b7044d758740ba9d5e93c712033608319",
@@ -62,8 +62,8 @@
       "bytes": 1733
     },
     "docs/DATA_AVAILABILITY.md": {
-      "sha256": "16a998fa57f27c79b8e4e5f1b46f4093625c6f3e04a8fe549e4f730c3e8fc173",
-      "bytes": 3639
+      "sha256": "8533c0a7c3da7f42d25aa4a0a912a593b361935d0689e6b4d4c3cb55db398f66",
+      "bytes": 4159
     },
     "docs/EVIDENCE_MAP.md": {
       "sha256": "2ba408a01fe46157c661a7b9ac7d35fadda7f29b3fd418d95b0ed130e04b8bc6",
@@ -74,8 +74,72 @@
       "bytes": 6618
     },
     "docs/REPRODUCING.md": {
-      "sha256": "90207f2d2ebbe80b97c9d01b821666279e1aafe7ec3eec36d90d65634ca3ca06",
-      "bytes": 5632
+      "sha256": "041f42e4f9ae25006e936f4b85552f9435a0620184bcfcaeacb40f7ad75d91ea",
+      "bytes": 6690
+    },
+    "reader/.gitignore": {
+      "sha256": "285089b2bb9fe0600fd8d6c5c776ffb678dcc613ab10e1f543aa4d7b79e88a8f",
+      "bytes": 16
+    },
+    "reader/README.md": {
+      "sha256": "5f1dd32ff211553fd37a871453bfd252fcdb5b468dfc34336b8879929b5c111c",
+      "bytes": 4615
+    },
+    "reader/T2_FULL_REPLAY.md": {
+      "sha256": "998f0874ac9a31b240b9c43deb02d47803376d31907cee6a1180308ed5db7eb1",
+      "bytes": 2716
+    },
+    "reader/inputs/SHA256SUMS": {
+      "sha256": "b85cbddefa9a8b6b7c6c3aedb84daa746c6ad0e56e09657b5c10b938bcc9000d",
+      "bytes": 739
+    },
+    "reader/inputs/covariates_50.json": {
+      "sha256": "3c360261f8754149a9e5c791a6aac51f226d0c927bc686953a610ec5e67eb64b",
+      "bytes": 22081
+    },
+    "reader/inputs/geometry_composite_50.json": {
+      "sha256": "02d0a8c1ce4b5b8599e744bb19ceea20b767226e972cd3546fdae674158731a4",
+      "bytes": 32706
+    },
+    "reader/inputs/response_matrix_code.csv": {
+      "sha256": "ad7ab2cf0bd50799e0c246e6a555e3412201d62e1617165504fb86b11e2c1074",
+      "bytes": 19715
+    },
+    "reader/inputs/response_matrix_math.csv": {
+      "sha256": "ec3ed773fd342462edd09d7ac52d0eac775b87fab3f2cdbb95d86f5a4a6367f8",
+      "bytes": 149519
+    },
+    "reader/inputs/response_matrix_science.npz": {
+      "sha256": "8e91af7737bda3849ca5aedfdc499cf8daebfefd48b7a8c35c802a5d1f4f2eb9",
+      "bytes": 174584
+    },
+    "reader/inputs/science_features_native.json": {
+      "sha256": "732cf4dca9d7042fc547f4aabbd966b5d60642ca7910fb59fbb6f8c331b0e9f4",
+      "bytes": 14192
+    },
+    "reader/inputs/theta_reference_panel51.json": {
+      "sha256": "27471f86a2731bcda517028e9834ab8729282a711cd0cb15f31b2b5da9caec4a",
+      "bytes": 4562
+    },
+    "reader/inputs/theta_reference_science.json": {
+      "sha256": "802279f5db87209d89c28746d4bbdbc1f3a0a687c645bd8303efd3a5f8b18692",
+      "bytes": 1173
+    },
+    "reader/run_t3.sh": {
+      "sha256": "4b89d6facfb7248f372e7b480a805c69fba7318d18e319fe1b67e27049910c15",
+      "bytes": 3089
+    },
+    "reader/scripts/compute_associations.py": {
+      "sha256": "3cb8252ecc1d82d2e3d92d93f5d2e3454ff5c161c2fbde6da59088c86a165469",
+      "bytes": 14705
+    },
+    "reader/scripts/fit_theta_codemath.R": {
+      "sha256": "99a2a94016a63ea1de3bef77c7241b0642a2df8bcd534bb14d3853bc527e74a4",
+      "bytes": 2209
+    },
+    "reader/scripts/fit_theta_science.py": {
+      "sha256": "f283000e62b2668472e83e797d2bde6b1dd4d7a1fe41ffb6adbbeca85b015563",
+      "bytes": 2136
     },
     "reproduction/LIMITATIONS.md": {
       "sha256": "9b42ca3227750c03eb37a88e3cfb795266a2afdc3dc6b0c8174672fe862ed7ab",
@@ -193,6 +257,10 @@
       "sha256": "773901b7920fc14619f441c7cea153f7040adbaeab9c82ab70a36b62e562cb7e",
       "bytes": 9243
     },
+    "reproduction/code/rfinal_replay/environment.py": {
+      "sha256": "f36f284fcad0e0b3c8ae4de8f249d792d0f5f21cf0ea6116aeed626b552ed598",
+      "bytes": 11280
+    },
     "reproduction/code/rfinal_replay/environment/cpu-replay-lock.json": {
       "sha256": "4ddb1595ae3ce6d48191e5a13bb708655d037bd383a91fca7fcce8f13d18ad42",
       "bytes": 3076
@@ -204,10 +272,6 @@
     "reproduction/code/rfinal_replay/environment/render-requirements.txt": {
       "sha256": "ddadc45a355ef38bb9abf30cff57ba02dfdb8275ee1510bd241bf2725f2f8eab",
       "bytes": 32
-    },
-    "reproduction/code/rfinal_replay/environment.py": {
-      "sha256": "f36f284fcad0e0b3c8ae4de8f249d792d0f5f21cf0ea6116aeed626b552ed598",
-      "bytes": 11280
     },
     "reproduction/code/rfinal_replay/fresh_adapters.py": {
       "sha256": "7f6a68555d44e9b6278b9bc7f10769c4e58df685a9100b462463bdbd906d328a",

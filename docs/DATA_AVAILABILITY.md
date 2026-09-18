@@ -3,6 +3,8 @@
 The code and reader materials are publicly available at [PsyCogMetricsAI/llm-ability-geometry](https://github.com/PsyCogMetricsAI/llm-ability-geometry). The approximately 4.03 GiB source bundle required for full cached replay is not publicly distributed with this release.
 
 ## Included in this repository
+- **End-to-end (T3) inputs** under `reader/inputs/` (< 0.5 MB total): the 0/1 IRT response matrices (code/math/science), our derived per-model geometry summaries (composite; native science indicators), model covariates, and reference θ. These are 0/1 matrices or our own derived vectors — **not** raw benchmark item text or raw model outputs — so they avoid the redistribution concerns that block the large bundle. They let a reader re-fit θ and recompute Tables 1–2 (see [REPRODUCING.md](REPRODUCING.md) §0).
+
 
 - Small accepted result JSON files used by the table exporter under `results/sources/`, mapped in [EVIDENCE_MAP.md](EVIDENCE_MAP.md).
 - Reader-facing verification and table-export scripts.

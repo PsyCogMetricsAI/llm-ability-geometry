@@ -9,6 +9,18 @@ cd llm-ability-geometry
 
 Run the initial commands below from this directory. The levels are separate: checking files, exporting accepted results, recomputing an ancillary example, and replaying the accepted analysis graph establish different things.
 
+## 0. Reproduce the main results end-to-end (recommended)
+
+This route reproduces the paper's **main** results — **Table 1 (code/math)** and **Table 2 (native science)** — from inputs shipped in this repository, by **re-fitting the IRT ability and recomputing the associations** (not by re-displaying saved numbers):
+
+```bash
+PYTHON=/path/to/python-with-girth R_LIBS=/path/to/rlib-with-mirt bash reader/run_t3.sh
+```
+
+It re-fits θ with R `mirt` (code/math) and Python `girth` (science) from the 0/1 response matrices, confirms the re-fit θ matches the shipped reference, then recomputes raw ρ, covariate-adjusted partial ρ, and family-block bootstrap intervals, comparing each to the published values at displayed precision. Environment and scope (including that Table 2 uses **native, not rarefied** science, and what is out of scope) are in [`reader/README.md`](../reader/README.md). On R < 4.5, `mirt` needs an archived `Deriv` (see that file).
+
+The checks below (1–3) and the optional full cached replay establish *different, narrower* things.
+
 ## 1. Verify the published files
 
 ```bash
